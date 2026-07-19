@@ -1,0 +1,246 @@
+{
+  "testType": "stress",
+  "generatedAt": "2026-07-15T16:17:17.989Z",
+  "rows": [
+    {
+      "name": "healthz",
+      "tier": "infra",
+      "count": 3,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "postings_list",
+      "tier": "core",
+      "count": 50,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "postings_search",
+      "tier": "heavy",
+      "count": 33,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "postings_detail",
+      "tier": "core",
+      "count": 27,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "postings_nearby",
+      "tier": "core",
+      "count": 14,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "postings_similar",
+      "tier": "core",
+      "count": 15,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "postings_map",
+      "tier": "heavy",
+      "count": 49,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "feed_postings",
+      "tier": "core",
+      "count": 28,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "search",
+      "tier": "core",
+      "count": 26,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "skills",
+      "tier": "taxonomy",
+      "count": 14,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "job_categories",
+      "tier": "taxonomy",
+      "count": 14,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "certs",
+      "tier": "taxonomy",
+      "count": 6,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "company_by_skill",
+      "tier": "taxonomy",
+      "count": 15,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "trend_hype_vs_hire",
+      "tier": "stats",
+      "count": 9,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_newcomer_gate",
+      "tier": "stats",
+      "count": 9,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_global_domestic_gap",
+      "tier": "stats_heavy",
+      "count": 3,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_hiring_season",
+      "tier": "stats_heavy",
+      "count": 11,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_industry_fingerprint",
+      "tier": "stats_heavy",
+      "count": 7,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_role_stack_fit",
+      "tier": "stats_heavy",
+      "count": 11,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_skill_share",
+      "tier": "stats",
+      "count": 3,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_cooccurrence",
+      "tier": "stats",
+      "count": 6,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_posting_timeline",
+      "tier": "stats",
+      "count": 7,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_response_rate",
+      "tier": "stats",
+      "count": 2,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_skill_trend_yearly",
+      "tier": "stats_heavy",
+      "count": 8,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_hot_companies",
+      "tier": "stats",
+      "count": 5,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_region_density",
+      "tier": "stats",
+      "count": 4,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "trend_github_vitality",
+      "tier": "stats",
+      "count": 1,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "trend_github_topics",
+      "tier": "stats",
+      "count": 6,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    },
+    {
+      "name": "trend_github_chronicle",
+      "tier": "stats",
+      "count": 2,
+      "avgMs": 0,
+      "p95Ms": 0,
+      "errorRatePct": 100
+    }
+  ],
+  "overall": {
+    "totalRequests": 388,
+    "httpReqFailedRate": 1,
+    "httpReqDurationP95": 0,
+    "vusMax": 500,
+    "testRunDurationMs": 22181.645338,
+    "phases": []
+  }
+}

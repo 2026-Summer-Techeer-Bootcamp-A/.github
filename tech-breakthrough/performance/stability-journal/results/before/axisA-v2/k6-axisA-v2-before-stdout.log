@@ -1,0 +1,1062 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: load.js
+        output: json (/tmp/k6-axisA-v2-before.json)
+
+     scenarios: (100.00%) 1 scenario, 10 max VUs, 11m0s max duration (incl. graceful stop):
+              * default: Up to 10 looping VUs for 10m30s over 3 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+
+running (00m01.0s), 01/10 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 01/10 VUs  00m01.0s/10m30.0s
+
+running (00m02.0s), 01/10 VUs, 2 complete and 0 interrupted iterations
+default   [   0% ] 01/10 VUs  00m02.0s/10m30.0s
+
+running (00m03.0s), 01/10 VUs, 2 complete and 0 interrupted iterations
+default   [   0% ] 01/10 VUs  00m03.0s/10m30.0s
+
+running (00m04.0s), 01/10 VUs, 3 complete and 0 interrupted iterations
+default   [   1% ] 01/10 VUs  00m04.0s/10m30.0s
+
+running (00m05.0s), 01/10 VUs, 3 complete and 0 interrupted iterations
+default   [   1% ] 01/10 VUs  00m05.0s/10m30.0s
+
+running (00m06.0s), 01/10 VUs, 4 complete and 0 interrupted iterations
+default   [   1% ] 01/10 VUs  00m06.0s/10m30.0s
+
+running (00m07.0s), 01/10 VUs, 4 complete and 0 interrupted iterations
+default   [   1% ] 01/10 VUs  00m07.0s/10m30.0s
+
+running (00m08.0s), 01/10 VUs, 5 complete and 0 interrupted iterations
+default   [   1% ] 01/10 VUs  00m08.0s/10m30.0s
+
+running (00m09.0s), 01/10 VUs, 6 complete and 0 interrupted iterations
+default   [   1% ] 01/10 VUs  00m09.0s/10m30.0s
+
+running (00m10.0s), 01/10 VUs, 7 complete and 0 interrupted iterations
+default   [   2% ] 01/10 VUs  00m10.0s/10m30.0s
+
+running (00m11.0s), 02/10 VUs, 8 complete and 0 interrupted iterations
+default   [   2% ] 02/10 VUs  00m11.0s/10m30.0s
+
+running (00m12.0s), 02/10 VUs, 9 complete and 0 interrupted iterations
+default   [   2% ] 02/10 VUs  00m12.0s/10m30.0s
+
+running (00m13.0s), 02/10 VUs, 10 complete and 0 interrupted iterations
+default   [   2% ] 02/10 VUs  00m13.0s/10m30.0s
+
+running (00m14.0s), 02/10 VUs, 12 complete and 0 interrupted iterations
+default   [   2% ] 02/10 VUs  00m14.0s/10m30.0s
+
+running (00m15.0s), 02/10 VUs, 13 complete and 0 interrupted iterations
+default   [   2% ] 02/10 VUs  00m15.0s/10m30.0s
+
+running (00m16.0s), 02/10 VUs, 14 complete and 0 interrupted iterations
+default   [   3% ] 02/10 VUs  00m16.0s/10m30.0s
+
+running (00m17.0s), 02/10 VUs, 16 complete and 0 interrupted iterations
+default   [   3% ] 02/10 VUs  00m17.0s/10m30.0s
+
+running (00m18.0s), 02/10 VUs, 16 complete and 0 interrupted iterations
+default   [   3% ] 02/10 VUs  00m18.0s/10m30.0s
+
+running (00m19.0s), 02/10 VUs, 18 complete and 0 interrupted iterations
+default   [   3% ] 02/10 VUs  00m19.0s/10m30.0s
+
+running (00m20.0s), 02/10 VUs, 19 complete and 0 interrupted iterations
+default   [   3% ] 02/10 VUs  00m20.0s/10m30.0s
+
+running (00m21.0s), 03/10 VUs, 21 complete and 0 interrupted iterations
+default   [   3% ] 03/10 VUs  00m21.0s/10m30.0s
+
+running (00m22.0s), 03/10 VUs, 24 complete and 0 interrupted iterations
+default   [   3% ] 03/10 VUs  00m22.0s/10m30.0s
+
+running (00m23.0s), 03/10 VUs, 26 complete and 0 interrupted iterations
+default   [   4% ] 03/10 VUs  00m23.0s/10m30.0s
+
+running (00m24.0s), 03/10 VUs, 28 complete and 0 interrupted iterations
+default   [   4% ] 03/10 VUs  00m24.0s/10m30.0s
+
+running (00m25.0s), 03/10 VUs, 31 complete and 0 interrupted iterations
+default   [   4% ] 03/10 VUs  00m25.0s/10m30.0s
+
+running (00m26.0s), 03/10 VUs, 34 complete and 0 interrupted iterations
+default   [   4% ] 03/10 VUs  00m26.0s/10m30.0s
+
+running (00m27.0s), 03/10 VUs, 36 complete and 0 interrupted iterations
+default   [   4% ] 03/10 VUs  00m27.0s/10m30.0s
+
+running (00m28.0s), 03/10 VUs, 38 complete and 0 interrupted iterations
+default   [   4% ] 03/10 VUs  00m28.0s/10m30.0s
+
+running (00m29.0s), 03/10 VUs, 41 complete and 0 interrupted iterations
+default   [   5% ] 03/10 VUs  00m29.0s/10m30.0s
+
+running (00m30.0s), 03/10 VUs, 45 complete and 0 interrupted iterations
+default   [   5% ] 03/10 VUs  00m30.0s/10m30.0s
+
+running (00m31.0s), 03/10 VUs, 47 complete and 0 interrupted iterations
+default   [   5% ] 03/10 VUs  00m31.0s/10m30.0s
+
+running (00m32.0s), 03/10 VUs, 50 complete and 0 interrupted iterations
+default   [   5% ] 03/10 VUs  00m32.0s/10m30.0s
+
+running (00m33.0s), 03/10 VUs, 52 complete and 0 interrupted iterations
+default   [   5% ] 03/10 VUs  00m33.0s/10m30.0s
+
+running (00m34.0s), 03/10 VUs, 54 complete and 0 interrupted iterations
+default   [   5% ] 03/10 VUs  00m34.0s/10m30.0s
+
+running (00m35.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   6% ] 03/10 VUs  00m35.0s/10m30.0s
+
+running (00m36.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   6% ] 03/10 VUs  00m36.0s/10m30.0s
+
+running (00m37.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   6% ] 03/10 VUs  00m37.0s/10m30.0s
+
+running (00m38.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   6% ] 03/10 VUs  00m38.0s/10m30.0s
+
+running (00m39.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   6% ] 03/10 VUs  00m39.0s/10m30.0s
+
+running (00m40.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   6% ] 03/10 VUs  00m40.0s/10m30.0s
+
+running (00m41.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   7% ] 03/10 VUs  00m41.0s/10m30.0s
+
+running (00m42.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   7% ] 03/10 VUs  00m42.0s/10m30.0s
+
+running (00m43.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   7% ] 03/10 VUs  00m43.0s/10m30.0s
+
+running (00m44.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   7% ] 03/10 VUs  00m44.0s/10m30.0s
+
+running (00m45.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   7% ] 03/10 VUs  00m45.0s/10m30.0s
+
+running (00m46.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   7% ] 03/10 VUs  00m46.0s/10m30.0s
+
+running (00m47.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   7% ] 03/10 VUs  00m47.0s/10m30.0s
+
+running (00m48.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   8% ] 03/10 VUs  00m48.0s/10m30.0s
+
+running (00m49.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   8% ] 03/10 VUs  00m49.0s/10m30.0s
+
+running (00m50.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   8% ] 03/10 VUs  00m50.0s/10m30.0s
+
+running (00m51.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   8% ] 03/10 VUs  00m51.0s/10m30.0s
+
+running (00m52.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   8% ] 03/10 VUs  00m52.0s/10m30.0s
+
+running (00m53.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   8% ] 03/10 VUs  00m53.0s/10m30.0s
+
+running (00m54.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   9% ] 03/10 VUs  00m54.0s/10m30.0s
+
+running (00m55.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   9% ] 03/10 VUs  00m55.0s/10m30.0s
+
+running (00m56.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   9% ] 03/10 VUs  00m56.0s/10m30.0s
+
+running (00m57.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   9% ] 03/10 VUs  00m57.0s/10m30.0s
+
+running (00m58.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   9% ] 03/10 VUs  00m58.0s/10m30.0s
+
+running (00m59.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [   9% ] 03/10 VUs  00m59.0s/10m30.0s
+
+running (01m00.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  10% ] 03/10 VUs  01m00.0s/10m30.0s
+
+running (01m01.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  10% ] 03/10 VUs  01m01.0s/10m30.0s
+
+running (01m02.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  10% ] 03/10 VUs  01m02.0s/10m30.0s
+
+running (01m03.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  10% ] 03/10 VUs  01m03.0s/10m30.0s
+
+running (01m04.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  10% ] 03/10 VUs  01m04.0s/10m30.0s
+
+running (01m05.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  10% ] 03/10 VUs  01m05.0s/10m30.0s
+
+running (01m06.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  10% ] 03/10 VUs  01m06.0s/10m30.0s
+
+running (01m07.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  11% ] 03/10 VUs  01m07.0s/10m30.0s
+
+running (01m08.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  11% ] 03/10 VUs  01m08.0s/10m30.0s
+
+running (01m09.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  11% ] 03/10 VUs  01m09.0s/10m30.0s
+
+running (01m10.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  11% ] 03/10 VUs  01m10.0s/10m30.0s
+
+running (01m11.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  11% ] 03/10 VUs  01m11.0s/10m30.0s
+
+running (01m12.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  11% ] 03/10 VUs  01m12.0s/10m30.0s
+
+running (01m13.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  12% ] 03/10 VUs  01m13.0s/10m30.0s
+
+running (01m14.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  12% ] 03/10 VUs  01m14.0s/10m30.0s
+
+running (01m15.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  12% ] 03/10 VUs  01m15.0s/10m30.0s
+
+running (01m16.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  12% ] 03/10 VUs  01m16.0s/10m30.0s
+
+running (01m17.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  12% ] 03/10 VUs  01m17.0s/10m30.0s
+
+running (01m18.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  12% ] 03/10 VUs  01m18.0s/10m30.0s
+
+running (01m19.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  13% ] 03/10 VUs  01m19.0s/10m30.0s
+
+running (01m20.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  13% ] 03/10 VUs  01m20.0s/10m30.0s
+
+running (01m21.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  13% ] 03/10 VUs  01m21.0s/10m30.0s
+
+running (01m22.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  13% ] 03/10 VUs  01m22.0s/10m30.0s
+
+running (01m23.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  13% ] 03/10 VUs  01m23.0s/10m30.0s
+
+running (01m24.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  13% ] 03/10 VUs  01m24.0s/10m30.0s
+
+running (01m25.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  13% ] 03/10 VUs  01m25.0s/10m30.0s
+
+running (01m26.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  14% ] 03/10 VUs  01m26.0s/10m30.0s
+
+running (01m27.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  14% ] 03/10 VUs  01m27.0s/10m30.0s
+
+running (01m28.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  14% ] 03/10 VUs  01m28.0s/10m30.0s
+
+running (01m29.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  14% ] 03/10 VUs  01m29.0s/10m30.0s
+
+running (01m30.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  14% ] 03/10 VUs  01m30.0s/10m30.0s
+
+running (01m31.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  14% ] 03/10 VUs  01m31.0s/10m30.0s
+
+running (01m32.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  15% ] 03/10 VUs  01m32.0s/10m30.0s
+
+running (01m33.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  15% ] 03/10 VUs  01m33.0s/10m30.0s
+
+running (01m34.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  15% ] 03/10 VUs  01m34.0s/10m30.0s
+time="2026-07-16T11:05:48Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/api/v1/postings?pool=domestic\": request timeout"
+time="2026-07-16T11:05:48Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/healthz\": request timeout"
+time="2026-07-16T11:05:48Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/api/v1/postings?pool=domestic\": request timeout"
+
+running (01m35.0s), 03/10 VUs, 57 complete and 0 interrupted iterations
+default   [  15% ] 03/10 VUs  01m35.0s/10m30.0s
+
+running (01m36.0s), 03/10 VUs, 59 complete and 0 interrupted iterations
+default   [  15% ] 03/10 VUs  01m36.0s/10m30.0s
+
+running (01m37.0s), 03/10 VUs, 60 complete and 0 interrupted iterations
+default   [  15% ] 03/10 VUs  01m37.0s/10m30.0s
+
+running (01m38.0s), 03/10 VUs, 60 complete and 0 interrupted iterations
+default   [  16% ] 03/10 VUs  01m38.0s/10m30.0s
+
+running (01m39.0s), 03/10 VUs, 60 complete and 0 interrupted iterations
+default   [  16% ] 03/10 VUs  01m39.0s/10m30.0s
+
+running (01m40.0s), 03/10 VUs, 60 complete and 0 interrupted iterations
+default   [  16% ] 03/10 VUs  01m40.0s/10m30.0s
+
+running (01m41.0s), 03/10 VUs, 60 complete and 0 interrupted iterations
+default   [  16% ] 03/10 VUs  01m41.0s/10m30.0s
+
+running (01m42.0s), 03/10 VUs, 60 complete and 0 interrupted iterations
+default   [  16% ] 03/10 VUs  01m42.0s/10m30.0s
+
+running (01m43.0s), 03/10 VUs, 60 complete and 0 interrupted iterations
+default   [  16% ] 03/10 VUs  01m43.0s/10m30.0s
+
+running (01m44.0s), 03/10 VUs, 60 complete and 0 interrupted iterations
+default   [  17% ] 03/10 VUs  01m44.0s/10m30.0s
+
+running (01m45.0s), 03/10 VUs, 60 complete and 0 interrupted iterations
+default   [  17% ] 03/10 VUs  01m45.0s/10m30.0s
+
+running (01m46.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  17% ] 04/10 VUs  01m46.0s/10m30.0s
+
+running (01m47.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  17% ] 04/10 VUs  01m47.0s/10m30.0s
+
+running (01m48.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  17% ] 04/10 VUs  01m48.0s/10m30.0s
+
+running (01m49.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  17% ] 04/10 VUs  01m49.0s/10m30.0s
+
+running (01m50.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  17% ] 04/10 VUs  01m50.0s/10m30.0s
+
+running (01m51.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  18% ] 04/10 VUs  01m51.0s/10m30.0s
+
+running (01m52.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  18% ] 04/10 VUs  01m52.0s/10m30.0s
+
+running (01m53.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  18% ] 04/10 VUs  01m53.0s/10m30.0s
+
+running (01m54.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  18% ] 04/10 VUs  01m54.0s/10m30.0s
+
+running (01m55.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  18% ] 04/10 VUs  01m55.0s/10m30.0s
+
+running (01m56.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  18% ] 04/10 VUs  01m56.0s/10m30.0s
+
+running (01m57.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  19% ] 04/10 VUs  01m57.0s/10m30.0s
+
+running (01m58.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  19% ] 04/10 VUs  01m58.0s/10m30.0s
+
+running (01m59.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  19% ] 04/10 VUs  01m59.0s/10m30.0s
+
+running (02m00.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  19% ] 04/10 VUs  02m00.0s/10m30.0s
+
+running (02m01.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  19% ] 04/10 VUs  02m01.0s/10m30.0s
+
+running (02m02.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  19% ] 04/10 VUs  02m02.0s/10m30.0s
+
+running (02m03.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  20% ] 04/10 VUs  02m03.0s/10m30.0s
+
+running (02m04.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  20% ] 04/10 VUs  02m04.0s/10m30.0s
+
+running (02m05.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  20% ] 04/10 VUs  02m05.0s/10m30.0s
+
+running (02m06.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  20% ] 04/10 VUs  02m06.0s/10m30.0s
+
+running (02m07.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  20% ] 04/10 VUs  02m07.0s/10m30.0s
+
+running (02m08.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  20% ] 04/10 VUs  02m08.0s/10m30.0s
+
+running (02m09.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  20% ] 04/10 VUs  02m09.0s/10m30.0s
+
+running (02m10.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  21% ] 04/10 VUs  02m10.0s/10m30.0s
+
+running (02m11.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  21% ] 04/10 VUs  02m11.0s/10m30.0s
+
+running (02m12.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  21% ] 04/10 VUs  02m12.0s/10m30.0s
+
+running (02m13.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  21% ] 04/10 VUs  02m13.0s/10m30.0s
+
+running (02m14.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  21% ] 04/10 VUs  02m14.0s/10m30.0s
+
+running (02m15.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  21% ] 04/10 VUs  02m15.0s/10m30.0s
+
+running (02m16.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  22% ] 04/10 VUs  02m16.0s/10m30.0s
+
+running (02m17.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  22% ] 04/10 VUs  02m17.0s/10m30.0s
+
+running (02m18.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  22% ] 04/10 VUs  02m18.0s/10m30.0s
+
+running (02m19.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  22% ] 04/10 VUs  02m19.0s/10m30.0s
+
+running (02m20.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  22% ] 04/10 VUs  02m20.0s/10m30.0s
+
+running (02m21.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  22% ] 04/10 VUs  02m21.0s/10m30.0s
+
+running (02m22.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  23% ] 04/10 VUs  02m22.0s/10m30.0s
+
+running (02m23.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  23% ] 04/10 VUs  02m23.0s/10m30.0s
+
+running (02m24.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  23% ] 04/10 VUs  02m24.0s/10m30.0s
+
+running (02m25.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  23% ] 04/10 VUs  02m25.0s/10m30.0s
+
+running (02m26.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  23% ] 04/10 VUs  02m26.0s/10m30.0s
+
+running (02m27.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  23% ] 04/10 VUs  02m27.0s/10m30.0s
+
+running (02m28.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  23% ] 04/10 VUs  02m28.0s/10m30.0s
+
+running (02m29.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  24% ] 04/10 VUs  02m29.0s/10m30.0s
+
+running (02m30.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  24% ] 04/10 VUs  02m30.0s/10m30.0s
+
+running (02m31.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  24% ] 04/10 VUs  02m31.0s/10m30.0s
+
+running (02m32.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  24% ] 04/10 VUs  02m32.0s/10m30.0s
+
+running (02m33.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  24% ] 04/10 VUs  02m33.0s/10m30.0s
+
+running (02m34.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  24% ] 04/10 VUs  02m34.0s/10m30.0s
+
+running (02m35.0s), 04/10 VUs, 60 complete and 0 interrupted iterations
+default   [  25% ] 04/10 VUs  02m35.0s/10m30.0s
+time="2026-07-16T11:06:49Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/api/v1/job-categories\": request timeout"
+time="2026-07-16T11:06:49Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/api/v1/job-categories\": request timeout"
+
+running (02m36.0s), 04/10 VUs, 61 complete and 0 interrupted iterations
+default   [  25% ] 04/10 VUs  02m36.0s/10m30.0s
+time="2026-07-16T11:06:50Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/api/v1/job-categories\": request timeout"
+
+running (02m37.0s), 04/10 VUs, 63 complete and 0 interrupted iterations
+default   [  25% ] 04/10 VUs  02m37.0s/10m30.0s
+
+running (02m38.0s), 04/10 VUs, 63 complete and 0 interrupted iterations
+default   [  25% ] 04/10 VUs  02m38.0s/10m30.0s
+
+running (02m39.0s), 04/10 VUs, 63 complete and 0 interrupted iterations
+default   [  25% ] 04/10 VUs  02m39.0s/10m30.0s
+
+running (02m40.0s), 04/10 VUs, 63 complete and 0 interrupted iterations
+default   [  25% ] 04/10 VUs  02m40.0s/10m30.0s
+
+running (02m41.0s), 04/10 VUs, 63 complete and 0 interrupted iterations
+default   [  26% ] 04/10 VUs  02m41.0s/10m30.0s
+
+running (02m42.0s), 04/10 VUs, 63 complete and 0 interrupted iterations
+default   [  26% ] 04/10 VUs  02m42.0s/10m30.0s
+
+running (02m43.0s), 04/10 VUs, 63 complete and 0 interrupted iterations
+default   [  26% ] 04/10 VUs  02m43.0s/10m30.0s
+
+running (02m44.0s), 04/10 VUs, 63 complete and 0 interrupted iterations
+default   [  26% ] 04/10 VUs  02m44.0s/10m30.0s
+
+running (02m45.0s), 04/10 VUs, 63 complete and 0 interrupted iterations
+default   [  26% ] 04/10 VUs  02m45.0s/10m30.0s
+time="2026-07-16T11:06:59Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/api/v1/job-categories\": request timeout"
+
+running (02m46.0s), 04/10 VUs, 63 complete and 0 interrupted iterations
+default   [  26% ] 04/10 VUs  02m46.0s/10m30.0s
+
+running (02m47.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  27% ] 04/10 VUs  02m47.0s/10m30.0s
+
+running (02m48.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  27% ] 04/10 VUs  02m48.0s/10m30.0s
+
+running (02m49.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  27% ] 04/10 VUs  02m49.0s/10m30.0s
+
+running (02m50.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  27% ] 04/10 VUs  02m50.0s/10m30.0s
+
+running (02m51.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  27% ] 04/10 VUs  02m51.0s/10m30.0s
+
+running (02m52.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  27% ] 04/10 VUs  02m52.0s/10m30.0s
+
+running (02m53.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  27% ] 04/10 VUs  02m53.0s/10m30.0s
+
+running (02m54.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  28% ] 04/10 VUs  02m54.0s/10m30.0s
+
+running (02m55.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  28% ] 04/10 VUs  02m55.0s/10m30.0s
+
+running (02m56.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  28% ] 04/10 VUs  02m56.0s/10m30.0s
+
+running (02m57.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  28% ] 04/10 VUs  02m57.0s/10m30.0s
+
+running (02m58.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  28% ] 04/10 VUs  02m58.0s/10m30.0s
+
+running (02m59.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  28% ] 04/10 VUs  02m59.0s/10m30.0s
+
+running (03m00.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  29% ] 04/10 VUs  03m00.0s/10m30.0s
+
+running (03m01.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  29% ] 04/10 VUs  03m01.0s/10m30.0s
+
+running (03m02.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  29% ] 04/10 VUs  03m02.0s/10m30.0s
+
+running (03m03.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  29% ] 04/10 VUs  03m03.0s/10m30.0s
+
+running (03m04.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  29% ] 04/10 VUs  03m04.0s/10m30.0s
+
+running (03m05.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  29% ] 04/10 VUs  03m05.0s/10m30.0s
+
+running (03m06.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  30% ] 04/10 VUs  03m06.0s/10m30.0s
+
+running (03m07.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  30% ] 04/10 VUs  03m07.0s/10m30.0s
+
+running (03m08.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  30% ] 04/10 VUs  03m08.0s/10m30.0s
+
+running (03m09.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  30% ] 04/10 VUs  03m09.0s/10m30.0s
+
+running (03m10.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  30% ] 04/10 VUs  03m10.0s/10m30.0s
+
+running (03m11.0s), 04/10 VUs, 64 complete and 0 interrupted iterations
+default   [  30% ] 04/10 VUs  03m11.0s/10m30.0s
+
+running (03m12.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  30% ] 05/10 VUs  03m12.0s/10m30.0s
+
+running (03m13.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  31% ] 05/10 VUs  03m13.0s/10m30.0s
+
+running (03m14.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  31% ] 05/10 VUs  03m14.0s/10m30.0s
+
+running (03m15.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  31% ] 05/10 VUs  03m15.0s/10m30.0s
+
+running (03m16.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  31% ] 05/10 VUs  03m16.0s/10m30.0s
+
+running (03m17.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  31% ] 05/10 VUs  03m17.0s/10m30.0s
+
+running (03m18.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  31% ] 05/10 VUs  03m18.0s/10m30.0s
+
+running (03m19.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  32% ] 05/10 VUs  03m19.0s/10m30.0s
+
+running (03m20.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  32% ] 05/10 VUs  03m20.0s/10m30.0s
+
+running (03m21.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  32% ] 05/10 VUs  03m21.0s/10m30.0s
+
+running (03m22.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  32% ] 05/10 VUs  03m22.0s/10m30.0s
+
+running (03m23.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  32% ] 05/10 VUs  03m23.0s/10m30.0s
+
+running (03m24.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  32% ] 05/10 VUs  03m24.0s/10m30.0s
+
+running (03m25.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  33% ] 05/10 VUs  03m25.0s/10m30.0s
+
+running (03m26.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  33% ] 05/10 VUs  03m26.0s/10m30.0s
+
+running (03m27.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  33% ] 05/10 VUs  03m27.0s/10m30.0s
+
+running (03m28.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  33% ] 05/10 VUs  03m28.0s/10m30.0s
+
+running (03m29.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  33% ] 05/10 VUs  03m29.0s/10m30.0s
+
+running (03m30.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  33% ] 05/10 VUs  03m30.0s/10m30.0s
+
+running (03m31.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  33% ] 05/10 VUs  03m31.0s/10m30.0s
+
+running (03m32.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  34% ] 05/10 VUs  03m32.0s/10m30.0s
+
+running (03m33.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  34% ] 05/10 VUs  03m33.0s/10m30.0s
+
+running (03m34.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  34% ] 05/10 VUs  03m34.0s/10m30.0s
+
+running (03m35.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  34% ] 05/10 VUs  03m35.0s/10m30.0s
+time="2026-07-16T11:07:50Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/healthz\": request timeout"
+
+running (03m36.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  34% ] 05/10 VUs  03m36.0s/10m30.0s
+time="2026-07-16T11:07:50Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/skills\": request timeout"
+time="2026-07-16T11:07:51Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/api/v1/job-categories\": request timeout"
+
+running (03m37.0s), 05/10 VUs, 64 complete and 0 interrupted iterations
+default   [  34% ] 05/10 VUs  03m37.0s/10m30.0s
+
+running (03m38.0s), 05/10 VUs, 66 complete and 0 interrupted iterations
+default   [  35% ] 05/10 VUs  03m38.0s/10m30.0s
+
+running (03m39.0s), 05/10 VUs, 67 complete and 0 interrupted iterations
+default   [  35% ] 05/10 VUs  03m39.0s/10m30.0s
+
+running (03m40.0s), 05/10 VUs, 67 complete and 0 interrupted iterations
+default   [  35% ] 05/10 VUs  03m40.0s/10m30.0s
+
+running (03m41.0s), 05/10 VUs, 67 complete and 0 interrupted iterations
+default   [  35% ] 05/10 VUs  03m41.0s/10m30.0s
+
+running (03m42.0s), 05/10 VUs, 67 complete and 0 interrupted iterations
+default   [  35% ] 05/10 VUs  03m42.0s/10m30.0s
+
+running (03m43.0s), 05/10 VUs, 67 complete and 0 interrupted iterations
+default   [  35% ] 05/10 VUs  03m43.0s/10m30.0s
+
+running (03m44.0s), 05/10 VUs, 67 complete and 0 interrupted iterations
+default   [  36% ] 05/10 VUs  03m44.0s/10m30.0s
+
+running (03m45.0s), 05/10 VUs, 67 complete and 0 interrupted iterations
+default   [  36% ] 05/10 VUs  03m45.0s/10m30.0s
+
+running (03m46.0s), 05/10 VUs, 67 complete and 0 interrupted iterations
+default   [  36% ] 05/10 VUs  03m46.0s/10m30.0s
+time="2026-07-16T11:08:00Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/api/v1/job-categories\": request timeout"
+
+running (03m47.0s), 05/10 VUs, 67 complete and 0 interrupted iterations
+default   [  36% ] 05/10 VUs  03m47.0s/10m30.0s
+
+running (03m48.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  36% ] 05/10 VUs  03m48.0s/10m30.0s
+
+running (03m49.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  36% ] 05/10 VUs  03m49.0s/10m30.0s
+
+running (03m50.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  37% ] 05/10 VUs  03m50.0s/10m30.0s
+
+running (03m51.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  37% ] 05/10 VUs  03m51.0s/10m30.0s
+
+running (03m52.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  37% ] 05/10 VUs  03m52.0s/10m30.0s
+
+running (03m53.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  37% ] 05/10 VUs  03m53.0s/10m30.0s
+
+running (03m54.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  37% ] 05/10 VUs  03m54.0s/10m30.0s
+
+running (03m55.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  37% ] 05/10 VUs  03m55.0s/10m30.0s
+
+running (03m56.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  37% ] 05/10 VUs  03m56.0s/10m30.0s
+
+running (03m57.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  38% ] 05/10 VUs  03m57.0s/10m30.0s
+
+running (03m58.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  38% ] 05/10 VUs  03m58.0s/10m30.0s
+
+running (03m59.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  38% ] 05/10 VUs  03m59.0s/10m30.0s
+
+running (04m00.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  38% ] 05/10 VUs  04m00.0s/10m30.0s
+
+running (04m01.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  38% ] 05/10 VUs  04m01.0s/10m30.0s
+
+running (04m02.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  38% ] 05/10 VUs  04m02.0s/10m30.0s
+
+running (04m03.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  39% ] 05/10 VUs  04m03.0s/10m30.0s
+
+running (04m04.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  39% ] 05/10 VUs  04m04.0s/10m30.0s
+
+running (04m05.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  39% ] 05/10 VUs  04m05.0s/10m30.0s
+
+running (04m06.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  39% ] 05/10 VUs  04m06.0s/10m30.0s
+
+running (04m07.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  39% ] 05/10 VUs  04m07.0s/10m30.0s
+
+running (04m08.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  39% ] 05/10 VUs  04m08.0s/10m30.0s
+
+running (04m09.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  40% ] 05/10 VUs  04m09.0s/10m30.0s
+
+running (04m10.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  40% ] 05/10 VUs  04m10.0s/10m30.0s
+
+running (04m11.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  40% ] 05/10 VUs  04m11.0s/10m30.0s
+time="2026-07-16T11:08:25Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/healthz\": request timeout"
+
+running (04m12.0s), 05/10 VUs, 68 complete and 0 interrupted iterations
+default   [  40% ] 05/10 VUs  04m12.0s/10m30.0s
+
+running (04m13.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  40% ] 05/10 VUs  04m13.0s/10m30.0s
+
+running (04m14.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  40% ] 05/10 VUs  04m14.0s/10m30.0s
+
+running (04m15.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  40% ] 05/10 VUs  04m15.0s/10m30.0s
+
+running (04m16.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  41% ] 05/10 VUs  04m16.0s/10m30.0s
+
+running (04m17.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  41% ] 05/10 VUs  04m17.0s/10m30.0s
+
+running (04m18.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  41% ] 05/10 VUs  04m18.0s/10m30.0s
+
+running (04m19.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  41% ] 05/10 VUs  04m19.0s/10m30.0s
+
+running (04m20.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  41% ] 05/10 VUs  04m20.0s/10m30.0s
+
+running (04m21.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  41% ] 05/10 VUs  04m21.0s/10m30.0s
+
+running (04m22.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  42% ] 05/10 VUs  04m22.0s/10m30.0s
+
+running (04m23.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  42% ] 05/10 VUs  04m23.0s/10m30.0s
+
+running (04m24.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  42% ] 05/10 VUs  04m24.0s/10m30.0s
+
+running (04m25.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  42% ] 05/10 VUs  04m25.0s/10m30.0s
+
+running (04m26.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  42% ] 05/10 VUs  04m26.0s/10m30.0s
+
+running (04m27.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  42% ] 05/10 VUs  04m27.0s/10m30.0s
+
+running (04m28.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  43% ] 05/10 VUs  04m28.0s/10m30.0s
+
+running (04m29.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  43% ] 05/10 VUs  04m29.0s/10m30.0s
+
+running (04m30.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  43% ] 05/10 VUs  04m30.0s/10m30.0s
+
+running (04m31.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  43% ] 05/10 VUs  04m31.0s/10m30.0s
+
+running (04m32.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  43% ] 05/10 VUs  04m32.0s/10m30.0s
+
+running (04m33.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  43% ] 05/10 VUs  04m33.0s/10m30.0s
+
+running (04m34.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  43% ] 05/10 VUs  04m34.0s/10m30.0s
+
+running (04m35.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  44% ] 05/10 VUs  04m35.0s/10m30.0s
+
+running (04m36.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  44% ] 05/10 VUs  04m36.0s/10m30.0s
+
+running (04m37.0s), 05/10 VUs, 69 complete and 0 interrupted iterations
+default   [  44% ] 05/10 VUs  04m37.0s/10m30.0s
+time="2026-07-16T11:08:51Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/healthz\": request timeout"
+time="2026-07-16T11:08:51Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/skills\": request timeout"
+
+running (04m38.0s), 06/10 VUs, 70 complete and 0 interrupted iterations
+default   [  44% ] 06/10 VUs  04m38.0s/10m30.0s
+time="2026-07-16T11:08:53Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/api/v1/postings?pool=domestic\": request timeout"
+
+running (04m39.0s), 06/10 VUs, 70 complete and 0 interrupted iterations
+default   [  44% ] 06/10 VUs  04m39.0s/10m30.0s
+
+running (04m40.0s), 06/10 VUs, 72 complete and 0 interrupted iterations
+default   [  44% ] 06/10 VUs  04m40.0s/10m30.0s
+
+running (04m41.0s), 06/10 VUs, 72 complete and 0 interrupted iterations
+default   [  45% ] 06/10 VUs  04m41.0s/10m30.0s
+
+running (04m42.0s), 06/10 VUs, 72 complete and 0 interrupted iterations
+default   [  45% ] 06/10 VUs  04m42.0s/10m30.0s
+
+running (04m43.0s), 06/10 VUs, 72 complete and 0 interrupted iterations
+default   [  45% ] 06/10 VUs  04m43.0s/10m30.0s
+
+running (04m44.0s), 06/10 VUs, 72 complete and 0 interrupted iterations
+default   [  45% ] 06/10 VUs  04m44.0s/10m30.0s
+
+running (04m45.0s), 06/10 VUs, 72 complete and 0 interrupted iterations
+default   [  45% ] 06/10 VUs  04m45.0s/10m30.0s
+
+running (04m46.0s), 06/10 VUs, 72 complete and 0 interrupted iterations
+default   [  45% ] 06/10 VUs  04m46.0s/10m30.0s
+
+running (04m47.0s), 06/10 VUs, 72 complete and 0 interrupted iterations
+default   [  46% ] 06/10 VUs  04m47.0s/10m30.0s
+time="2026-07-16T11:09:01Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/skills\": request timeout"
+
+running (04m48.0s), 06/10 VUs, 72 complete and 0 interrupted iterations
+default   [  46% ] 06/10 VUs  04m48.0s/10m30.0s
+
+running (04m49.0s), 06/10 VUs, 72 complete and 0 interrupted iterations
+default   [  46% ] 06/10 VUs  04m49.0s/10m30.0s
+
+running (04m50.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  46% ] 06/10 VUs  04m50.0s/10m30.0s
+
+running (04m51.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  46% ] 06/10 VUs  04m51.0s/10m30.0s
+
+running (04m52.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  46% ] 06/10 VUs  04m52.0s/10m30.0s
+
+running (04m53.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  47% ] 06/10 VUs  04m53.0s/10m30.0s
+
+running (04m54.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  47% ] 06/10 VUs  04m54.0s/10m30.0s
+
+running (04m55.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  47% ] 06/10 VUs  04m55.0s/10m30.0s
+
+running (04m56.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  47% ] 06/10 VUs  04m56.0s/10m30.0s
+
+running (04m57.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  47% ] 06/10 VUs  04m57.0s/10m30.0s
+
+running (04m58.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  47% ] 06/10 VUs  04m58.0s/10m30.0s
+
+running (04m59.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  47% ] 06/10 VUs  04m59.0s/10m30.0s
+
+running (05m00.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  48% ] 06/10 VUs  05m00.0s/10m30.0s
+
+running (05m01.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  48% ] 06/10 VUs  05m01.0s/10m30.0s
+
+running (05m02.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  48% ] 06/10 VUs  05m02.0s/10m30.0s
+
+running (05m03.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  48% ] 06/10 VUs  05m03.0s/10m30.0s
+
+running (05m04.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  48% ] 06/10 VUs  05m04.0s/10m30.0s
+
+running (05m05.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  48% ] 06/10 VUs  05m05.0s/10m30.0s
+
+running (05m06.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  49% ] 06/10 VUs  05m06.0s/10m30.0s
+
+running (05m07.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  49% ] 06/10 VUs  05m07.0s/10m30.0s
+
+running (05m08.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  49% ] 06/10 VUs  05m08.0s/10m30.0s
+
+running (05m09.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  49% ] 06/10 VUs  05m09.0s/10m30.0s
+
+running (05m10.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  49% ] 06/10 VUs  05m10.0s/10m30.0s
+
+running (05m11.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  49% ] 06/10 VUs  05m11.0s/10m30.0s
+
+running (05m12.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  50% ] 06/10 VUs  05m12.0s/10m30.0s
+time="2026-07-16T11:09:26Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/healthz\": request timeout"
+
+running (05m13.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  50% ] 06/10 VUs  05m13.0s/10m30.0s
+
+running (05m14.0s), 06/10 VUs, 73 complete and 0 interrupted iterations
+default   [  50% ] 06/10 VUs  05m14.0s/10m30.0s
+
+running (05m15.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  50% ] 06/10 VUs  05m15.0s/10m30.0s
+
+running (05m16.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  50% ] 06/10 VUs  05m16.0s/10m30.0s
+
+running (05m17.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  50% ] 06/10 VUs  05m17.0s/10m30.0s
+
+running (05m18.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  50% ] 06/10 VUs  05m18.0s/10m30.0s
+
+running (05m19.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  51% ] 06/10 VUs  05m19.0s/10m30.0s
+
+running (05m20.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  51% ] 06/10 VUs  05m20.0s/10m30.0s
+
+running (05m21.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  51% ] 06/10 VUs  05m21.0s/10m30.0s
+
+running (05m22.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  51% ] 06/10 VUs  05m22.0s/10m30.0s
+
+running (05m23.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  51% ] 06/10 VUs  05m23.0s/10m30.0s
+
+running (05m24.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  51% ] 06/10 VUs  05m24.0s/10m30.0s
+
+running (05m25.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  52% ] 06/10 VUs  05m25.0s/10m30.0s
+
+running (05m26.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  52% ] 06/10 VUs  05m26.0s/10m30.0s
+
+running (05m27.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  52% ] 06/10 VUs  05m27.0s/10m30.0s
+
+running (05m28.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  52% ] 06/10 VUs  05m28.0s/10m30.0s
+
+running (05m29.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  52% ] 06/10 VUs  05m29.0s/10m30.0s
+
+running (05m30.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  52% ] 06/10 VUs  05m30.0s/10m30.0s
+
+running (05m31.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  53% ] 06/10 VUs  05m31.0s/10m30.0s
+
+running (05m32.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  53% ] 06/10 VUs  05m32.0s/10m30.0s
+
+running (05m33.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  53% ] 06/10 VUs  05m33.0s/10m30.0s
+
+running (05m34.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  53% ] 06/10 VUs  05m34.0s/10m30.0s
+
+running (05m35.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  53% ] 06/10 VUs  05m35.0s/10m30.0s
+
+running (05m36.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  53% ] 06/10 VUs  05m36.0s/10m30.0s
+
+running (05m37.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  53% ] 06/10 VUs  05m37.0s/10m30.0s
+time="2026-07-16T11:09:51Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/api/v1/postings?pool=domestic\": request timeout"
+time="2026-07-16T11:09:51Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/skills\": request timeout"
+
+running (05m38.0s), 06/10 VUs, 74 complete and 0 interrupted iterations
+default   [  54% ] 06/10 VUs  05m38.0s/10m30.0s
+
+running (05m39.0s), 06/10 VUs, 75 complete and 0 interrupted iterations
+default   [  54% ] 06/10 VUs  05m39.0s/10m30.0s
+time="2026-07-16T11:09:53Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/api/v1/job-categories\": request timeout"
+time="2026-07-16T11:09:53Z" level=warning msg="Request Failed" error="Get \"https://2026-techeer-a.duckdns.org/api/v1/postings?pool=domestic\": request timeout"
+
+running (05m40.0s), 06/10 VUs, 76 complete and 0 interrupted iterations
+default   [  54% ] 06/10 VUs  05m40.0s/10m30.0s
+
+running (05m41.0s), 06/10 VUs, 77 complete and 0 interrupted iterations
+default   [  54% ] 06/10 VUs  05m41.0s/10m30.0s
+
+running (05m42.0s), 06/10 VUs, 78 complete and 0 interrupted iterations
+default   [  54% ] 06/10 VUs  05m42.0s/10m30.0s

@@ -1,0 +1,1256 @@
+[Thu Jul 16 11:06:45 2026] [  25514]     0 25514     8569      597      512       85         0   114688        0             0 systemd-logind
+[Thu Jul 16 11:06:45 2026] [  25527]     0 25527     7092      384      384        0         0    94208        0             0 cron
+[Thu Jul 16 11:06:45 2026] [  28164]     0 28164   496502     1143     1143        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:06:45 2026] [  28187]     0 28187      645        0        0        0         0    45056        0             0 sleep
+[Thu Jul 16 11:06:45 2026] [  28981]     0 28981     8574      704      704        0         0   110592        0             0 sshd-session
+[Thu Jul 16 11:06:45 2026] [  28987] 1674562704 28987     5507      577      544       33         0    86016        0           100 systemd
+[Thu Jul 16 11:06:45 2026] [  28988] 1674562704 28988     9743      750      743        7         0   106496        0           100 (sd-pam)
+[Thu Jul 16 11:06:45 2026] [  29002] 1674562704 29002     8574      798      762       36         0   106496        0             0 sshd-session
+[Thu Jul 16 11:06:45 2026] [  29003] 1674562704 29003     8115      576      544       32         0   110592        0             0 sudo
+[Thu Jul 16 11:06:45 2026] [  29004]     0 29004     1122       96       64       32         0    49152        0             0 bash
+[Thu Jul 16 11:06:45 2026] [  29006]     0 29006      817      140       32      108         0    53248        0             0 dmesg
+[Thu Jul 16 11:06:45 2026] [  29007]     0 29007     1122       90       72       18         0    45056        0             0 bash
+[Thu Jul 16 11:06:45 2026] [  29008]     0 29008     1122       52       40       12         0    45056        0             0 bash
+[Thu Jul 16 11:06:45 2026] [  29010]     0 29010     1122       41       40        1         0    45056        0             0 bash
+[Thu Jul 16 11:06:45 2026] [  29016]     0 29016    27003    14496      352        0     14144   221184        0             0 stress-ng
+[Thu Jul 16 11:06:45 2026] [  29033]     0 29033    27004      428      388       40         0    77824        0             0 stress-ng-vm
+[Thu Jul 16 11:06:45 2026] [  29092]     0 29092    27032    14571      384       43     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:06:45 2026] [  29102]     0 29102    27033      380      377        3         0    94208        0             0 stress-ng-vm
+[Thu Jul 16 11:06:45 2026] [  29103]     0 29103   813466   292543   292535        8         0  2445312        0             0 stress-ng-vm
+[Thu Jul 16 11:06:45 2026] [  29186]     0 29186    27003    14535      384        7     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:06:45 2026] [  29196]     0 29196    27004      371      371        0         0    81920        0             0 stress-ng-vm
+[Thu Jul 16 11:06:45 2026] [  29208]     0 29208   424796     1349     1269       80         0   196608        0             0 docker
+[Thu Jul 16 11:06:45 2026] [  29209]     0 29209   406363     1300     1265       35         0   192512        0             0 docker
+[Thu Jul 16 11:06:45 2026] [  29244]     0 29244  1599869  1401123  1401060       63         0 12693504        0             0 stress-ng-vm
+[Thu Jul 16 11:06:45 2026] [  29245]     0 29245      657       91        0       91         0    45056        0             0 sleep
+[Thu Jul 16 11:06:45 2026] [  29246]     0 29246     1867        0        0        0         0    45056        0             0 16
+[Thu Jul 16 11:06:45 2026] [  29247]     0 29247  2124157  1808518  1808518        0         0 14581760        0             0 stress-ng-vm
+[Thu Jul 16 11:06:45 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=user.slice,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1674562704.slice/session-54.scope,task=stress-ng-vm,pid=29247,uid=0
+[Thu Jul 16 11:06:45 2026] Out of memory: Killed process 29247 (stress-ng-vm) total-vm:8496628kB, anon-rss:7234072kB, file-rss:0kB, shmem-rss:0kB, UID:0 pgtables:14240kB oom_score_adj:0
+[Thu Jul 16 11:06:52 2026] systemd[1]: session-54.scope: A process of this unit has been killed by the OOM killer.
+[Thu Jul 16 11:06:56 2026] guest_telemetry invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=-999
+[Thu Jul 16 11:06:56 2026] CPU: 1 UID: 0 PID: 25316 Comm: guest_telemetry Not tainted 6.12.95+deb13-cloud-amd64 #1  Debian 6.12.95-1
+[Thu Jul 16 11:06:56 2026] Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 05/09/2026
+[Thu Jul 16 11:06:56 2026] Call Trace:
+[Thu Jul 16 11:06:56 2026]  <TASK>
+[Thu Jul 16 11:06:56 2026]  dump_stack_lvl+0x5d/0x80
+[Thu Jul 16 11:06:56 2026]  dump_header+0x43/0x1aa
+[Thu Jul 16 11:06:56 2026]  oom_kill_process.cold+0x8/0x8d
+[Thu Jul 16 11:06:56 2026]  out_of_memory+0x219/0x4b0
+[Thu Jul 16 11:06:56 2026]  __alloc_pages_slowpath.constprop.0+0xc27/0xdc0
+[Thu Jul 16 11:06:56 2026]  __alloc_pages_noprof+0x2fb/0x310
+[Thu Jul 16 11:06:56 2026]  alloc_pages_mpol_noprof+0xd7/0x1c0
+[Thu Jul 16 11:06:56 2026]  folio_alloc_noprof+0x5b/0xb0
+[Thu Jul 16 11:06:56 2026]  __filemap_get_folio+0x1aa/0x300
+[Thu Jul 16 11:06:56 2026]  filemap_fault+0x1fb/0xd40
+[Thu Jul 16 11:06:56 2026]  __do_fault+0x33/0x170
+[Thu Jul 16 11:06:56 2026]  do_fault+0x341/0x550
+[Thu Jul 16 11:06:56 2026]  __handle_mm_fault+0x7c2/0xf70
+[Thu Jul 16 11:06:56 2026]  handle_mm_fault+0xe2/0x2c0
+[Thu Jul 16 11:06:56 2026]  do_user_addr_fault+0x217/0x620
+[Thu Jul 16 11:06:56 2026]  exc_page_fault+0x7e/0x180
+[Thu Jul 16 11:06:56 2026]  asm_exc_page_fault+0x26/0x30
+[Thu Jul 16 11:06:56 2026] RIP: 0033:0x4713d2
+[Thu Jul 16 11:06:56 2026] Code: Unable to access opcode bytes at 0x4713a8.
+[Thu Jul 16 11:06:56 2026] RSP: 002b:00003da074a8d7d8 EFLAGS: 00010202
+[Thu Jul 16 11:06:56 2026] RAX: 0000000000f1cb16 RBX: 0000000000156f8a RCX: 0000000000156f8a
+[Thu Jul 16 11:06:56 2026] RDX: 0000000000401000 RSI: 00003da074a8d81c RDI: 00003da074a8d840
+[Thu Jul 16 11:06:56 2026] RBP: 00003da074a8d7d8 R08: 0000000000156f01 R09: 000000000007759e
+[Thu Jul 16 11:06:56 2026] R10: 0000000000000000 R11: 0000000000000015 R12: 00003da074a803a0
+[Thu Jul 16 11:06:56 2026] R13: 00000000000000c0 R14: 00003da074a84000 R15: 00003da074a80450
+[Thu Jul 16 11:06:56 2026]  </TASK>
+[Thu Jul 16 11:06:56 2026] Mem-Info:
+[Thu Jul 16 11:06:56 2026] active_anon:231387 inactive_anon:3765799 isolated_anon:0
+                            active_file:481 inactive_file:867 isolated_file:0
+                            unevictable:8 dirty:15 writeback:0
+                            slab_reclaimable:9900 slab_unreclaimable:16301
+                            mapped:42515 shmem:42822 pagetables:12747
+                            sec_pagetables:0 bounce:0
+                            kernel_misc_reclaimable:0
+                            free:33293 free_pcp:52 free_cma:0
+[Thu Jul 16 11:06:56 2026] Node 0 active_anon:908516kB inactive_anon:15080228kB active_file:368kB inactive_file:5376kB unevictable:32kB isolated(anon):0kB isolated(file):0kB mapped:170060kB dirty:60kB writeback:0kB shmem:171288kB shmem_thp:0kB shmem_pmdmapped:0kB anon_thp:13873152kB writeback_tmp:0kB kernel_stack:9216kB pagetables:50988kB sec_pagetables:0kB all_unreclaimable? yes
+[Thu Jul 16 11:06:56 2026] Node 0 DMA free:13312kB boost:0kB min:60kB low:72kB high:84kB reserved_highatomic:0KB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15920kB managed:15360kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:06:56 2026] lowmem_reserve[]: 0 2923 15909 15909 15909
+[Thu Jul 16 11:06:56 2026] Node 0 DMA32 free:64932kB boost:0kB min:12568kB low:15708kB high:18848kB reserved_highatomic:0KB active_anon:18280kB inactive_anon:2973712kB active_file:908kB inactive_file:176kB unevictable:0kB writepending:4kB present:3126028kB managed:3060488kB mlocked:0kB bounce:0kB free_pcp:12kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:06:56 2026] lowmem_reserve[]: 0 0 12985 12985 12985
+[Thu Jul 16 11:06:56 2026] Node 0 Normal free:54944kB boost:0kB min:54948kB low:68684kB high:82420kB reserved_highatomic:0KB active_anon:790476kB inactive_anon:12206452kB active_file:892kB inactive_file:3584kB unevictable:32kB writepending:56kB present:13631488kB managed:13304856kB mlocked:32kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:06:56 2026] lowmem_reserve[]: 0 0 0 0 0
+[Thu Jul 16 11:06:56 2026] Node 0 DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 1*1024kB (U) 2*2048kB (UM) 2*4096kB (M) = 13312kB
+[Thu Jul 16 11:06:56 2026] Node 0 DMA32: 9*4kB (UME) 29*8kB (UME) 21*16kB (UM) 28*32kB (UME) 20*64kB (UME) 18*128kB (UME) 15*256kB (UME) 17*512kB (UME) 46*1024kB (UME) 0*2048kB 0*4096kB = 64732kB
+[Thu Jul 16 11:06:56 2026] Node 0 Normal: 833*4kB (UME) 369*8kB (UME) 313*16kB (UME) 94*32kB (UME) 36*64kB (UME) 59*128kB (UME) 7*256kB (U) 2*512kB (U) 28*1024kB (M) 0*2048kB 0*4096kB = 55644kB
+[Thu Jul 16 11:06:56 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+[Thu Jul 16 11:06:57 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+[Thu Jul 16 11:06:57 2026] 44049 total pagecache pages
+[Thu Jul 16 11:06:57 2026] 0 pages in swap cache
+[Thu Jul 16 11:06:57 2026] Free swap  = 0kB
+[Thu Jul 16 11:06:57 2026] Total swap = 0kB
+[Thu Jul 16 11:06:57 2026] 4193359 pages RAM
+[Thu Jul 16 11:06:57 2026] 0 pages HighMem/MovableOnly
+[Thu Jul 16 11:06:57 2026] 98183 pages reserved
+[Thu Jul 16 11:06:57 2026] 0 pages hwpoisoned
+[Thu Jul 16 11:06:57 2026] Tasks state (memory values in pages):
+[Thu Jul 16 11:06:57 2026] [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+[Thu Jul 16 11:06:57 2026] [    342]   989   342     5931      723      672       51         0    94208        0             0 systemd-resolve
+[Thu Jul 16 11:06:57 2026] [    343]   996   343    22953      345      256       89         0    86016        0             0 systemd-timesyn
+[Thu Jul 16 11:06:57 2026] [    352]     0   352     8241      495      448       47         0    77824        0         -1000 systemd-udevd
+[Thu Jul 16 11:06:57 2026] [    378]   998   378     5506      619      429      190         0    86016        0             0 systemd-network
+[Thu Jul 16 11:06:57 2026] [    597]     0   597     2093      854      818       36         0    57344        0             0 haveged
+[Thu Jul 16 11:06:57 2026] [    606]   995   606     7953      610      608        2         0   102400        0          -900 dbus-daemon
+[Thu Jul 16 11:06:57 2026] [    611]     0   611     9641     3521     3511       10         0   114688        0             0 networkd-dispat
+[Thu Jul 16 11:06:57 2026] [    612]     0   612    54921      320      320        0         0    69632        0             0 rsyslogd
+[Thu Jul 16 11:06:57 2026] [    655]     0   655     1292       57       32       25         0    57344        0             0 agetty
+[Thu Jul 16 11:06:57 2026] [    656]     0   656     1303       52       32       20         0    49152        0             0 agetty
+[Thu Jul 16 11:06:57 2026] [    657]     0   657    29506     3389     3379       10         0   135168        0             0 unattended-upgr
+[Thu Jul 16 11:06:57 2026] [    659]     0   659   597524     6210     6210        0         0   376832        0          -999 containerd
+[Thu Jul 16 11:06:57 2026] [    915]     0   915   319616     2826     2802       24         0   147456        0          -999 google_guest_ag
+[Thu Jul 16 11:06:57 2026] [    921]     0   921   335733     2227     2202       25         0   143360        0             0 google_guest_co
+[Thu Jul 16 11:06:57 2026] [    926]     0   926   322199     4554     4554        0         0   237568        0             0 google_osconfig
+[Thu Jul 16 11:06:57 2026] [    942]   100   942    11539     3565     3565        0         0   139264        0             0 exim4
+[Thu Jul 16 11:06:57 2026] [    948]     0   948   945099    47736    47723       13         0  1024000        0          -500 dockerd
+[Thu Jul 16 11:06:57 2026] [    952]   987   952    95109      224      224        0         0   102400        0             0 polkitd
+[Thu Jul 16 11:06:57 2026] [   1142]     0  1142     2943      318      288       30         0    61440        0         -1000 sshd
+[Thu Jul 16 11:06:57 2026] [   1391]     0  1391   436287      636      610       26         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:06:57 2026] [   1410]     0  1410   436287      641      641        0         0   163840        0          -500 docker-proxy
+[Thu Jul 16 11:06:57 2026] [   1428]     0  1428   417854      636      636        0         0   147456        0          -500 docker-proxy
+[Thu Jul 16 11:06:57 2026] [   1434]     0  1434   473153      652      639       13         0   180224        0          -500 docker-proxy
+[Thu Jul 16 11:06:57 2026] [   1452]     0  1452   436287      640      640        0         0   159744        0          -500 docker-proxy
+[Thu Jul 16 11:06:57 2026] [   1458]     0  1458   436287      639      639        0         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:06:57 2026] [   1476]     0  1476   436287      636      636        0         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:06:57 2026] [   1484]     0  1484   436287      637      637        0         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:06:57 2026] [   1565]     0  1565   514935     1066     1066        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:06:57 2026] [   1567]     0  1567   533432     1375     1366        9         0   241664        0          -998 containerd-shim
+[Thu Jul 16 11:06:57 2026] [   1568]     0  1568   514935     1019      995       24         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:06:57 2026] [   1570]     0  1570   514871     1057     1057        0         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:06:57 2026] [   1576]     0  1576   514871     1380     1380        0         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:06:57 2026] [   1578]     0  1578   514935     1061     1055        6         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:06:57 2026] [   1579]     0  1579   514935     1098     1072       26         0   229376        0          -998 containerd-shim
+[Thu Jul 16 11:06:57 2026] [   1758]     0  1758   430284    70176    70176        0         0  1134592        0             0 traefik
+[Thu Jul 16 11:06:57 2026] [   1761]   472  1761   436905    22761    22761        0         0   827392        0             0 grafana
+[Thu Jul 16 11:06:57 2026] [   1773] 65534  1773   309607     2298     2298        0         0   163840        0             0 postgres_export
+[Thu Jul 16 11:06:57 2026] [   1780] 65534  1780   310488     3156     3156        0         0   135168        0             0 node_exporter
+[Thu Jul 16 11:06:57 2026] [   1782] 65534  1782   453648    18280    18280        0         0   626688        0             0 prometheus
+[Thu Jul 16 11:06:57 2026] [   1794] 59000  1794   308648     1935     1931        4         0   126976        0             0 redis_exporter
+[Thu Jul 16 11:06:57 2026] [   1801]    70  1801     2826     1147     1135       12         0    65536        0             0 pgbouncer
+[Thu Jul 16 11:06:57 2026] [  18392]     0 18392   514935     1955     1955        0         0   245760        0          -998 containerd-shim
+[Thu Jul 16 11:06:57 2026] [  18416]  1000 18416    10057     4925     4906       19         0   126976        0             0 uvicorn
+[Thu Jul 16 11:06:57 2026] [  18482]  1000 18482     5286     2674     2622       52         0    77824        0             0 python3.12
+[Thu Jul 16 11:06:57 2026] [  18483]  1000 18483   687732    31313    31310        3         0   835584        0             0 python3.12
+[Thu Jul 16 11:06:57 2026] [  18484]  1000 18484   608957    29865    29857        8         0   630784        0             0 python3.12
+[Thu Jul 16 11:06:57 2026] [  18485]  1000 18485   611690    33100    33100        0         0   643072        0             0 python3.12
+[Thu Jul 16 11:06:57 2026] [  18487]  1000 18487   608955    30142    30142        0         0   622592        0             0 python3.12
+[Thu Jul 16 11:06:57 2026] [  18488]  1000 18488   609215    30189    30189        0         0   634880        0             0 python3.12
+[Thu Jul 16 11:06:57 2026] [  18489]  1000 18489   608702    29668    29668        0         0   602112        0             0 python3.12
+[Thu Jul 16 11:06:57 2026] [  18490]  1000 18490   614205    35627    35627        0         0   667648        0             0 python3.12
+[Thu Jul 16 11:06:57 2026] [  25312]     0 25312   319230     2223     2223        0         0   151552        0          -999 guest_telemetry
+[Thu Jul 16 11:06:57 2026] [  25317]     0 25317   319898     3159     3159        0         0   147456        0          -999 core_plugin
+[Thu Jul 16 11:06:57 2026] [  25514]     0 25514     8569      597      512       85         0   114688        0             0 systemd-logind
+[Thu Jul 16 11:06:57 2026] [  25527]     0 25527     7092      384      384        0         0    94208        0             0 cron
+[Thu Jul 16 11:06:57 2026] [  28164]     0 28164   496502     1143     1143        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:06:57 2026] [  28187]     0 28187      645        0        0        0         0    45056        0             0 sleep
+[Thu Jul 16 11:06:57 2026] [  28981]     0 28981     8574      704      704        0         0   110592        0             0 sshd-session
+[Thu Jul 16 11:06:57 2026] [  28987] 1674562704 28987     5507      577      544       33         0    86016        0           100 systemd
+[Thu Jul 16 11:06:57 2026] [  28988] 1674562704 28988     9743      750      743        7         0   106496        0           100 (sd-pam)
+[Thu Jul 16 11:06:57 2026] [  29002] 1674562704 29002     8574      762      762        0         0   106496        0             0 sshd-session
+[Thu Jul 16 11:06:57 2026] [  29003] 1674562704 29003     8115      576      544       32         0   110592        0             0 sudo
+[Thu Jul 16 11:06:57 2026] [  29004]     0 29004     1122       96       64       32         0    49152        0             0 bash
+[Thu Jul 16 11:06:57 2026] [  29006]     0 29006      817       32       32        0         0    53248        0             0 dmesg
+[Thu Jul 16 11:06:57 2026] [  29007]     0 29007     1122       90       72       18         0    45056        0             0 bash
+[Thu Jul 16 11:06:57 2026] [  29008]     0 29008     1122       52       40       12         0    45056        0             0 bash
+[Thu Jul 16 11:06:57 2026] [  29010]     0 29010     1122       41       40        1         0    45056        0             0 bash
+[Thu Jul 16 11:06:57 2026] [  29016]     0 29016    27003    14496      352        0     14144   221184        0             0 stress-ng
+[Thu Jul 16 11:06:57 2026] [  29033]     0 29033    27004      420      388       32         0    77824        0             0 stress-ng-vm
+[Thu Jul 16 11:06:57 2026] [  29092]     0 29092    27032    14571      384       43     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:06:57 2026] [  29102]     0 29102    27033      380      377        3         0    94208        0             0 stress-ng-vm
+[Thu Jul 16 11:06:57 2026] [  29103]     0 29103   813466      362      357        5         0  6397952        0             0 stress-ng-vm
+[Thu Jul 16 11:06:57 2026] [  29186]     0 29186    27003    14535      384        7     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:06:57 2026] [  29196]     0 29196    27004      371      371        0         0    81920        0             0 stress-ng-vm
+[Thu Jul 16 11:06:57 2026] [  29208]     0 29208   424796     1269     1269        0         0   196608        0             0 docker
+[Thu Jul 16 11:06:57 2026] [  29209]     0 29209   406363     1265     1265        0         0   192512        0             0 docker
+[Thu Jul 16 11:06:57 2026] [  29244]     0 29244  1599869  1401827  1401817       10         0 11325440        0             0 stress-ng-vm
+[Thu Jul 16 11:06:57 2026] [  29245]     0 29245      753       28        0       28         0    45056        0             0 sleep
+[Thu Jul 16 11:06:57 2026] [  29246]     0 29246     2522        0        0        0         0    49152        0             0 16
+[Thu Jul 16 11:06:57 2026] [  29248]     0 29248  2124157  2097522  2097510       12         0 16891904        0             0 stress-ng-vm
+[Thu Jul 16 11:06:57 2026] [  29249]  1000 29249    10057     4925     4906       19         0   126976        0             0 uvicorn
+[Thu Jul 16 11:06:57 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=google-guest-agent-manager.service,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1674562704.slice/session-54.scope,task=stress-ng-vm,pid=29248,uid=0
+[Thu Jul 16 11:06:57 2026] Out of memory: Killed process 29248 (stress-ng-vm) total-vm:8496628kB, anon-rss:8390040kB, file-rss:48kB, shmem-rss:0kB, UID:0 pgtables:16496kB oom_score_adj:0
+[Thu Jul 16 11:07:05 2026] systemd[1]: session-54.scope: A process of this unit has been killed by the OOM killer.
+[Thu Jul 16 11:07:12 2026] google_guest_ag invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=-999
+[Thu Jul 16 11:07:12 2026] CPU: 3 UID: 0 PID: 917 Comm: google_guest_ag Not tainted 6.12.95+deb13-cloud-amd64 #1  Debian 6.12.95-1
+[Thu Jul 16 11:07:12 2026] Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 05/09/2026
+[Thu Jul 16 11:07:12 2026] Call Trace:
+[Thu Jul 16 11:07:12 2026]  <TASK>
+[Thu Jul 16 11:07:12 2026]  dump_stack_lvl+0x5d/0x80
+[Thu Jul 16 11:07:12 2026]  dump_header+0x43/0x1aa
+[Thu Jul 16 11:07:12 2026]  oom_kill_process.cold+0x8/0x8d
+[Thu Jul 16 11:07:12 2026]  out_of_memory+0x219/0x4b0
+[Thu Jul 16 11:07:12 2026]  __alloc_pages_slowpath.constprop.0+0xc27/0xdc0
+[Thu Jul 16 11:07:12 2026]  __alloc_pages_noprof+0x2fb/0x310
+[Thu Jul 16 11:07:12 2026]  alloc_pages_mpol_noprof+0xd7/0x1c0
+[Thu Jul 16 11:07:12 2026]  folio_alloc_noprof+0x5b/0xb0
+[Thu Jul 16 11:07:12 2026]  __filemap_get_folio+0x1aa/0x300
+[Thu Jul 16 11:07:12 2026]  filemap_fault+0x1fb/0xd40
+[Thu Jul 16 11:07:12 2026]  ? set_pte_range+0xcf/0x250
+[Thu Jul 16 11:07:12 2026]  __do_fault+0x33/0x170
+[Thu Jul 16 11:07:12 2026]  do_fault+0x341/0x550
+[Thu Jul 16 11:07:12 2026]  __handle_mm_fault+0x7c2/0xf70
+[Thu Jul 16 11:07:12 2026]  handle_mm_fault+0xe2/0x2c0
+[Thu Jul 16 11:07:12 2026]  do_user_addr_fault+0x217/0x620
+[Thu Jul 16 11:07:12 2026]  exc_page_fault+0x7e/0x180
+[Thu Jul 16 11:07:12 2026]  asm_exc_page_fault+0x26/0x30
+[Thu Jul 16 11:07:12 2026] RIP: 0033:0x461813
+[Thu Jul 16 11:07:12 2026] Code: Unable to access opcode bytes at 0x4617e9.
+[Thu Jul 16 11:07:12 2026] RSP: 002b:000014afb5453ee8 EFLAGS: 00010206
+[Thu Jul 16 11:07:12 2026] RAX: 000000000153eda0 RBX: 0000000000000000 RCX: 0000000000000000
+[Thu Jul 16 11:07:12 2026] RDX: 0000000000000003 RSI: 000014afb54538cc RDI: 0000000000000005
+[Thu Jul 16 11:07:12 2026] RBP: 000014afb5453f10 R08: 0000000000000000 R09: 0000000000000000
+[Thu Jul 16 11:07:12 2026] R10: 0000000000000000 R11: 0000000000000246 R12: 000014afb5453910
+[Thu Jul 16 11:07:12 2026] R13: 000014afb5472001 R14: 000014afb54145a0 R15: ffffffffffffffff
+[Thu Jul 16 11:07:12 2026]  </TASK>
+[Thu Jul 16 11:07:12 2026] Mem-Info:
+[Thu Jul 16 11:07:12 2026] active_anon:237053 inactive_anon:3761741 isolated_anon:0
+                            active_file:645 inactive_file:605 isolated_file:0
+                            unevictable:8 dirty:10 writeback:0
+                            slab_reclaimable:9899 slab_unreclaimable:16296
+                            mapped:42518 shmem:42822 pagetables:11222
+                            sec_pagetables:0 bounce:0
+                            kernel_misc_reclaimable:0
+                            free:33345 free_pcp:66 free_cma:0
+[Thu Jul 16 11:07:12 2026] Node 0 active_anon:14541068kB inactive_anon:1454108kB active_file:128kB inactive_file:4872kB unevictable:32kB isolated(anon):0kB isolated(file):0kB mapped:170052kB dirty:40kB writeback:0kB shmem:171288kB shmem_thp:0kB shmem_pmdmapped:0kB anon_thp:11792384kB writeback_tmp:0kB kernel_stack:9216kB pagetables:44888kB sec_pagetables:0kB all_unreclaimable? yes
+[Thu Jul 16 11:07:12 2026] Node 0 DMA free:13312kB boost:0kB min:60kB low:72kB high:84kB reserved_highatomic:0KB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15920kB managed:15360kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:07:12 2026] lowmem_reserve[]: 0 2923 15909 15909 15909
+[Thu Jul 16 11:07:12 2026] Node 0 DMA32 free:64868kB boost:0kB min:12568kB low:15708kB high:18848kB reserved_highatomic:0KB active_anon:2920064kB inactive_anon:70632kB active_file:92kB inactive_file:0kB unevictable:0kB writepending:4kB present:3126028kB managed:3060488kB mlocked:0kB bounce:0kB free_pcp:8kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:07:12 2026] lowmem_reserve[]: 0 0 12985 12985 12985
+[Thu Jul 16 11:07:12 2026] Node 0 Normal free:55200kB boost:0kB min:54948kB low:68684kB high:82420kB reserved_highatomic:0KB active_anon:12085096kB inactive_anon:919384kB active_file:1808kB inactive_file:3364kB unevictable:32kB writepending:36kB present:13631488kB managed:13304856kB mlocked:32kB bounce:0kB free_pcp:400kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:07:12 2026] lowmem_reserve[]: 0 0 0 0 0
+[Thu Jul 16 11:07:12 2026] Node 0 DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 1*1024kB (U) 2*2048kB (UM) 2*4096kB (M) = 13312kB
+[Thu Jul 16 11:07:12 2026] Node 0 DMA32: 43*4kB (UME) 92*8kB (UM) 79*16kB (UM) 65*32kB (UME) 39*64kB (UME) 30*128kB (UME) 23*256kB (UME) 16*512kB (UME) 7*1024kB (UME) 0*2048kB 8*4096kB (M) = 64604kB
+[Thu Jul 16 11:07:13 2026] Node 0 Normal: 426*4kB (UE) 433*8kB (UME) 403*16kB (UE) 128*32kB (UE) 169*64kB (UME) 144*128kB (UME) 16*256kB (UM) 5*512kB (UM) 3*1024kB (M) 0*2048kB 0*4096kB = 54688kB
+[Thu Jul 16 11:07:13 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+[Thu Jul 16 11:07:13 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+[Thu Jul 16 11:07:13 2026] 44172 total pagecache pages
+[Thu Jul 16 11:07:13 2026] 0 pages in swap cache
+[Thu Jul 16 11:07:13 2026] Free swap  = 0kB
+[Thu Jul 16 11:07:13 2026] Total swap = 0kB
+[Thu Jul 16 11:07:13 2026] 4193359 pages RAM
+[Thu Jul 16 11:07:13 2026] 0 pages HighMem/MovableOnly
+[Thu Jul 16 11:07:13 2026] 98183 pages reserved
+[Thu Jul 16 11:07:13 2026] 0 pages hwpoisoned
+[Thu Jul 16 11:07:13 2026] Tasks state (memory values in pages):
+[Thu Jul 16 11:07:13 2026] [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+[Thu Jul 16 11:07:13 2026] [    342]   989   342     5931      723      672       51         0    94208        0             0 systemd-resolve
+[Thu Jul 16 11:07:13 2026] [    343]   996   343    22953      345      256       89         0    86016        0             0 systemd-timesyn
+[Thu Jul 16 11:07:13 2026] [    352]     0   352     8241      495      448       47         0    77824        0         -1000 systemd-udevd
+[Thu Jul 16 11:07:13 2026] [    378]   998   378     5506      619      429      190         0    86016        0             0 systemd-network
+[Thu Jul 16 11:07:13 2026] [    597]     0   597     2093      854      818       36         0    57344        0             0 haveged
+[Thu Jul 16 11:07:13 2026] [    606]   995   606     7953      610      608        2         0   102400        0          -900 dbus-daemon
+[Thu Jul 16 11:07:13 2026] [    611]     0   611     9641     3521     3511       10         0   114688        0             0 networkd-dispat
+[Thu Jul 16 11:07:13 2026] [    612]     0   612    54921      320      320        0         0    69632        0             0 rsyslogd
+[Thu Jul 16 11:07:13 2026] [    655]     0   655     1292       57       32       25         0    57344        0             0 agetty
+[Thu Jul 16 11:07:13 2026] [    656]     0   656     1303       52       32       20         0    49152        0             0 agetty
+[Thu Jul 16 11:07:13 2026] [    657]     0   657    29506     3389     3379       10         0   135168        0             0 unattended-upgr
+[Thu Jul 16 11:07:13 2026] [    659]     0   659   597524     6223     6210       13         0   376832        0          -999 containerd
+[Thu Jul 16 11:07:13 2026] [    915]     0   915   319616     2802     2802        0         0   147456        0          -999 google_guest_ag
+[Thu Jul 16 11:07:13 2026] [    921]     0   921   335733     2234     2234        0         0   143360        0             0 google_guest_co
+[Thu Jul 16 11:07:13 2026] [    926]     0   926   322199     4554     4554        0         0   237568        0             0 google_osconfig
+[Thu Jul 16 11:07:13 2026] [    942]   100   942    11539     3565     3565        0         0   139264        0             0 exim4
+[Thu Jul 16 11:07:13 2026] [    948]     0   948   945099    47725    47723        2         0  1024000        0          -500 dockerd
+[Thu Jul 16 11:07:13 2026] [    952]   987   952    95109      229      224        5         0   102400        0             0 polkitd
+[Thu Jul 16 11:07:13 2026] [   1142]     0  1142     2943      318      288       30         0    61440        0         -1000 sshd
+[Thu Jul 16 11:07:13 2026] [   1391]     0  1391   436287      610      610        0         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:07:13 2026] [   1410]     0  1410   436287      641      641        0         0   163840        0          -500 docker-proxy
+[Thu Jul 16 11:07:13 2026] [   1428]     0  1428   417854      636      636        0         0   147456        0          -500 docker-proxy
+[Thu Jul 16 11:07:13 2026] [   1434]     0  1434   473153      639      639        0         0   180224        0          -500 docker-proxy
+[Thu Jul 16 11:07:13 2026] [   1452]     0  1452   436287      640      640        0         0   159744        0          -500 docker-proxy
+[Thu Jul 16 11:07:13 2026] [   1458]     0  1458   436287      639      639        0         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:07:13 2026] [   1476]     0  1476   436287      636      636        0         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:07:13 2026] [   1484]     0  1484   436287      637      637        0         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:07:13 2026] [   1565]     0  1565   514935     1066     1066        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:13 2026] [   1567]     0  1567   533432     1366     1366        0         0   241664        0          -998 containerd-shim
+[Thu Jul 16 11:07:13 2026] [   1568]     0  1568   514935      995      995        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:13 2026] [   1570]     0  1570   514871     1073     1057       16         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:07:13 2026] [   1576]     0  1576   514871     1380     1380        0         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:07:13 2026] [   1578]     0  1578   514935     1082     1055       27         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:13 2026] [   1579]     0  1579   514935     1038     1038        0         0   229376        0          -998 containerd-shim
+[Thu Jul 16 11:07:13 2026] [   1758]     0  1758   430284    70206    70176       30         0  1134592        0             0 traefik
+[Thu Jul 16 11:07:13 2026] [   1761]   472  1761   436905    22761    22761        0         0   827392        0             0 grafana
+[Thu Jul 16 11:07:13 2026] [   1773] 65534  1773   309607     2298     2298        0         0   163840        0             0 postgres_export
+[Thu Jul 16 11:07:13 2026] [   1780] 65534  1780   310488     3156     3156        0         0   135168        0             0 node_exporter
+[Thu Jul 16 11:07:13 2026] [   1782] 65534  1782   453648    18280    18280        0         0   626688        0             0 prometheus
+[Thu Jul 16 11:07:13 2026] [   1794] 59000  1794   308648     1931     1931        0         0   126976        0             0 redis_exporter
+[Thu Jul 16 11:07:13 2026] [   1801]    70  1801     2826     1154     1135       19         0    65536        0             0 pgbouncer
+[Thu Jul 16 11:07:13 2026] [  18392]     0 18392   514935     1957     1955        2         0   245760        0          -998 containerd-shim
+[Thu Jul 16 11:07:13 2026] [  18416]  1000 18416    10057     4929     4906       23         0   126976        0             0 uvicorn
+[Thu Jul 16 11:07:13 2026] [  18482]  1000 18482     5286     2674     2622       52         0    77824        0             0 python3.12
+[Thu Jul 16 11:07:13 2026] [  18483]  1000 18483   687732    31322    31310       12         0   835584        0             0 python3.12
+[Thu Jul 16 11:07:13 2026] [  18484]  1000 18484   608957    29857    29857        0         0   630784        0             0 python3.12
+[Thu Jul 16 11:07:13 2026] [  18485]  1000 18485   611690    33137    33100       37         0   643072        0             0 python3.12
+[Thu Jul 16 11:07:13 2026] [  18487]  1000 18487   608955    30163    30142       21         0   622592        0             0 python3.12
+[Thu Jul 16 11:07:13 2026] [  18488]  1000 18488   609215    30189    30189        0         0   634880        0             0 python3.12
+[Thu Jul 16 11:07:13 2026] [  18489]  1000 18489   608702    29668    29668        0         0   602112        0             0 python3.12
+[Thu Jul 16 11:07:13 2026] [  18490]  1000 18490   614205    35655    35627       28         0   667648        0             0 python3.12
+[Thu Jul 16 11:07:13 2026] [  25312]     0 25312   319230     2223     2223        0         0   151552        0          -999 guest_telemetry
+[Thu Jul 16 11:07:13 2026] [  25317]     0 25317   319898     3168     3159        9         0   147456        0          -999 core_plugin
+[Thu Jul 16 11:07:13 2026] [  25514]     0 25514     8569      597      512       85         0   114688        0             0 systemd-logind
+[Thu Jul 16 11:07:13 2026] [  25527]     0 25527     7092      384      384        0         0    94208        0             0 cron
+[Thu Jul 16 11:07:13 2026] [  28164]     0 28164   496502     1143     1143        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:13 2026] [  28187]     0 28187      645        0        0        0         0    45056        0             0 sleep
+[Thu Jul 16 11:07:13 2026] [  28981]     0 28981     8574      704      704        0         0   110592        0             0 sshd-session
+[Thu Jul 16 11:07:13 2026] [  28987] 1674562704 28987     5507      577      544       33         0    86016        0           100 systemd
+[Thu Jul 16 11:07:13 2026] [  28988] 1674562704 28988     9743      750      743        7         0   106496        0           100 (sd-pam)
+[Thu Jul 16 11:07:13 2026] [  29002] 1674562704 29002     8574      762      762        0         0   106496        0             0 sshd-session
+[Thu Jul 16 11:07:13 2026] [  29003] 1674562704 29003     8115      576      544       32         0   110592        0             0 sudo
+[Thu Jul 16 11:07:13 2026] [  29004]     0 29004     1122       96       64       32         0    49152        0             0 bash
+[Thu Jul 16 11:07:13 2026] [  29006]     0 29006      817       32       32        0         0    53248        0             0 dmesg
+[Thu Jul 16 11:07:13 2026] [  29007]     0 29007     1122       72       72        0         0    45056        0             0 bash
+[Thu Jul 16 11:07:13 2026] [  29008]     0 29008     1122       52       40       12         0    45056        0             0 bash
+[Thu Jul 16 11:07:13 2026] [  29010]     0 29010     1122       41       40        1         0    45056        0             0 bash
+[Thu Jul 16 11:07:13 2026] [  29016]     0 29016    27003    14496      352        0     14144   221184        0             0 stress-ng
+[Thu Jul 16 11:07:13 2026] [  29033]     0 29033    27004      405      388       17         0    77824        0             0 stress-ng-vm
+[Thu Jul 16 11:07:13 2026] [  29092]     0 29092    27032    14571      384       43     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:07:13 2026] [  29102]     0 29102    27033      380      377        3         0    94208        0             0 stress-ng-vm
+[Thu Jul 16 11:07:13 2026] [  29103]     0 29103   813466   786789   786789        0         0  6397952        0             0 stress-ng-vm
+[Thu Jul 16 11:07:13 2026] [  29186]     0 29186    27003    14535      384        7     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:07:13 2026] [  29196]     0 29196    27004      371      371        0         0    81920        0             0 stress-ng-vm
+[Thu Jul 16 11:07:13 2026] [  29208]     0 29208   424796     1269     1269        0         0   200704        0             0 docker
+[Thu Jul 16 11:07:13 2026] [  29209]     0 29209   406363     1288     1265       23         0   192512        0             0 docker
+[Thu Jul 16 11:07:13 2026] [  29244]     0 29244  1599869  1573190  1573190        0         0 12693504        0             0 stress-ng-vm
+[Thu Jul 16 11:07:13 2026] [  29246]     0 29246     4878       79       32       47         0    57344        0             0 16
+[Thu Jul 16 11:07:13 2026] [  29249]  1000 29249     2467      273      256       17         0    53248        0             0 python3.12
+[Thu Jul 16 11:07:13 2026] [  29250]     0 29250  2124157  1140697  1140678       19         0  9228288        0             0 stress-ng-vm
+[Thu Jul 16 11:07:13 2026] [  29252]     0 29252      106       32        0       32         0    40960        0             0 free
+[Thu Jul 16 11:07:13 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=google-guest-agent-manager.service,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1674562704.slice/session-54.scope,task=stress-ng-vm,pid=29244,uid=0
+[Thu Jul 16 11:07:14 2026] Out of memory: Killed process 29244 (stress-ng-vm) total-vm:6399476kB, anon-rss:6292760kB, file-rss:0kB, shmem-rss:0kB, UID:0 pgtables:12396kB oom_score_adj:0
+[Thu Jul 16 11:07:19 2026] containerd invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=-999
+[Thu Jul 16 11:07:19 2026] CPU: 3 UID: 0 PID: 663 Comm: containerd Not tainted 6.12.95+deb13-cloud-amd64 #1  Debian 6.12.95-1
+[Thu Jul 16 11:07:19 2026] Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 05/09/2026
+[Thu Jul 16 11:07:19 2026] Call Trace:
+[Thu Jul 16 11:07:19 2026]  <TASK>
+[Thu Jul 16 11:07:19 2026]  dump_stack_lvl+0x5d/0x80
+[Thu Jul 16 11:07:19 2026]  dump_header+0x43/0x1aa
+[Thu Jul 16 11:07:19 2026]  oom_kill_process.cold+0x8/0x8d
+[Thu Jul 16 11:07:19 2026]  out_of_memory+0x219/0x4b0
+[Thu Jul 16 11:07:19 2026]  __alloc_pages_slowpath.constprop.0+0xc27/0xdc0
+[Thu Jul 16 11:07:19 2026]  __alloc_pages_noprof+0x2fb/0x310
+[Thu Jul 16 11:07:19 2026]  alloc_pages_mpol_noprof+0xd7/0x1c0
+[Thu Jul 16 11:07:19 2026]  folio_alloc_noprof+0x5b/0xb0
+[Thu Jul 16 11:07:19 2026]  __filemap_get_folio+0x1aa/0x300
+[Thu Jul 16 11:07:19 2026]  filemap_fault+0x1fb/0xd40
+[Thu Jul 16 11:07:19 2026]  ? set_pte_range+0xcf/0x250
+[Thu Jul 16 11:07:19 2026]  __do_fault+0x33/0x170
+[Thu Jul 16 11:07:19 2026]  do_fault+0x341/0x550
+[Thu Jul 16 11:07:19 2026]  __handle_mm_fault+0x7c2/0xf70
+[Thu Jul 16 11:07:19 2026]  handle_mm_fault+0xe2/0x2c0
+[Thu Jul 16 11:07:19 2026]  do_user_addr_fault+0x217/0x620
+[Thu Jul 16 11:07:19 2026]  exc_page_fault+0x7e/0x180
+[Thu Jul 16 11:07:19 2026]  asm_exc_page_fault+0x26/0x30
+[Thu Jul 16 11:07:19 2026] RIP: 0033:0xdc377f
+[Thu Jul 16 11:07:19 2026] Code: Unable to access opcode bytes at 0xdc3755.
+[Thu Jul 16 11:07:19 2026] RSP: 002b:00007f07f40cddc0 EFLAGS: 00010202
+[Thu Jul 16 11:07:19 2026] RAX: 000009102ad9364d RBX: 000000c000080808 RCX: 000000000290fd10
+[Thu Jul 16 11:07:19 2026] RDX: 000000000290344d RSI: 00007f07f40cdd90 RDI: 00007f083ad5f090
+[Thu Jul 16 11:07:19 2026] RBP: 00007f07f40cde18 R08: 00022fd239705530 R09: 0000000000000000
+[Thu Jul 16 11:07:19 2026] R10: 0000000000000000 R11: 00007f083ad5f080 R12: 00007f07f40cdda0
+[Thu Jul 16 11:07:19 2026] R13: 0000000000000016 R14: 000000c000002c40 R15: 00007f07f38ce000
+[Thu Jul 16 11:07:19 2026]  </TASK>
+[Thu Jul 16 11:07:19 2026] Mem-Info:
+[Thu Jul 16 11:07:20 2026] active_anon:1929636 inactive_anon:2069474 isolated_anon:0
+                            active_file:12 inactive_file:1145 isolated_file:0
+                            unevictable:8 dirty:3 writeback:0
+                            slab_reclaimable:9899 slab_unreclaimable:16293
+                            mapped:42514 shmem:42822 pagetables:11224
+                            sec_pagetables:0 bounce:0
+                            kernel_misc_reclaimable:0
+                            free:32996 free_pcp:345 free_cma:0
+[Thu Jul 16 11:07:20 2026] Node 0 active_anon:1155376kB inactive_anon:14841064kB active_file:128kB inactive_file:4676kB unevictable:32kB isolated(anon):0kB isolated(file):0kB mapped:170048kB dirty:12kB writeback:0kB shmem:171288kB shmem_thp:0kB shmem_pmdmapped:0kB anon_thp:11751424kB writeback_tmp:0kB kernel_stack:9216kB pagetables:44896kB sec_pagetables:0kB all_unreclaimable? yes
+[Thu Jul 16 11:07:20 2026] Node 0 DMA free:13312kB boost:0kB min:60kB low:72kB high:84kB reserved_highatomic:0KB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15920kB managed:15360kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:07:20 2026] lowmem_reserve[]: 0 2923 15909 15909 15909
+[Thu Jul 16 11:07:20 2026] Node 0 DMA32 free:64436kB boost:0kB min:12568kB low:15708kB high:18848kB reserved_highatomic:0KB active_anon:1757320kB inactive_anon:1228192kB active_file:528kB inactive_file:1428kB unevictable:0kB writepending:4kB present:3126028kB managed:3060488kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:07:20 2026] lowmem_reserve[]: 0 0 12985 12985 12985
+[Thu Jul 16 11:07:20 2026] Node 0 Normal free:54448kB boost:0kB min:54948kB low:68684kB high:82420kB reserved_highatomic:0KB active_anon:8455832kB inactive_anon:4555096kB active_file:892kB inactive_file:2064kB unevictable:32kB writepending:8kB present:13631488kB managed:13304856kB mlocked:32kB bounce:0kB free_pcp:628kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:07:20 2026] lowmem_reserve[]: 0 0 0 0 0
+[Thu Jul 16 11:07:20 2026] Node 0 DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 1*1024kB (U) 2*2048kB (UM) 2*4096kB (M) = 13312kB
+[Thu Jul 16 11:07:20 2026] Node 0 DMA32: 2*4kB (E) 60*8kB (UM) 91*16kB (UM) 70*32kB (UME) 43*64kB (UME) 11*128kB (UME) 4*256kB (UME) 9*512kB (UME) 6*1024kB (UME) 0*2048kB 11*4096kB (UM) = 65176kB
+[Thu Jul 16 11:07:20 2026] Node 0 Normal: 340*4kB (UME) 370*8kB (UME) 491*16kB (UME) 377*32kB (UME) 208*64kB (UME) 98*128kB (UME) 9*256kB (UM) 4*512kB (UM) 0*1024kB 0*2048kB 0*4096kB = 54448kB
+[Thu Jul 16 11:07:20 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+[Thu Jul 16 11:07:20 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+[Thu Jul 16 11:07:20 2026] 44069 total pagecache pages
+[Thu Jul 16 11:07:20 2026] 0 pages in swap cache
+[Thu Jul 16 11:07:20 2026] Free swap  = 0kB
+[Thu Jul 16 11:07:20 2026] Total swap = 0kB
+[Thu Jul 16 11:07:20 2026] 4193359 pages RAM
+[Thu Jul 16 11:07:20 2026] 0 pages HighMem/MovableOnly
+[Thu Jul 16 11:07:20 2026] 98183 pages reserved
+[Thu Jul 16 11:07:20 2026] 0 pages hwpoisoned
+[Thu Jul 16 11:07:20 2026] Tasks state (memory values in pages):
+[Thu Jul 16 11:07:20 2026] [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+[Thu Jul 16 11:07:20 2026] [    342]   989   342     5931      723      672       51         0    94208        0             0 systemd-resolve
+[Thu Jul 16 11:07:20 2026] [    343]   996   343    22953      345      256       89         0    86016        0             0 systemd-timesyn
+[Thu Jul 16 11:07:20 2026] [    352]     0   352     8241      495      448       47         0    77824        0         -1000 systemd-udevd
+[Thu Jul 16 11:07:20 2026] [    378]   998   378     5506      619      429      190         0    86016        0             0 systemd-network
+[Thu Jul 16 11:07:20 2026] [    597]     0   597     2093      855      818       37         0    57344        0             0 haveged
+[Thu Jul 16 11:07:20 2026] [    606]   995   606     7953      610      608        2         0   102400        0          -900 dbus-daemon
+[Thu Jul 16 11:07:20 2026] [    611]     0   611     9641     3521     3511       10         0   114688        0             0 networkd-dispat
+[Thu Jul 16 11:07:20 2026] [    612]     0   612    54921      337      320       17         0    69632        0             0 rsyslogd
+[Thu Jul 16 11:07:20 2026] [    655]     0   655     1292       57       32       25         0    57344        0             0 agetty
+[Thu Jul 16 11:07:20 2026] [    656]     0   656     1303       52       32       20         0    49152        0             0 agetty
+[Thu Jul 16 11:07:20 2026] [    657]     0   657    29506     3389     3379       10         0   135168        0             0 unattended-upgr
+[Thu Jul 16 11:07:20 2026] [    659]     0   659   597524     6210     6210        0         0   376832        0          -999 containerd
+[Thu Jul 16 11:07:20 2026] [    915]     0   915   319616     2820     2802       18         0   147456        0          -999 google_guest_ag
+[Thu Jul 16 11:07:20 2026] [    921]     0   921   335733     2234     2234        0         0   143360        0             0 google_guest_co
+[Thu Jul 16 11:07:20 2026] [    926]     0   926   322199     4554     4554        0         0   237568        0             0 google_osconfig
+[Thu Jul 16 11:07:20 2026] [    942]   100   942    11539     3565     3565        0         0   139264        0             0 exim4
+[Thu Jul 16 11:07:20 2026] [    948]     0   948   945099    47723    47723        0         0  1024000        0          -500 dockerd
+[Thu Jul 16 11:07:20 2026] [    952]   987   952    95109      252      224       28         0   102400        0             0 polkitd
+[Thu Jul 16 11:07:20 2026] [   1142]     0  1142     2943      318      288       30         0    61440        0         -1000 sshd
+[Thu Jul 16 11:07:20 2026] [   1391]     0  1391   436287      610      610        0         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:07:20 2026] [   1410]     0  1410   436287      641      641        0         0   163840        0          -500 docker-proxy
+[Thu Jul 16 11:07:20 2026] [   1428]     0  1428   417854      636      636        0         0   147456        0          -500 docker-proxy
+[Thu Jul 16 11:07:20 2026] [   1434]     0  1434   473153      639      639        0         0   180224        0          -500 docker-proxy
+[Thu Jul 16 11:07:20 2026] [   1452]     0  1452   436287      640      640        0         0   159744        0          -500 docker-proxy
+[Thu Jul 16 11:07:20 2026] [   1458]     0  1458   436287      639      639        0         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:07:20 2026] [   1476]     0  1476   436287      636      636        0         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:07:20 2026] [   1484]     0  1484   436287      637      637        0         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:07:20 2026] [   1565]     0  1565   514935     1100     1098        2         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:20 2026] [   1567]     0  1567   533432     1376     1366       10         0   241664        0          -998 containerd-shim
+[Thu Jul 16 11:07:20 2026] [   1568]     0  1568   514935      995      995        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:20 2026] [   1570]     0  1570   514871     1057     1057        0         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:07:20 2026] [   1576]     0  1576   514871     1381     1380        1         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:07:20 2026] [   1578]     0  1578   514935     1055     1055        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:20 2026] [   1579]     0  1579   514935     1038     1038        0         0   229376        0          -998 containerd-shim
+[Thu Jul 16 11:07:20 2026] [   1758]     0  1758   430284    70218    70176       42         0  1134592        0             0 traefik
+[Thu Jul 16 11:07:20 2026] [   1761]   472  1761   436905    22766    22761        5         0   827392        0             0 grafana
+[Thu Jul 16 11:07:20 2026] [   1773] 65534  1773   309607     2298     2298        0         0   163840        0             0 postgres_export
+[Thu Jul 16 11:07:20 2026] [   1780] 65534  1780   310488     3156     3156        0         0   135168        0             0 node_exporter
+[Thu Jul 16 11:07:20 2026] [   1782] 65534  1782   453648    18280    18280        0         0   626688        0             0 prometheus
+[Thu Jul 16 11:07:20 2026] [   1794] 59000  1794   308648     1931     1931        0         0   126976        0             0 redis_exporter
+[Thu Jul 16 11:07:20 2026] [   1801]    70  1801     2826     1136     1135        1         0    65536        0             0 pgbouncer
+[Thu Jul 16 11:07:20 2026] [  18392]     0 18392   514935     1957     1955        2         0   245760        0          -998 containerd-shim
+[Thu Jul 16 11:07:20 2026] [  18416]  1000 18416    10057     4906     4906        0         0   126976        0             0 uvicorn
+[Thu Jul 16 11:07:20 2026] [  18482]  1000 18482     5286     2674     2622       52         0    77824        0             0 python3.12
+[Thu Jul 16 11:07:20 2026] [  18483]  1000 18483   687732    31318    31310        8         0   835584        0             0 python3.12
+[Thu Jul 16 11:07:20 2026] [  18484]  1000 18484   608957    29857    29857        0         0   630784        0             0 python3.12
+[Thu Jul 16 11:07:20 2026] [  18485]  1000 18485   611690    33135    33100       35         0   643072        0             0 python3.12
+[Thu Jul 16 11:07:20 2026] [  18487]  1000 18487   608955    30142    30142        0         0   622592        0             0 python3.12
+[Thu Jul 16 11:07:20 2026] [  18488]  1000 18488   609215    30189    30189        0         0   634880        0             0 python3.12
+[Thu Jul 16 11:07:20 2026] [  18489]  1000 18489   608702    29668    29668        0         0   602112        0             0 python3.12
+[Thu Jul 16 11:07:20 2026] [  18490]  1000 18490   614205    35627    35627        0         0   667648        0             0 python3.12
+[Thu Jul 16 11:07:20 2026] [  25312]     0 25312   319230     2223     2223        0         0   151552        0          -999 guest_telemetry
+[Thu Jul 16 11:07:20 2026] [  25317]     0 25317   319898     3159     3159        0         0   147456        0          -999 core_plugin
+[Thu Jul 16 11:07:20 2026] [  25514]     0 25514     8569      597      512       85         0   114688        0             0 systemd-logind
+[Thu Jul 16 11:07:20 2026] [  25527]     0 25527     7092      384      384        0         0    94208        0             0 cron
+[Thu Jul 16 11:07:20 2026] [  28164]     0 28164   496502     1143     1143        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:20 2026] [  28187]     0 28187      645        0        0        0         0    45056        0             0 sleep
+[Thu Jul 16 11:07:21 2026] [  28981]     0 28981     8574      704      704        0         0   110592        0             0 sshd-session
+[Thu Jul 16 11:07:21 2026] [  28987] 1674562704 28987     5507      577      544       33         0    86016        0           100 systemd
+[Thu Jul 16 11:07:21 2026] [  28988] 1674562704 28988     9743      750      743        7         0   106496        0           100 (sd-pam)
+[Thu Jul 16 11:07:21 2026] [  29002] 1674562704 29002     8574      762      762        0         0   106496        0             0 sshd-session
+[Thu Jul 16 11:07:21 2026] [  29003] 1674562704 29003     8115      576      544       32         0   110592        0             0 sudo
+[Thu Jul 16 11:07:21 2026] [  29004]     0 29004     1122       96       64       32         0    49152        0             0 bash
+[Thu Jul 16 11:07:21 2026] [  29006]     0 29006      817       50       32       18         0    53248        0             0 dmesg
+[Thu Jul 16 11:07:21 2026] [  29007]     0 29007     1122       72       72        0         0    45056        0             0 bash
+[Thu Jul 16 11:07:21 2026] [  29008]     0 29008     1122       52       40       12         0    45056        0             0 bash
+[Thu Jul 16 11:07:21 2026] [  29010]     0 29010     1122       41       40        1         0    45056        0             0 bash
+[Thu Jul 16 11:07:21 2026] [  29016]     0 29016    27003    14496      352        0     14144   221184        0             0 stress-ng
+[Thu Jul 16 11:07:21 2026] [  29033]     0 29033    27004      405      388       17         0    77824        0             0 stress-ng-vm
+[Thu Jul 16 11:07:21 2026] [  29092]     0 29092    27032    14571      384       43     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:07:21 2026] [  29102]     0 29102    27033      380      377        3         0    94208        0             0 stress-ng-vm
+[Thu Jul 16 11:07:21 2026] [  29103]     0 29103   813466   786789   786789        0         0  6397952        0             0 stress-ng-vm
+[Thu Jul 16 11:07:21 2026] [  29186]     0 29186    27003    14535      384        7     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:07:21 2026] [  29196]     0 29196    27004      389      371       18         0    81920        0             0 stress-ng-vm
+[Thu Jul 16 11:07:21 2026] [  29208]     0 29208   424796     1269     1269        0         0   200704        0             0 docker
+[Thu Jul 16 11:07:21 2026] [  29209]     0 29209   406363     1265     1265        0         0   192512        0             0 docker
+[Thu Jul 16 11:07:21 2026] [  29246]     0 29246     4878       32       32        0         0    57344        0             0 16
+[Thu Jul 16 11:07:21 2026] [  29249]  1000 29249     2467      288      288        0         0    53248        0             0 python3.12
+[Thu Jul 16 11:07:21 2026] [  29250]     0 29250  2124157  2097529  2097510       19         0 16891904        0             0 stress-ng-vm
+[Thu Jul 16 11:07:21 2026] [  29252]     0 29252      661       32        0       32         0    45056        0             0 free
+[Thu Jul 16 11:07:21 2026] [  29253]     0 29253  1599869   616713   616693       20         0  5033984        0             0 stress-ng-vm
+[Thu Jul 16 11:07:21 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=containerd.service,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1674562704.slice/session-54.scope,task=stress-ng-vm,pid=29250,uid=0
+[Thu Jul 16 11:07:21 2026] Out of memory: Killed process 29250 (stress-ng-vm) total-vm:8496628kB, anon-rss:8390040kB, file-rss:76kB, shmem-rss:0kB, UID:0 pgtables:16496kB oom_score_adj:0
+[Thu Jul 16 11:07:27 2026] systemd[1]: session-54.scope: A process of this unit has been killed by the OOM killer.
+[Thu Jul 16 11:07:39 2026] containerd invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=-999
+[Thu Jul 16 11:07:39 2026] CPU: 0 UID: 0 PID: 911 Comm: containerd Not tainted 6.12.95+deb13-cloud-amd64 #1  Debian 6.12.95-1
+[Thu Jul 16 11:07:39 2026] Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 05/09/2026
+[Thu Jul 16 11:07:39 2026] Call Trace:
+[Thu Jul 16 11:07:39 2026]  <TASK>
+[Thu Jul 16 11:07:39 2026]  dump_stack_lvl+0x5d/0x80
+[Thu Jul 16 11:07:39 2026]  dump_header+0x43/0x1aa
+[Thu Jul 16 11:07:39 2026]  oom_kill_process.cold+0x8/0x8d
+[Thu Jul 16 11:07:39 2026]  out_of_memory+0x219/0x4b0
+[Thu Jul 16 11:07:39 2026]  __alloc_pages_slowpath.constprop.0+0xc27/0xdc0
+[Thu Jul 16 11:07:39 2026]  __alloc_pages_noprof+0x2fb/0x310
+[Thu Jul 16 11:07:39 2026]  alloc_pages_mpol_noprof+0xd7/0x1c0
+[Thu Jul 16 11:07:39 2026]  folio_alloc_noprof+0x5b/0xb0
+[Thu Jul 16 11:07:39 2026]  __filemap_get_folio+0x1aa/0x300
+[Thu Jul 16 11:07:39 2026]  filemap_fault+0x1fb/0xd40
+[Thu Jul 16 11:07:39 2026]  ? set_pte_range+0xcf/0x250
+[Thu Jul 16 11:07:39 2026]  __do_fault+0x33/0x170
+[Thu Jul 16 11:07:39 2026]  do_fault+0x341/0x550
+[Thu Jul 16 11:07:39 2026]  __handle_mm_fault+0x7c2/0xf70
+[Thu Jul 16 11:07:39 2026]  handle_mm_fault+0xe2/0x2c0
+[Thu Jul 16 11:07:39 2026]  do_user_addr_fault+0x217/0x620
+[Thu Jul 16 11:07:39 2026]  exc_page_fault+0x7e/0x180
+[Thu Jul 16 11:07:39 2026]  asm_exc_page_fault+0x26/0x30
+[Thu Jul 16 11:07:39 2026] RIP: 0033:0xdd6ffe
+[Thu Jul 16 11:07:39 2026] Code: Unable to access opcode bytes at 0xdd6fd4.
+[Thu Jul 16 11:07:39 2026] RSP: 002b:00007f07f0d47b48 EFLAGS: 00010202
+[Thu Jul 16 11:07:39 2026] RAX: 000000c0000b5a78 RBX: 000000c00006a290 RCX: 000000c00042dc00
+[Thu Jul 16 11:07:39 2026] RDX: 0000000000000000 RSI: 000000c000158550 RDI: 000000000269eef8
+[Thu Jul 16 11:07:39 2026] RBP: 00007f07f0d47bb8 R08: 000000c00041aaf0 R09: 0000000002224420
+[Thu Jul 16 11:07:39 2026] R10: 0000000000000000 R11: 000000c00041ab70 R12: 000000c00006a290
+[Thu Jul 16 11:07:39 2026] R13: 000000c0007d6040 R14: 000000c00042dc00 R15: 0000000000000003
+[Thu Jul 16 11:07:39 2026]  </TASK>
+[Thu Jul 16 11:07:39 2026] Mem-Info:
+[Thu Jul 16 11:07:39 2026] active_anon:1004045 inactive_anon:2994266 isolated_anon:0
+                            active_file:563 inactive_file:438 isolated_file:0
+                            unevictable:8 dirty:10 writeback:3
+                            slab_reclaimable:9900 slab_unreclaimable:16304
+                            mapped:42522 shmem:42817 pagetables:12191
+                            sec_pagetables:0 bounce:0
+                            kernel_misc_reclaimable:0
+                            free:33279 free_pcp:63 free_cma:0
+[Thu Jul 16 11:07:39 2026] Node 0 active_anon:15066476kB inactive_anon:926768kB active_file:880kB inactive_file:2952kB unevictable:32kB isolated(anon):0kB isolated(file):0kB mapped:170088kB dirty:40kB writeback:12kB shmem:171268kB shmem_thp:0kB shmem_pmdmapped:0kB anon_thp:7520256kB writeback_tmp:0kB kernel_stack:9232kB pagetables:48764kB sec_pagetables:0kB all_unreclaimable? no
+[Thu Jul 16 11:07:39 2026] Node 0 DMA free:13312kB boost:0kB min:60kB low:72kB high:84kB reserved_highatomic:0KB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15920kB managed:15360kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:07:39 2026] lowmem_reserve[]: 0 2923 15909 15909 15909
+[Thu Jul 16 11:07:39 2026] Node 0 DMA32 free:64712kB boost:0kB min:12568kB low:15708kB high:18848kB reserved_highatomic:0KB active_anon:2935408kB inactive_anon:54472kB active_file:552kB inactive_file:96kB unevictable:0kB writepending:20kB present:3126028kB managed:3060488kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:07:39 2026] lowmem_reserve[]: 0 0 12985 12985 12985
+[Thu Jul 16 11:07:39 2026] Node 0 Normal free:54768kB boost:0kB min:54948kB low:68684kB high:82420kB reserved_highatomic:0KB active_anon:9174008kB inactive_anon:3829356kB active_file:1644kB inactive_file:2432kB unevictable:32kB writepending:24kB present:13631488kB managed:13304856kB mlocked:32kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:07:39 2026] lowmem_reserve[]: 0 0 0 0 0
+[Thu Jul 16 11:07:39 2026] Node 0 DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 1*1024kB (U) 2*2048kB (UM) 2*4096kB (M) = 13312kB
+[Thu Jul 16 11:07:39 2026] Node 0 DMA32: 21*4kB (UME) 18*8kB (UM) 28*16kB (UM) 68*32kB (UME) 139*64kB (UME) 76*128kB (UME) 53*256kB (UME) 22*512kB (UME) 10*1024kB (UME) 2*2048kB (UM) 1*4096kB (M) = 64740kB
+[Thu Jul 16 11:07:39 2026] Node 0 Normal: 215*4kB (UME) 439*8kB (UME) 340*16kB (UME) 88*32kB (UE) 292*64kB (UME) 109*128kB (UME) 14*256kB (UM) 2*512kB (U) 1*1024kB (M) 0*2048kB 1*4096kB (M) = 54996kB
+[Thu Jul 16 11:07:39 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+[Thu Jul 16 11:07:39 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+[Thu Jul 16 11:07:39 2026] 43802 total pagecache pages
+[Thu Jul 16 11:07:39 2026] 0 pages in swap cache
+[Thu Jul 16 11:07:39 2026] Free swap  = 0kB
+[Thu Jul 16 11:07:39 2026] Total swap = 0kB
+[Thu Jul 16 11:07:39 2026] 4193359 pages RAM
+[Thu Jul 16 11:07:39 2026] 0 pages HighMem/MovableOnly
+[Thu Jul 16 11:07:39 2026] 98183 pages reserved
+[Thu Jul 16 11:07:39 2026] 0 pages hwpoisoned
+[Thu Jul 16 11:07:39 2026] Tasks state (memory values in pages):
+[Thu Jul 16 11:07:39 2026] [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+[Thu Jul 16 11:07:39 2026] [    342]   989   342     5931      723      672       51         0    94208        0             0 systemd-resolve
+[Thu Jul 16 11:07:39 2026] [    343]   996   343    22953      305      256       49         0    86016        0             0 systemd-timesyn
+[Thu Jul 16 11:07:39 2026] [    352]     0   352     8241      495      448       47         0    77824        0         -1000 systemd-udevd
+[Thu Jul 16 11:07:39 2026] [    378]   998   378     5506      619      429      190         0    86016        0             0 systemd-network
+[Thu Jul 16 11:07:39 2026] [    597]     0   597     2093      892      818       74         0    57344        0             0 haveged
+[Thu Jul 16 11:07:39 2026] [    606]   995   606     7953      610      608        2         0   102400        0          -900 dbus-daemon
+[Thu Jul 16 11:07:39 2026] [    611]     0   611     9641     3521     3511       10         0   114688        0             0 networkd-dispat
+[Thu Jul 16 11:07:39 2026] [    612]     0   612    54921      320      320        0         0    69632        0             0 rsyslogd
+[Thu Jul 16 11:07:39 2026] [    655]     0   655     1292       57       32       25         0    57344        0             0 agetty
+[Thu Jul 16 11:07:39 2026] [    656]     0   656     1303       52       32       20         0    49152        0             0 agetty
+[Thu Jul 16 11:07:39 2026] [    657]     0   657    29506     3389     3379       10         0   135168        0             0 unattended-upgr
+[Thu Jul 16 11:07:39 2026] [    659]     0   659   597524     6210     6210        0         0   376832        0          -999 containerd
+[Thu Jul 16 11:07:39 2026] [    915]     0   915   319616     2802     2802        0         0   147456        0          -999 google_guest_ag
+[Thu Jul 16 11:07:39 2026] [    921]     0   921   335733     2245     2234       11         0   143360        0             0 google_guest_co
+[Thu Jul 16 11:07:39 2026] [    926]     0   926   322199     4554     4554        0         0   237568        0             0 google_osconfig
+[Thu Jul 16 11:07:39 2026] [    942]   100   942    11539     3565     3565        0         0   139264        0             0 exim4
+[Thu Jul 16 11:07:39 2026] [    948]     0   948   945099    47723    47723        0         0  1024000        0          -500 dockerd
+[Thu Jul 16 11:07:39 2026] [    952]   987   952    95109      233      224        9         0   102400        0             0 polkitd
+[Thu Jul 16 11:07:39 2026] [   1142]     0  1142     2943      318      288       30         0    61440        0         -1000 sshd
+[Thu Jul 16 11:07:39 2026] [   1391]     0  1391   436287      610      610        0         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:07:39 2026] [   1410]     0  1410   436287      641      641        0         0   163840        0          -500 docker-proxy
+[Thu Jul 16 11:07:39 2026] [   1428]     0  1428   417854      636      636        0         0   147456        0          -500 docker-proxy
+[Thu Jul 16 11:07:39 2026] [   1434]     0  1434   473153      639      639        0         0   180224        0          -500 docker-proxy
+[Thu Jul 16 11:07:39 2026] [   1452]     0  1452   436287      640      640        0         0   159744        0          -500 docker-proxy
+[Thu Jul 16 11:07:39 2026] [   1458]     0  1458   436287      639      639        0         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:07:39 2026] [   1476]     0  1476   436287      636      636        0         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:07:39 2026] [   1484]     0  1484   436287      637      637        0         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:07:39 2026] [   1565]     0  1565   514935     1098     1098        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:39 2026] [   1567]     0  1567   533432     1366     1366        0         0   241664        0          -998 containerd-shim
+[Thu Jul 16 11:07:39 2026] [   1568]     0  1568   514935      995      995        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:39 2026] [   1570]     0  1570   514871     1057     1057        0         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:07:39 2026] [   1576]     0  1576   514871     1380     1380        0         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:07:39 2026] [   1578]     0  1578   514935     1055     1055        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:39 2026] [   1579]     0  1579   514935     1038     1038        0         0   229376        0          -998 containerd-shim
+[Thu Jul 16 11:07:39 2026] [   1758]     0  1758   430284    70176    70176        0         0  1134592        0             0 traefik
+[Thu Jul 16 11:07:40 2026] [   1761]   472  1761   436905    22761    22761        0         0   827392        0             0 grafana
+[Thu Jul 16 11:07:40 2026] [   1773] 65534  1773   309607     2298     2298        0         0   163840        0             0 postgres_export
+[Thu Jul 16 11:07:40 2026] [   1780] 65534  1780   310488     3156     3156        0         0   135168        0             0 node_exporter
+[Thu Jul 16 11:07:40 2026] [   1782] 65534  1782   453648    18280    18280        0         0   626688        0             0 prometheus
+[Thu Jul 16 11:07:40 2026] [   1794] 59000  1794   308648     1931     1931        0         0   126976        0             0 redis_exporter
+[Thu Jul 16 11:07:40 2026] [   1801]    70  1801     2826     1154     1135       19         0    65536        0             0 pgbouncer
+[Thu Jul 16 11:07:40 2026] [  18392]     0 18392   514935     1969     1955       14         0   245760        0          -998 containerd-shim
+[Thu Jul 16 11:07:40 2026] [  18416]  1000 18416    10057     4906     4906        0         0   126976        0             0 uvicorn
+[Thu Jul 16 11:07:40 2026] [  18482]  1000 18482     5286     2650     2622       28         0    77824        0             0 python3.12
+[Thu Jul 16 11:07:40 2026] [  18483]  1000 18483   687732    31310    31310        0         0   835584        0             0 python3.12
+[Thu Jul 16 11:07:40 2026] [  18484]  1000 18484   608957    29857    29857        0         0   630784        0             0 python3.12
+[Thu Jul 16 11:07:40 2026] [  18485]  1000 18485   611690    33106    33100        6         0   643072        0             0 python3.12
+[Thu Jul 16 11:07:40 2026] [  18487]  1000 18487   608955    30146    30142        4         0   622592        0             0 python3.12
+[Thu Jul 16 11:07:40 2026] [  18488]  1000 18488   609215    30189    30189        0         0   634880        0             0 python3.12
+[Thu Jul 16 11:07:40 2026] [  18489]  1000 18489   608702    29693    29668       25         0   602112        0             0 python3.12
+[Thu Jul 16 11:07:40 2026] [  18490]  1000 18490   614205    35627    35627        0         0   667648        0             0 python3.12
+[Thu Jul 16 11:07:40 2026] [  25312]     0 25312   319230     2223     2223        0         0   151552        0          -999 guest_telemetry
+[Thu Jul 16 11:07:40 2026] [  25317]     0 25317   319898     3159     3159        0         0   147456        0          -999 core_plugin
+[Thu Jul 16 11:07:40 2026] [  25514]     0 25514     8569      597      512       85         0   114688        0             0 systemd-logind
+[Thu Jul 16 11:07:40 2026] [  25527]     0 25527     7092      384      384        0         0    94208        0             0 cron
+[Thu Jul 16 11:07:40 2026] [  28164]     0 28164   496502     1176     1143       33         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:40 2026] [  28187]     0 28187      645        0        0        0         0    45056        0             0 sleep
+[Thu Jul 16 11:07:40 2026] [  28981]     0 28981     8574      704      704        0         0   110592        0             0 sshd-session
+[Thu Jul 16 11:07:40 2026] [  28987] 1674562704 28987     5507      577      544       33         0    86016        0           100 systemd
+[Thu Jul 16 11:07:40 2026] [  28988] 1674562704 28988     9743      750      743        7         0   106496        0           100 (sd-pam)
+[Thu Jul 16 11:07:40 2026] [  29002] 1674562704 29002     8574      762      762        0         0   106496        0             0 sshd-session
+[Thu Jul 16 11:07:40 2026] [  29003] 1674562704 29003     8115      576      544       32         0   110592        0             0 sudo
+[Thu Jul 16 11:07:40 2026] [  29004]     0 29004     1122       96       64       32         0    49152        0             0 bash
+[Thu Jul 16 11:07:40 2026] [  29006]     0 29006      817       32       32        0         0    53248        0             0 dmesg
+[Thu Jul 16 11:07:40 2026] [  29007]     0 29007     1122       72       72        0         0    45056        0             0 bash
+[Thu Jul 16 11:07:40 2026] [  29008]     0 29008     1122       52       40       12         0    45056        0             0 bash
+[Thu Jul 16 11:07:40 2026] [  29010]     0 29010     1122       41       40        1         0    45056        0             0 bash
+[Thu Jul 16 11:07:40 2026] [  29016]     0 29016    27003    14496      352        0     14144   221184        0             0 stress-ng
+[Thu Jul 16 11:07:40 2026] [  29033]     0 29033    27004      410      388       22         0    77824        0             0 stress-ng-vm
+[Thu Jul 16 11:07:40 2026] [  29092]     0 29092    27032    14571      384       43     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:07:40 2026] [  29102]     0 29102    27033      380      377        3         0    94208        0             0 stress-ng-vm
+[Thu Jul 16 11:07:40 2026] [  29103]     0 29103   813466   786821   786789       32         0  6397952        0             0 stress-ng-vm
+[Thu Jul 16 11:07:40 2026] [  29186]     0 29186    27003    14535      384        7     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:07:40 2026] [  29196]     0 29196    27004      389      371       18         0    81920        0             0 stress-ng-vm
+[Thu Jul 16 11:07:40 2026] [  29208]     0 29208   424796     1279     1269       10         0   200704        0             0 docker
+[Thu Jul 16 11:07:40 2026] [  29209]     0 29209   406363     1265     1265        0         0   192512        0             0 docker
+[Thu Jul 16 11:07:40 2026] [  29246]     0 29246     5118      346      320       26         0    73728        0          -250 (journald)
+[Thu Jul 16 11:07:40 2026] [  29253]     0 29253  1599869  1087511  1087506        5         0 12693504        0             0 stress-ng-vm
+[Thu Jul 16 11:07:40 2026] [  29254]     0 29254  2124157  1625766  1625766        0         0 13119488        0             0 stress-ng-vm
+[Thu Jul 16 11:07:40 2026] [  29255]  1000 29255     2467       11        0       11         0    49152        0             0 python3.12
+[Thu Jul 16 11:07:40 2026] [  29256]     0 29256      753       15        0       15         0    40960        0             0 sleep
+[Thu Jul 16 11:07:40 2026] [  29258]     0 29258     5118      363      332       31         0    65536        0          -250 (sd-mkdcreds)
+[Thu Jul 16 11:07:40 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=containerd.service,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1674562704.slice/session-54.scope,task=stress-ng-vm,pid=29254,uid=0
+[Thu Jul 16 11:07:40 2026] Out of memory: Killed process 29254 (stress-ng-vm) total-vm:8496628kB, anon-rss:6503064kB, file-rss:0kB, shmem-rss:0kB, UID:0 pgtables:12812kB oom_score_adj:0
+[Thu Jul 16 11:07:44 2026] redis_exporter invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+[Thu Jul 16 11:07:44 2026] CPU: 2 UID: 59000 PID: 2018 Comm: redis_exporter Not tainted 6.12.95+deb13-cloud-amd64 #1  Debian 6.12.95-1
+[Thu Jul 16 11:07:44 2026] Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 05/09/2026
+[Thu Jul 16 11:07:44 2026] Call Trace:
+[Thu Jul 16 11:07:44 2026]  <TASK>
+[Thu Jul 16 11:07:44 2026]  dump_stack_lvl+0x5d/0x80
+[Thu Jul 16 11:07:44 2026]  dump_header+0x43/0x1aa
+[Thu Jul 16 11:07:44 2026]  oom_kill_process.cold+0x8/0x8d
+[Thu Jul 16 11:07:44 2026]  out_of_memory+0x219/0x4b0
+[Thu Jul 16 11:07:44 2026]  __alloc_pages_slowpath.constprop.0+0xc27/0xdc0
+[Thu Jul 16 11:07:44 2026]  __alloc_pages_noprof+0x2fb/0x310
+[Thu Jul 16 11:07:44 2026]  alloc_pages_mpol_noprof+0xd7/0x1c0
+[Thu Jul 16 11:07:44 2026]  folio_alloc_noprof+0x5b/0xb0
+[Thu Jul 16 11:07:44 2026]  __filemap_get_folio+0x1aa/0x300
+[Thu Jul 16 11:07:44 2026]  filemap_fault+0x1fb/0xd40
+[Thu Jul 16 11:07:44 2026]  __do_fault+0x33/0x170
+[Thu Jul 16 11:07:44 2026]  do_fault+0x341/0x550
+[Thu Jul 16 11:07:44 2026]  __handle_mm_fault+0x7c2/0xf70
+[Thu Jul 16 11:07:44 2026]  ? do_compat_epoll_pwait.part.0+0xb/0x60
+[Thu Jul 16 11:07:44 2026]  handle_mm_fault+0xe2/0x2c0
+[Thu Jul 16 11:07:44 2026]  do_user_addr_fault+0x217/0x620
+[Thu Jul 16 11:07:44 2026]  exc_page_fault+0x7e/0x180
+[Thu Jul 16 11:07:44 2026]  asm_exc_page_fault+0x26/0x30
+[Thu Jul 16 11:07:44 2026] RIP: 0033:0x476d77
+[Thu Jul 16 11:07:44 2026] Code: Unable to access opcode bytes at 0x476d4d.
+[Thu Jul 16 11:07:44 2026] RSP: 002b:000000c00002ff18 EFLAGS: 00010202
+[Thu Jul 16 11:07:44 2026] RAX: 0000000000000000 RBX: 0000000000002710 RCX: 0000000000476d77
+[Thu Jul 16 11:07:44 2026] RDX: 0000000000000000 RSI: 0000000000000000 RDI: 000000c00002ff18
+[Thu Jul 16 11:07:44 2026] RBP: 000000c00002ff28 R08: 00000000000067bc R09: 0000000000000000
+[Thu Jul 16 11:07:44 2026] R10: 0000000000000000 R11: 0000000000000202 R12: 000000c00002f930
+[Thu Jul 16 11:07:44 2026] R13: 000000c000050008 R14: 000000c000006540 R15: 0fffffffffffffff
+[Thu Jul 16 11:07:44 2026]  </TASK>
+[Thu Jul 16 11:07:44 2026] Mem-Info:
+[Thu Jul 16 11:07:44 2026] active_anon:3820721 inactive_anon:178687 isolated_anon:0
+                            active_file:149 inactive_file:469 isolated_file:0
+                            unevictable:8 dirty:11 writeback:1
+                            slab_reclaimable:9900 slab_unreclaimable:16298
+                            mapped:42574 shmem:42817 pagetables:11217
+                            sec_pagetables:0 bounce:0
+                            kernel_misc_reclaimable:0
+                            free:33135 free_pcp:6 free_cma:0
+[Thu Jul 16 11:07:44 2026] Node 0 active_anon:14712568kB inactive_anon:1285328kB active_file:636kB inactive_file:1184kB unevictable:32kB isolated(anon):0kB isolated(file):0kB mapped:170296kB dirty:44kB writeback:4kB shmem:171268kB shmem_thp:0kB shmem_pmdmapped:0kB anon_thp:5593088kB writeback_tmp:0kB kernel_stack:9232kB pagetables:44868kB sec_pagetables:0kB all_unreclaimable? no
+[Thu Jul 16 11:07:44 2026] Node 0 DMA free:13312kB boost:0kB min:60kB low:72kB high:84kB reserved_highatomic:0KB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15920kB managed:15360kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:07:44 2026] lowmem_reserve[]: 0 2923 15909 15909 15909
+[Thu Jul 16 11:07:44 2026] Node 0 DMA32 free:64316kB boost:0kB min:12568kB low:15708kB high:18848kB reserved_highatomic:0KB active_anon:69368kB inactive_anon:2920100kB active_file:104kB inactive_file:724kB unevictable:0kB writepending:12kB present:3126028kB managed:3060488kB mlocked:0kB bounce:0kB free_pcp:640kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:07:44 2026] lowmem_reserve[]: 0 0 12985 12985 12985
+[Thu Jul 16 11:07:44 2026] Node 0 Normal free:53904kB boost:0kB min:54948kB low:68684kB high:82420kB reserved_highatomic:0KB active_anon:4129512kB inactive_anon:8879968kB active_file:356kB inactive_file:620kB unevictable:32kB writepending:36kB present:13631488kB managed:13304856kB mlocked:32kB bounce:0kB free_pcp:2012kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:07:44 2026] lowmem_reserve[]: 0 0 0 0 0
+[Thu Jul 16 11:07:44 2026] Node 0 DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 1*1024kB (U) 2*2048kB (UM) 2*4096kB (M) = 13312kB
+[Thu Jul 16 11:07:44 2026] Node 0 DMA32: 21*4kB (ME) 13*8kB (UM) 31*16kB (UM) 11*32kB (UME) 3*64kB (UE) 28*128kB (UME) 16*256kB (UME) 10*512kB (UME) 4*1024kB (UE) 1*2048kB (U) 11*4096kB (M) = 65228kB
+[Thu Jul 16 11:07:44 2026] Node 0 Normal: 208*4kB (UME) 183*8kB (UME) 314*16kB (UME) 337*32kB (UME) 225*64kB (UME) 100*128kB (UME) 11*256kB (UM) 6*512kB (UM) 4*1024kB (M) 0*2048kB 0*4096kB = 55288kB
+[Thu Jul 16 11:07:44 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+[Thu Jul 16 11:07:45 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+[Thu Jul 16 11:07:45 2026] 43162 total pagecache pages
+[Thu Jul 16 11:07:45 2026] 0 pages in swap cache
+[Thu Jul 16 11:07:45 2026] Free swap  = 0kB
+[Thu Jul 16 11:07:45 2026] Total swap = 0kB
+[Thu Jul 16 11:07:45 2026] 4193359 pages RAM
+[Thu Jul 16 11:07:45 2026] 0 pages HighMem/MovableOnly
+[Thu Jul 16 11:07:45 2026] 98183 pages reserved
+[Thu Jul 16 11:07:45 2026] 0 pages hwpoisoned
+[Thu Jul 16 11:07:45 2026] Tasks state (memory values in pages):
+[Thu Jul 16 11:07:45 2026] [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+[Thu Jul 16 11:07:45 2026] [    342]   989   342     5931      723      672       51         0    94208        0             0 systemd-resolve
+[Thu Jul 16 11:07:45 2026] [    343]   996   343    22953      305      256       49         0    86016        0             0 systemd-timesyn
+[Thu Jul 16 11:07:45 2026] [    352]     0   352     8241      495      448       47         0    77824        0         -1000 systemd-udevd
+[Thu Jul 16 11:07:45 2026] [    378]   998   378     5506      619      429      190         0    86016        0             0 systemd-network
+[Thu Jul 16 11:07:45 2026] [    597]     0   597     2093      892      818       74         0    57344        0             0 haveged
+[Thu Jul 16 11:07:45 2026] [    606]   995   606     7953      610      608        2         0   102400        0          -900 dbus-daemon
+[Thu Jul 16 11:07:45 2026] [    611]     0   611     9641     3521     3511       10         0   114688        0             0 networkd-dispat
+[Thu Jul 16 11:07:45 2026] [    612]     0   612    54921      336      320       16         0    69632        0             0 rsyslogd
+[Thu Jul 16 11:07:45 2026] [    655]     0   655     1292       57       32       25         0    57344        0             0 agetty
+[Thu Jul 16 11:07:45 2026] [    656]     0   656     1303       52       32       20         0    49152        0             0 agetty
+[Thu Jul 16 11:07:45 2026] [    657]     0   657    29506     3389     3379       10         0   135168        0             0 unattended-upgr
+[Thu Jul 16 11:07:45 2026] [    659]     0   659   597524     6210     6210        0         0   376832        0          -999 containerd
+[Thu Jul 16 11:07:45 2026] [    915]     0   915   319616     2823     2802       21         0   147456        0          -999 google_guest_ag
+[Thu Jul 16 11:07:45 2026] [    921]     0   921   335733     2245     2234       11         0   143360        0             0 google_guest_co
+[Thu Jul 16 11:07:45 2026] [    926]     0   926   322199     4554     4554        0         0   237568        0             0 google_osconfig
+[Thu Jul 16 11:07:45 2026] [    942]   100   942    11539     3565     3565        0         0   139264        0             0 exim4
+[Thu Jul 16 11:07:45 2026] [    948]     0   948   945099    47723    47723        0         0  1024000        0          -500 dockerd
+[Thu Jul 16 11:07:45 2026] [    952]   987   952    95109      259      224       35         0   102400        0             0 polkitd
+[Thu Jul 16 11:07:45 2026] [   1142]     0  1142     2943      318      288       30         0    61440        0         -1000 sshd
+[Thu Jul 16 11:07:45 2026] [   1391]     0  1391   436287      610      610        0         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:07:45 2026] [   1410]     0  1410   436287      641      641        0         0   163840        0          -500 docker-proxy
+[Thu Jul 16 11:07:45 2026] [   1428]     0  1428   417854      636      636        0         0   147456        0          -500 docker-proxy
+[Thu Jul 16 11:07:45 2026] [   1434]     0  1434   473153      639      639        0         0   180224        0          -500 docker-proxy
+[Thu Jul 16 11:07:45 2026] [   1452]     0  1452   436287      640      640        0         0   159744        0          -500 docker-proxy
+[Thu Jul 16 11:07:45 2026] [   1458]     0  1458   436287      639      639        0         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:07:45 2026] [   1476]     0  1476   436287      636      636        0         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:07:45 2026] [   1484]     0  1484   436287      637      637        0         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:07:45 2026] [   1565]     0  1565   514935     1098     1098        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:45 2026] [   1567]     0  1567   533432     1373     1366        7         0   241664        0          -998 containerd-shim
+[Thu Jul 16 11:07:45 2026] [   1568]     0  1568   514935     1008      995       13         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:45 2026] [   1570]     0  1570   514871     1057     1057        0         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:07:45 2026] [   1576]     0  1576   514871     1380     1380        0         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:07:45 2026] [   1578]     0  1578   514935     1055     1055        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:45 2026] [   1579]     0  1579   514935     1058     1038       20         0   229376        0          -998 containerd-shim
+[Thu Jul 16 11:07:45 2026] [   1758]     0  1758   430284    70179    70176        3         0  1134592        0             0 traefik
+[Thu Jul 16 11:07:45 2026] [   1761]   472  1761   436905    22766    22761        5         0   827392        0             0 grafana
+[Thu Jul 16 11:07:45 2026] [   1773] 65534  1773   309607     2306     2298        8         0   163840        0             0 postgres_export
+[Thu Jul 16 11:07:45 2026] [   1780] 65534  1780   310488     3162     3156        6         0   135168        0             0 node_exporter
+[Thu Jul 16 11:07:45 2026] [   1782] 65534  1782   453648    18280    18280        0         0   626688        0             0 prometheus
+[Thu Jul 16 11:07:45 2026] [   1794] 59000  1794   308648     1931     1931        0         0   126976        0             0 redis_exporter
+[Thu Jul 16 11:07:45 2026] [   1801]    70  1801     2826     1176     1135       41         0    65536        0             0 pgbouncer
+[Thu Jul 16 11:07:45 2026] [  18392]     0 18392   514935     1969     1955       14         0   245760        0          -998 containerd-shim
+[Thu Jul 16 11:07:45 2026] [  18416]  1000 18416    10057     4934     4906       28         0   126976        0             0 uvicorn
+[Thu Jul 16 11:07:45 2026] [  18482]  1000 18482     5286     2650     2622       28         0    77824        0             0 python3.12
+[Thu Jul 16 11:07:45 2026] [  18483]  1000 18483   687732    31310    31310        0         0   835584        0             0 python3.12
+[Thu Jul 16 11:07:45 2026] [  18484]  1000 18484   608957    29857    29857        0         0   630784        0             0 python3.12
+[Thu Jul 16 11:07:45 2026] [  18485]  1000 18485   611690    33100    33100        0         0   643072        0             0 python3.12
+[Thu Jul 16 11:07:45 2026] [  18487]  1000 18487   608955    30150    30142        8         0   622592        0             0 python3.12
+[Thu Jul 16 11:07:45 2026] [  18488]  1000 18488   609215    30189    30189        0         0   634880        0             0 python3.12
+[Thu Jul 16 11:07:45 2026] [  18489]  1000 18489   608702    29668    29668        0         0   602112        0             0 python3.12
+[Thu Jul 16 11:07:45 2026] [  18490]  1000 18490   614205    35627    35627        0         0   667648        0             0 python3.12
+[Thu Jul 16 11:07:45 2026] [  25312]     0 25312   319230     2224     2223        1         0   151552        0          -999 guest_telemetry
+[Thu Jul 16 11:07:45 2026] [  25317]     0 25317   319898     3170     3159       11         0   147456        0          -999 core_plugin
+[Thu Jul 16 11:07:45 2026] [  25514]     0 25514     8569      597      512       85         0   114688        0             0 systemd-logind
+[Thu Jul 16 11:07:45 2026] [  25527]     0 25527     7092      384      384        0         0    94208        0             0 cron
+[Thu Jul 16 11:07:45 2026] [  28164]     0 28164   496502     1176     1143       33         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:07:45 2026] [  28187]     0 28187      645        0        0        0         0    45056        0             0 sleep
+[Thu Jul 16 11:07:45 2026] [  28981]     0 28981     8574      704      704        0         0   110592        0             0 sshd-session
+[Thu Jul 16 11:07:45 2026] [  28987] 1674562704 28987     5507      577      544       33         0    86016        0           100 systemd
+[Thu Jul 16 11:07:45 2026] [  28988] 1674562704 28988     9743      750      743        7         0   106496        0           100 (sd-pam)
+[Thu Jul 16 11:07:45 2026] [  29002] 1674562704 29002     8574      762      762        0         0   106496        0             0 sshd-session
+[Thu Jul 16 11:07:45 2026] [  29003] 1674562704 29003     8115      576      544       32         0   110592        0             0 sudo
+[Thu Jul 16 11:07:45 2026] [  29004]     0 29004     1122       96       64       32         0    49152        0             0 bash
+[Thu Jul 16 11:07:45 2026] [  29006]     0 29006      817       32       32        0         0    53248        0             0 dmesg
+[Thu Jul 16 11:07:45 2026] [  29007]     0 29007     1122       86       72       14         0    45056        0             0 bash
+[Thu Jul 16 11:07:45 2026] [  29008]     0 29008     1122       52       40       12         0    45056        0             0 bash
+[Thu Jul 16 11:07:45 2026] [  29010]     0 29010     1122       41       40        1         0    45056        0             0 bash
+[Thu Jul 16 11:07:45 2026] [  29016]     0 29016    27003    14496      352        0     14144   221184        0             0 stress-ng
+[Thu Jul 16 11:07:45 2026] [  29033]     0 29033    27004      411      388       23         0    77824        0             0 stress-ng-vm
+[Thu Jul 16 11:07:45 2026] [  29092]     0 29092    27032    14571      384       43     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:07:45 2026] [  29102]     0 29102    27033      380      377        3         0    94208        0             0 stress-ng-vm
+[Thu Jul 16 11:07:45 2026] [  29103]     0 29103   813466   786821   786789       32         0  6397952        0             0 stress-ng-vm
+[Thu Jul 16 11:07:45 2026] [  29186]     0 29186    27003    14535      384        7     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:07:45 2026] [  29196]     0 29196    27004      389      371       18         0    81920        0             0 stress-ng-vm
+[Thu Jul 16 11:07:45 2026] [  29208]     0 29208   424796     1269     1269        0         0   200704        0             0 docker
+[Thu Jul 16 11:07:45 2026] [  29209]     0 29209   406363     1285     1265       20         0   192512        0             0 docker
+[Thu Jul 16 11:07:45 2026] [  29246]     0 29246     5118      346      320       26         0    73728        0          -250 (journald)
+[Thu Jul 16 11:07:45 2026] [  29253]     0 29253  1599869  1573175  1573170        5         0 12693504        0             0 stress-ng-vm
+[Thu Jul 16 11:07:45 2026] [  29255]  1000 29255     2467      288      288        0         0    53248        0             0 python3.12
+[Thu Jul 16 11:07:45 2026] [  29258]     0 29258     5118      376      332       44         0    65536        0          -250 (sd-mkdcreds)
+[Thu Jul 16 11:07:45 2026] [  29259]     0 29259  2124157  1141888  1141862       26         0  9232384        0             0 stress-ng-vm
+[Thu Jul 16 11:07:45 2026] [  29260]     0 29260     1122       86       43       43         0    45056        0             0 bash
+[Thu Jul 16 11:07:45 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=docker-8a94f1bb28eb33837d9eafbaff8fb4ed7a447d087a62396eb569bcf465c0acff.scope,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1674562704.slice/session-54.scope,task=stress-ng-vm,pid=29253,uid=0
+[Thu Jul 16 11:07:46 2026] Out of memory: Killed process 29253 (stress-ng-vm) total-vm:6399476kB, anon-rss:6292680kB, file-rss:20kB, shmem-rss:0kB, UID:0 pgtables:12396kB oom_score_adj:0
+[Thu Jul 16 11:07:52 2026] systemd[1]: session-54.scope: A process of this unit has been killed by the OOM killer.
+[Thu Jul 16 11:08:47 2026] docker invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+[Thu Jul 16 11:08:47 2026] CPU: 2 UID: 0 PID: 29215 Comm: docker Not tainted 6.12.95+deb13-cloud-amd64 #1  Debian 6.12.95-1
+[Thu Jul 16 11:08:47 2026] Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 05/09/2026
+[Thu Jul 16 11:08:47 2026] Call Trace:
+[Thu Jul 16 11:08:47 2026]  <TASK>
+[Thu Jul 16 11:08:47 2026]  dump_stack_lvl+0x5d/0x80
+[Thu Jul 16 11:08:47 2026]  dump_header+0x43/0x1aa
+[Thu Jul 16 11:08:47 2026]  oom_kill_process.cold+0x8/0x8d
+[Thu Jul 16 11:08:47 2026]  out_of_memory+0x219/0x4b0
+[Thu Jul 16 11:08:47 2026]  __alloc_pages_slowpath.constprop.0+0xc27/0xdc0
+[Thu Jul 16 11:08:47 2026]  __alloc_pages_noprof+0x2fb/0x310
+[Thu Jul 16 11:08:47 2026]  alloc_pages_mpol_noprof+0xd7/0x1c0
+[Thu Jul 16 11:08:47 2026]  folio_alloc_noprof+0x5b/0xb0
+[Thu Jul 16 11:08:47 2026]  __filemap_get_folio+0x1aa/0x300
+[Thu Jul 16 11:08:47 2026]  filemap_fault+0x1fb/0xd40
+[Thu Jul 16 11:08:47 2026]  __do_fault+0x33/0x170
+[Thu Jul 16 11:08:47 2026]  do_fault+0x341/0x550
+[Thu Jul 16 11:08:47 2026]  __handle_mm_fault+0x7c2/0xf70
+[Thu Jul 16 11:08:47 2026]  ? syscall_exit_to_user_mode+0x37/0x1b0
+[Thu Jul 16 11:08:47 2026]  handle_mm_fault+0xe2/0x2c0
+[Thu Jul 16 11:08:47 2026]  do_user_addr_fault+0x217/0x620
+[Thu Jul 16 11:08:47 2026]  exc_page_fault+0x7e/0x180
+[Thu Jul 16 11:08:47 2026]  asm_exc_page_fault+0x26/0x30
+[Thu Jul 16 11:08:47 2026] RIP: 0033:0x558221413d41
+[Thu Jul 16 11:08:47 2026] Code: Unable to access opcode bytes at 0x558221413d17.
+[Thu Jul 16 11:08:47 2026] RSP: 002b:00007fd3948fedc0 EFLAGS: 00010202
+[Thu Jul 16 11:08:47 2026] RAX: 00000919af42a37e RBX: 000000c000070808 RCX: 00005582221e7450
+[Thu Jul 16 11:08:47 2026] RDX: 0000000036ca117e RSI: 00007fd3948fed90 RDI: 00007fd3db5c3090
+[Thu Jul 16 11:08:47 2026] RBP: 00007fd3948fee18 R08: 00366349c01eb29e R09: 0000000000000000
+[Thu Jul 16 11:08:47 2026] R10: 0000000000000000 R11: 00007fd3db5c3080 R12: 00007fd3948feda0
+[Thu Jul 16 11:08:47 2026] R13: 0000000000000016 R14: 000000c000002c40 R15: 00007fd3940ff000
+[Thu Jul 16 11:08:47 2026]  </TASK>
+[Thu Jul 16 11:08:47 2026] Mem-Info:
+[Thu Jul 16 11:08:47 2026] active_anon:391833 inactive_anon:3605408 isolated_anon:0
+                            active_file:54 inactive_file:1157 isolated_file:0
+                            unevictable:8 dirty:0 writeback:0
+                            slab_reclaimable:9902 slab_unreclaimable:16273
+                            mapped:42514 shmem:42817 pagetables:13010
+                            sec_pagetables:0 bounce:0
+                            kernel_misc_reclaimable:0
+                            free:33379 free_pcp:78 free_cma:0
+[Thu Jul 16 11:08:47 2026] Node 0 active_anon:954072kB inactive_anon:15034892kB active_file:1008kB inactive_file:4424kB unevictable:32kB isolated(anon):0kB isolated(file):0kB mapped:170048kB dirty:0kB writeback:0kB shmem:171268kB shmem_thp:0kB shmem_pmdmapped:0kB anon_thp:9248768kB writeback_tmp:0kB kernel_stack:9200kB pagetables:52040kB sec_pagetables:0kB all_unreclaimable? no
+[Thu Jul 16 11:08:47 2026] Node 0 DMA free:13312kB boost:0kB min:60kB low:72kB high:84kB reserved_highatomic:0KB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15920kB managed:15360kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:08:47 2026] lowmem_reserve[]: 0 2923 15909 15909 15909
+[Thu Jul 16 11:08:47 2026] Node 0 DMA32 free:64188kB boost:0kB min:12568kB low:15708kB high:18848kB reserved_highatomic:0KB active_anon:20088kB inactive_anon:2969832kB active_file:628kB inactive_file:256kB unevictable:0kB writepending:0kB present:3126028kB managed:3060488kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:08:47 2026] lowmem_reserve[]: 0 0 12985 12985 12985
+[Thu Jul 16 11:08:47 2026] Node 0 Normal free:53328kB boost:0kB min:54948kB low:68684kB high:82420kB reserved_highatomic:2048KB active_anon:8508456kB inactive_anon:4490588kB active_file:2360kB inactive_file:2420kB unevictable:32kB writepending:0kB present:13631488kB managed:13304856kB mlocked:32kB bounce:0kB free_pcp:1888kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:08:47 2026] lowmem_reserve[]: 0 0 0 0 0
+[Thu Jul 16 11:08:47 2026] Node 0 DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 1*1024kB (U) 2*2048kB (UM) 2*4096kB (M) = 13312kB
+[Thu Jul 16 11:08:47 2026] Node 0 DMA32: 20*4kB (UME) 13*8kB (UME) 10*16kB (UE) 17*32kB (UM) 34*64kB (UME) 36*128kB (UME) 23*256kB (UME) 19*512kB (UME) 6*1024kB (UME) 1*2048kB (U) 8*4096kB (ME) = 64248kB
+[Thu Jul 16 11:08:47 2026] Node 0 Normal: 810*4kB (UEH) 164*8kB (UEH) 201*16kB (UMEH) 469*32kB (UMEH) 273*64kB (UMEH) 86*128kB (UMEH) 11*256kB (UM) 2*512kB (U) 0*1024kB 0*2048kB 0*4096kB = 55096kB
+[Thu Jul 16 11:08:47 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+[Thu Jul 16 11:08:47 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+[Thu Jul 16 11:08:47 2026] 44200 total pagecache pages
+[Thu Jul 16 11:08:47 2026] 0 pages in swap cache
+[Thu Jul 16 11:08:47 2026] Free swap  = 0kB
+[Thu Jul 16 11:08:47 2026] Total swap = 0kB
+[Thu Jul 16 11:08:47 2026] 4193359 pages RAM
+[Thu Jul 16 11:08:47 2026] 0 pages HighMem/MovableOnly
+[Thu Jul 16 11:08:47 2026] 98183 pages reserved
+[Thu Jul 16 11:08:47 2026] 0 pages hwpoisoned
+[Thu Jul 16 11:08:47 2026] Tasks state (memory values in pages):
+[Thu Jul 16 11:08:47 2026] [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+[Thu Jul 16 11:08:47 2026] [    342]   989   342     5931      723      672       51         0    94208        0             0 systemd-resolve
+[Thu Jul 16 11:08:47 2026] [    343]   996   343    22953      305      256       49         0    86016        0             0 systemd-timesyn
+[Thu Jul 16 11:08:47 2026] [    352]     0   352     8241      495      448       47         0    77824        0         -1000 systemd-udevd
+[Thu Jul 16 11:08:47 2026] [    378]   998   378     5506      619      429      190         0    86016        0             0 systemd-network
+[Thu Jul 16 11:08:47 2026] [    597]     0   597     2093      828      818       10         0    57344        0             0 haveged
+[Thu Jul 16 11:08:47 2026] [    606]   995   606     7953      650      608       42         0   102400        0          -900 dbus-daemon
+[Thu Jul 16 11:08:47 2026] [    611]     0   611     9641     3521     3511       10         0   114688        0             0 networkd-dispat
+[Thu Jul 16 11:08:47 2026] [    612]     0   612    54921      320      320        0         0    69632        0             0 rsyslogd
+[Thu Jul 16 11:08:47 2026] [    655]     0   655     1292       57       32       25         0    57344        0             0 agetty
+[Thu Jul 16 11:08:47 2026] [    656]     0   656     1303       52       32       20         0    49152        0             0 agetty
+[Thu Jul 16 11:08:47 2026] [    657]     0   657    29506     3389     3379       10         0   135168        0             0 unattended-upgr
+[Thu Jul 16 11:08:47 2026] [    659]     0   659   597524     6210     6210        0         0   376832        0          -999 containerd
+[Thu Jul 16 11:08:47 2026] [    915]     0   915   319616     2816     2802       14         0   147456        0          -999 google_guest_ag
+[Thu Jul 16 11:08:47 2026] [    921]     0   921   335733     2234     2234        0         0   143360        0             0 google_guest_co
+[Thu Jul 16 11:08:47 2026] [    926]     0   926   322199     4554     4554        0         0   237568        0             0 google_osconfig
+[Thu Jul 16 11:08:47 2026] [    942]   100   942    11539     3565     3565        0         0   139264        0             0 exim4
+[Thu Jul 16 11:08:48 2026] [    948]     0   948   945099    47723    47723        0         0  1024000        0          -500 dockerd
+[Thu Jul 16 11:08:48 2026] [    952]   987   952    95109      248      224       24         0   102400        0             0 polkitd
+[Thu Jul 16 11:08:48 2026] [   1142]     0  1142     2943      318      288       30         0    61440        0         -1000 sshd
+[Thu Jul 16 11:08:48 2026] [   1391]     0  1391   436287      610      610        0         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:08:48 2026] [   1410]     0  1410   436287      641      641        0         0   163840        0          -500 docker-proxy
+[Thu Jul 16 11:08:48 2026] [   1428]     0  1428   417854      636      636        0         0   147456        0          -500 docker-proxy
+[Thu Jul 16 11:08:48 2026] [   1434]     0  1434   473153      641      639        2         0   180224        0          -500 docker-proxy
+[Thu Jul 16 11:08:48 2026] [   1452]     0  1452   436287      640      640        0         0   159744        0          -500 docker-proxy
+[Thu Jul 16 11:08:48 2026] [   1458]     0  1458   436287      639      639        0         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:08:48 2026] [   1476]     0  1476   436287      636      636        0         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:08:48 2026] [   1484]     0  1484   436287      648      637       11         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:08:48 2026] [   1565]     0  1565   514935     1098     1098        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:08:48 2026] [   1567]     0  1567   533432     1378     1366       12         0   241664        0          -998 containerd-shim
+[Thu Jul 16 11:08:48 2026] [   1568]     0  1568   514935     1000      995        5         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:08:48 2026] [   1570]     0  1570   514871     1067     1057       10         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:08:48 2026] [   1576]     0  1576   514871     1380     1380        0         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:08:48 2026] [   1578]     0  1578   514935     1079     1055       24         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:08:48 2026] [   1579]     0  1579   514935     1038     1038        0         0   229376        0          -998 containerd-shim
+[Thu Jul 16 11:08:48 2026] [   1758]     0  1758   430284    70176    70176        0         0  1134592        0             0 traefik
+[Thu Jul 16 11:08:48 2026] [   1761]   472  1761   436905    22774    22761       13         0   827392        0             0 grafana
+[Thu Jul 16 11:08:48 2026] [   1773] 65534  1773   309607     2315     2298       17         0   163840        0             0 postgres_export
+[Thu Jul 16 11:08:48 2026] [   1780] 65534  1780   310488     2996     2994        2         0   135168        0             0 node_exporter
+[Thu Jul 16 11:08:48 2026] [   1782] 65534  1782   453648    18280    18280        0         0   626688        0             0 prometheus
+[Thu Jul 16 11:08:48 2026] [   1794] 59000  1794   308648     1931     1931        0         0   126976        0             0 redis_exporter
+[Thu Jul 16 11:08:48 2026] [   1801]    70  1801     2826     1176     1135       41         0    65536        0             0 pgbouncer
+[Thu Jul 16 11:08:48 2026] [  18392]     0 18392   514935     1969     1955       14         0   245760        0          -998 containerd-shim
+[Thu Jul 16 11:08:48 2026] [  18416]  1000 18416    10057     4906     4906        0         0   126976        0             0 uvicorn
+[Thu Jul 16 11:08:48 2026] [  18482]  1000 18482     5286     2670     2622       48         0    77824        0             0 python3.12
+[Thu Jul 16 11:08:48 2026] [  18483]  1000 18483   687732    31331    31310       21         0   835584        0             0 python3.12
+[Thu Jul 16 11:08:48 2026] [  18484]  1000 18484   608957    29857    29857        0         0   630784        0             0 python3.12
+[Thu Jul 16 11:08:48 2026] [  18485]  1000 18485   611690    33102    33100        2         0   643072        0             0 python3.12
+[Thu Jul 16 11:08:48 2026] [  18487]  1000 18487   608955    30142    30142        0         0   622592        0             0 python3.12
+[Thu Jul 16 11:08:48 2026] [  18488]  1000 18488   609215    30194    30189        5         0   634880        0             0 python3.12
+[Thu Jul 16 11:08:48 2026] [  18489]  1000 18489   608702    29668    29668        0         0   602112        0             0 python3.12
+[Thu Jul 16 11:08:48 2026] [  18490]  1000 18490   614205    35627    35627        0         0   667648        0             0 python3.12
+[Thu Jul 16 11:08:48 2026] [  25312]     0 25312   319230     2247     2223       24         0   151552        0          -999 guest_telemetry
+[Thu Jul 16 11:08:48 2026] [  25317]     0 25317   319898     3159     3159        0         0   147456        0          -999 core_plugin
+[Thu Jul 16 11:08:48 2026] [  25514]     0 25514     8569      512      512        0         0   114688        0             0 systemd-logind
+[Thu Jul 16 11:08:48 2026] [  25527]     0 25527     7092      397      384       13         0    94208        0             0 cron
+[Thu Jul 16 11:08:48 2026] [  28164]     0 28164   496502     1143     1143        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:08:48 2026] [  28187]     0 28187      645        0        0        0         0    45056        0             0 sleep
+[Thu Jul 16 11:08:48 2026] [  28981]     0 28981     8574      704      704        0         0   110592        0             0 sshd-session
+[Thu Jul 16 11:08:48 2026] [  28987] 1674562704 28987     5507      548      544        4         0    86016        0           100 systemd
+[Thu Jul 16 11:08:48 2026] [  28988] 1674562704 28988     9743      750      743        7         0   106496        0           100 (sd-pam)
+[Thu Jul 16 11:08:48 2026] [  29002] 1674562704 29002     8574      762      762        0         0   106496        0             0 sshd-session
+[Thu Jul 16 11:08:48 2026] [  29003] 1674562704 29003     8115      576      544       32         0   110592        0             0 sudo
+[Thu Jul 16 11:08:48 2026] [  29004]     0 29004     1122       96       64       32         0    49152        0             0 bash
+[Thu Jul 16 11:08:48 2026] [  29006]     0 29006      817       32       32        0         0    53248        0             0 dmesg
+[Thu Jul 16 11:08:48 2026] [  29007]     0 29007     1122       86       72       14         0    45056        0             0 bash
+[Thu Jul 16 11:08:48 2026] [  29008]     0 29008     1122       52       40       12         0    45056        0             0 bash
+[Thu Jul 16 11:08:48 2026] [  29010]     0 29010     1122       41       40        1         0    45056        0             0 bash
+[Thu Jul 16 11:08:48 2026] [  29016]     0 29016    27003    14496      352        0     14144   221184        0             0 stress-ng
+[Thu Jul 16 11:08:48 2026] [  29033]     0 29033    27004      411      388       23         0    77824        0             0 stress-ng-vm
+[Thu Jul 16 11:08:48 2026] [  29092]     0 29092    27032    14571      384       43     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:08:48 2026] [  29102]     0 29102    27033      380      377        3         0    94208        0             0 stress-ng-vm
+[Thu Jul 16 11:08:48 2026] [  29103]     0 29103   813466   786789   786789        0         0  6397952        0             0 stress-ng-vm
+[Thu Jul 16 11:08:48 2026] [  29186]     0 29186    27003    14535      384        7     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:08:48 2026] [  29196]     0 29196    27004      396      371       25         0    81920        0             0 stress-ng-vm
+[Thu Jul 16 11:08:48 2026] [  29208]     0 29208   424796     1314     1301       13         0   204800        0             0 docker
+[Thu Jul 16 11:08:48 2026] [  29209]     0 29209   406363     1265     1265        0         0   192512        0             0 docker
+[Thu Jul 16 11:08:48 2026] [  29246]     0 29246     1973       12        0       12         0    45056        0          -250 systemd-journal
+[Thu Jul 16 11:08:48 2026] [  29259]     0 29259  2124157  2057569  2057559       10         0 16576512        0             0 stress-ng-vm
+[Thu Jul 16 11:08:48 2026] [  29260]     0 29260      767        0        0        0         0    45056        0             0 date
+[Thu Jul 16 11:08:48 2026] [  29262]     0 29262  1599869   655188   655188        0         0 12693504        0             0 stress-ng-vm
+[Thu Jul 16 11:08:48 2026] [  29263]  1000 29263      100        0        0        0         0    32768        0             0 python3.12
+[Thu Jul 16 11:08:48 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=user.slice,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1674562704.slice/session-54.scope,task=stress-ng-vm,pid=29259,uid=0
+[Thu Jul 16 11:08:48 2026] Out of memory: Killed process 29259 (stress-ng-vm) total-vm:8496628kB, anon-rss:8230236kB, file-rss:40kB, shmem-rss:0kB, UID:0 pgtables:16188kB oom_score_adj:0
+[Thu Jul 16 11:08:54 2026] prometheus invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+[Thu Jul 16 11:08:54 2026] CPU: 1 UID: 65534 PID: 2074 Comm: prometheus Not tainted 6.12.95+deb13-cloud-amd64 #1  Debian 6.12.95-1
+[Thu Jul 16 11:08:54 2026] Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 05/09/2026
+[Thu Jul 16 11:08:54 2026] Call Trace:
+[Thu Jul 16 11:08:54 2026]  <TASK>
+[Thu Jul 16 11:08:54 2026]  dump_stack_lvl+0x5d/0x80
+[Thu Jul 16 11:08:54 2026]  dump_header+0x43/0x1aa
+[Thu Jul 16 11:08:54 2026]  oom_kill_process.cold+0x8/0x8d
+[Thu Jul 16 11:08:54 2026]  out_of_memory+0x219/0x4b0
+[Thu Jul 16 11:08:54 2026]  __alloc_pages_slowpath.constprop.0+0xc27/0xdc0
+[Thu Jul 16 11:08:54 2026]  __alloc_pages_noprof+0x2fb/0x310
+[Thu Jul 16 11:08:54 2026]  alloc_pages_mpol_noprof+0xd7/0x1c0
+[Thu Jul 16 11:08:54 2026]  folio_alloc_noprof+0x5b/0xb0
+[Thu Jul 16 11:08:54 2026]  __filemap_get_folio+0x1aa/0x300
+[Thu Jul 16 11:08:54 2026]  filemap_fault+0x1fb/0xd40
+[Thu Jul 16 11:08:54 2026]  __do_fault+0x33/0x170
+[Thu Jul 16 11:08:54 2026]  do_fault+0x341/0x550
+[Thu Jul 16 11:08:54 2026]  __handle_mm_fault+0x7c2/0xf70
+[Thu Jul 16 11:08:54 2026]  handle_mm_fault+0xe2/0x2c0
+[Thu Jul 16 11:08:54 2026]  do_user_addr_fault+0x217/0x620
+[Thu Jul 16 11:08:54 2026]  exc_page_fault+0x7e/0x180
+[Thu Jul 16 11:08:54 2026]  asm_exc_page_fault+0x26/0x30
+[Thu Jul 16 11:08:54 2026] RIP: 0033:0x47f677
+[Thu Jul 16 11:08:54 2026] Code: Unable to access opcode bytes at 0x47f64d.
+[Thu Jul 16 11:08:54 2026] RSP: 002b:000000c00005bf18 EFLAGS: 00010202
+[Thu Jul 16 11:08:54 2026] RAX: 0000000000000000 RBX: 0000000000002710 RCX: 000000000047f677
+[Thu Jul 16 11:08:54 2026] RDX: 0000000000000000 RSI: 0000000000000000 RDI: 000000c00005bf18
+[Thu Jul 16 11:08:54 2026] RBP: 000000c00005bf28 R08: 0000000000000000 R09: 0000000000000000
+[Thu Jul 16 11:08:54 2026] R10: 0000000000000000 R11: 0000000000000202 R12: 000000c00005b930
+[Thu Jul 16 11:08:54 2026] R13: 000000c0001c9808 R14: 000000c000006540 R15: 00003fffffffffff
+[Thu Jul 16 11:08:54 2026]  </TASK>
+[Thu Jul 16 11:08:54 2026] Mem-Info:
+[Thu Jul 16 11:08:54 2026] active_anon:3797102 inactive_anon:201438 isolated_anon:0
+                            active_file:57 inactive_file:1214 isolated_file:0
+                            unevictable:8 dirty:9 writeback:0
+                            slab_reclaimable:9900 slab_unreclaimable:16273
+                            mapped:42490 shmem:42817 pagetables:11748
+                            sec_pagetables:0 bounce:0
+                            kernel_misc_reclaimable:0
+                            free:33165 free_pcp:0 free_cma:0
+[Thu Jul 16 11:08:54 2026] Node 0 active_anon:1538356kB inactive_anon:14456388kB active_file:1448kB inactive_file:3260kB unevictable:32kB isolated(anon):0kB isolated(file):0kB mapped:169960kB dirty:36kB writeback:0kB shmem:171268kB shmem_thp:0kB shmem_pmdmapped:0kB anon_thp:6709248kB writeback_tmp:0kB kernel_stack:9184kB pagetables:46992kB sec_pagetables:0kB all_unreclaimable? no
+[Thu Jul 16 11:08:54 2026] Node 0 DMA free:13312kB boost:0kB min:60kB low:72kB high:84kB reserved_highatomic:0KB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15920kB managed:15360kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:08:54 2026] lowmem_reserve[]: 0 2923 15909 15909 15909
+[Thu Jul 16 11:08:54 2026] Node 0 DMA32 free:64436kB boost:0kB min:12568kB low:15708kB high:18848kB reserved_highatomic:0KB active_anon:33012kB inactive_anon:2954484kB active_file:800kB inactive_file:976kB unevictable:0kB writepending:0kB present:3126028kB managed:3060488kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:08:54 2026] lowmem_reserve[]: 0 0 12985 12985 12985
+[Thu Jul 16 11:08:54 2026] Node 0 Normal free:54912kB boost:0kB min:54948kB low:68684kB high:82420kB reserved_highatomic:0KB active_anon:583048kB inactive_anon:12425344kB active_file:400kB inactive_file:888kB unevictable:32kB writepending:36kB present:13631488kB managed:13304856kB mlocked:32kB bounce:0kB free_pcp:500kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:08:54 2026] lowmem_reserve[]: 0 0 0 0 0
+[Thu Jul 16 11:08:54 2026] Node 0 DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 1*1024kB (U) 2*2048kB (UM) 2*4096kB (M) = 13312kB
+[Thu Jul 16 11:08:54 2026] Node 0 DMA32: 28*4kB (ME) 10*8kB (UME) 8*16kB (UME) 8*32kB (UM) 18*64kB (UME) 18*128kB (UME) 18*256kB (UME) 14*512kB (UME) 6*1024kB (UME) 1*2048kB (U) 10*4096kB (ME) = 64960kB
+[Thu Jul 16 11:08:54 2026] Node 0 Normal: 421*4kB (UE) 99*8kB (UME) 217*16kB (UE) 645*32kB (UME) 206*64kB (UME) 75*128kB (UME) 9*256kB (UM) 4*512kB (UM) 1*1024kB (M) 0*2048kB 0*4096kB = 54748kB
+[Thu Jul 16 11:08:54 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+[Thu Jul 16 11:08:54 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+[Thu Jul 16 11:08:54 2026] 43281 total pagecache pages
+[Thu Jul 16 11:08:54 2026] 0 pages in swap cache
+[Thu Jul 16 11:08:54 2026] Free swap  = 0kB
+[Thu Jul 16 11:08:54 2026] Total swap = 0kB
+[Thu Jul 16 11:08:54 2026] 4193359 pages RAM
+[Thu Jul 16 11:08:54 2026] 0 pages HighMem/MovableOnly
+[Thu Jul 16 11:08:54 2026] 98183 pages reserved
+[Thu Jul 16 11:08:54 2026] 0 pages hwpoisoned
+[Thu Jul 16 11:08:54 2026] Tasks state (memory values in pages):
+[Thu Jul 16 11:08:54 2026] [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+[Thu Jul 16 11:08:54 2026] [    342]   989   342     5931      681      672        9         0    94208        0             0 systemd-resolve
+[Thu Jul 16 11:08:54 2026] [    343]   996   343    22953      261      256        5         0    86016        0             0 systemd-timesyn
+[Thu Jul 16 11:08:54 2026] [    352]     0   352     8241      488      448       40         0    77824        0         -1000 systemd-udevd
+[Thu Jul 16 11:08:54 2026] [    378]   998   378     5506      588      429      159         0    86016        0             0 systemd-network
+[Thu Jul 16 11:08:54 2026] [    597]     0   597     2093      862      818       44         0    57344        0             0 haveged
+[Thu Jul 16 11:08:54 2026] [    606]   995   606     7953      650      608       42         0   102400        0          -900 dbus-daemon
+[Thu Jul 16 11:08:54 2026] [    611]     0   611     9641     3521     3511       10         0   114688        0             0 networkd-dispat
+[Thu Jul 16 11:08:54 2026] [    612]     0   612    54921      338      320       18         0    69632        0             0 rsyslogd
+[Thu Jul 16 11:08:54 2026] [    655]     0   655     1292       57       32       25         0    57344        0             0 agetty
+[Thu Jul 16 11:08:54 2026] [    656]     0   656     1303       52       32       20         0    49152        0             0 agetty
+[Thu Jul 16 11:08:54 2026] [    657]     0   657    29506     3389     3379       10         0   135168        0             0 unattended-upgr
+[Thu Jul 16 11:08:54 2026] [    659]     0   659   597524     6229     6210       19         0   376832        0          -999 containerd
+[Thu Jul 16 11:08:54 2026] [    915]     0   915   319616     2823     2802       21         0   147456        0          -999 google_guest_ag
+[Thu Jul 16 11:08:54 2026] [    921]     0   921   335733     2292     2234       58         0   143360        0             0 google_guest_co
+[Thu Jul 16 11:08:54 2026] [    926]     0   926   322199     4558     4554        4         0   237568        0             0 google_osconfig
+[Thu Jul 16 11:08:54 2026] [    942]   100   942    11539     3565     3565        0         0   139264        0             0 exim4
+[Thu Jul 16 11:08:54 2026] [    948]     0   948   945099    47760    47723       37         0  1024000        0          -500 dockerd
+[Thu Jul 16 11:08:54 2026] [    952]   987   952    95109      269      224       45         0   102400        0             0 polkitd
+[Thu Jul 16 11:08:54 2026] [   1142]     0  1142     2943      318      288       30         0    61440        0         -1000 sshd
+[Thu Jul 16 11:08:54 2026] [   1391]     0  1391   436287      621      610       11         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:08:54 2026] [   1410]     0  1410   436287      641      641        0         0   163840        0          -500 docker-proxy
+[Thu Jul 16 11:08:54 2026] [   1428]     0  1428   417854      636      636        0         0   147456        0          -500 docker-proxy
+[Thu Jul 16 11:08:54 2026] [   1434]     0  1434   473153      639      639        0         0   180224        0          -500 docker-proxy
+[Thu Jul 16 11:08:54 2026] [   1452]     0  1452   436287      650      640       10         0   159744        0          -500 docker-proxy
+[Thu Jul 16 11:08:54 2026] [   1458]     0  1458   436287      639      639        0         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:08:54 2026] [   1476]     0  1476   436287      650      636       14         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:08:54 2026] [   1484]     0  1484   436287      654      637       17         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:08:54 2026] [   1565]     0  1565   514935     1124     1098       26         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:08:54 2026] [   1567]     0  1567   533432     1366     1366        0         0   241664        0          -998 containerd-shim
+[Thu Jul 16 11:08:54 2026] [   1568]     0  1568   514935     1057     1027       30         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:08:54 2026] [   1570]     0  1570   514871     1064     1057        7         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:08:54 2026] [   1576]     0  1576   514871     1400     1380       20         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:08:54 2026] [   1578]     0  1578   514935     1087     1055       32         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:08:54 2026] [   1579]     0  1579   514935     1038     1038        0         0   229376        0          -998 containerd-shim
+[Thu Jul 16 11:08:54 2026] [   1758]     0  1758   430284    70189    70176       13         0  1134592        0             0 traefik
+[Thu Jul 16 11:08:54 2026] [   1761]   472  1761   436905    22790    22761       29         0   827392        0             0 grafana
+[Thu Jul 16 11:08:54 2026] [   1773] 65534  1773   309607     2309     2298       11         0   163840        0             0 postgres_export
+[Thu Jul 16 11:08:54 2026] [   1780] 65534  1780   310488     2994     2994        0         0   135168        0             0 node_exporter
+[Thu Jul 16 11:08:54 2026] [   1782] 65534  1782   453648    18280    18280        0         0   626688        0             0 prometheus
+[Thu Jul 16 11:08:54 2026] [   1794] 59000  1794   308648     1940     1931        9         0   126976        0             0 redis_exporter
+[Thu Jul 16 11:08:54 2026] [   1801]    70  1801     2826     1158     1135       23         0    65536        0             0 pgbouncer
+[Thu Jul 16 11:08:54 2026] [  18392]     0 18392   514935     1992     1955       37         0   245760        0          -998 containerd-shim
+[Thu Jul 16 11:08:54 2026] [  18416]  1000 18416    10057     4906     4906        0         0   126976        0             0 uvicorn
+[Thu Jul 16 11:08:54 2026] [  18482]  1000 18482     5286     2670     2622       48         0    77824        0             0 python3.12
+[Thu Jul 16 11:08:54 2026] [  18483]  1000 18483   687732    31310    31310        0         0   835584        0             0 python3.12
+[Thu Jul 16 11:08:54 2026] [  18484]  1000 18484   608957    29862    29857        5         0   630784        0             0 python3.12
+[Thu Jul 16 11:08:54 2026] [  18485]  1000 18485   611690    33127    33100       27         0   643072        0             0 python3.12
+[Thu Jul 16 11:08:54 2026] [  18487]  1000 18487   608955    30142    30142        0         0   622592        0             0 python3.12
+[Thu Jul 16 11:08:54 2026] [  18488]  1000 18488   609215    30213    30189       24         0   634880        0             0 python3.12
+[Thu Jul 16 11:08:55 2026] [  18489]  1000 18489   608702    29677    29668        9         0   602112        0             0 python3.12
+[Thu Jul 16 11:08:55 2026] [  18490]  1000 18490   614205    35627    35627        0         0   667648        0             0 python3.12
+[Thu Jul 16 11:08:55 2026] [  25312]     0 25312   319230     2272     2223       49         0   151552        0          -999 guest_telemetry
+[Thu Jul 16 11:08:55 2026] [  25317]     0 25317   319898     3192     3159       33         0   147456        0          -999 core_plugin
+[Thu Jul 16 11:08:55 2026] [  25514]     0 25514     8569      548      512       36         0   114688        0             0 systemd-logind
+[Thu Jul 16 11:08:55 2026] [  25527]     0 25527     7092      384      384        0         0    94208        0             0 cron
+[Thu Jul 16 11:08:55 2026] [  28164]     0 28164   496502     1143     1143        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:08:55 2026] [  28187]     0 28187      645        0        0        0         0    45056        0             0 sleep
+[Thu Jul 16 11:08:55 2026] [  28981]     0 28981     8574      704      704        0         0   110592        0             0 sshd-session
+[Thu Jul 16 11:08:55 2026] [  28987] 1674562704 28987     5507      548      544        4         0    86016        0           100 systemd
+[Thu Jul 16 11:08:55 2026] [  28988] 1674562704 28988     9743      750      743        7         0   106496        0           100 (sd-pam)
+[Thu Jul 16 11:08:55 2026] [  29002] 1674562704 29002     8574      804      762       42         0   106496        0             0 sshd-session
+[Thu Jul 16 11:08:55 2026] [  29003] 1674562704 29003     8115      576      544       32         0   110592        0             0 sudo
+[Thu Jul 16 11:08:55 2026] [  29004]     0 29004     1122       96       64       32         0    49152        0             0 bash
+[Thu Jul 16 11:08:55 2026] [  29006]     0 29006      817       32       32        0         0    53248        0             0 dmesg
+[Thu Jul 16 11:08:55 2026] [  29007]     0 29007     1122       72       72        0         0    45056        0             0 bash
+[Thu Jul 16 11:08:55 2026] [  29008]     0 29008     1122       52       40       12         0    45056        0             0 bash
+[Thu Jul 16 11:08:55 2026] [  29010]     0 29010     1122       41       40        1         0    45056        0             0 bash
+[Thu Jul 16 11:08:55 2026] [  29016]     0 29016    27003    14496      352        0     14144   221184        0             0 stress-ng
+[Thu Jul 16 11:08:55 2026] [  29033]     0 29033    27004      406      388       18         0    77824        0             0 stress-ng-vm
+[Thu Jul 16 11:08:55 2026] [  29092]     0 29092    27032    14571      384       43     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:08:55 2026] [  29102]     0 29102    27033      380      377        3         0    94208        0             0 stress-ng-vm
+[Thu Jul 16 11:08:55 2026] [  29103]     0 29103   813466   786789   786789        0         0  6397952        0             0 stress-ng-vm
+[Thu Jul 16 11:08:55 2026] [  29186]     0 29186    27003    14535      384        7     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:08:55 2026] [  29196]     0 29196    27004      396      371       25         0    81920        0             0 stress-ng-vm
+[Thu Jul 16 11:08:55 2026] [  29208]     0 29208   424796     1330     1301       29         0   204800        0             0 docker
+[Thu Jul 16 11:08:55 2026] [  29209]     0 29209   406363     1309     1265       44         0   192512        0             0 docker
+[Thu Jul 16 11:08:55 2026] [  29246]     0 29246     2097        0        0        0         0    49152        0          -250 systemd-journal
+[Thu Jul 16 11:08:55 2026] [  29262]     0 29262  1599869  1296916  1296916        0         0 12693504        0             0 stress-ng-vm
+[Thu Jul 16 11:08:55 2026] [  29263]  1000 29263     1725       39        0       39         0    40960        0             0 python3.12
+[Thu Jul 16 11:08:55 2026] [  29264]     0 29264  2124157  1418460  1418438       22         0 11452416        0             0 stress-ng-vm
+[Thu Jul 16 11:08:55 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=docker-87898cbb3aed6cc576f898ad64a8ce5b49164a9231753a164b15bdb003825798.scope,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1674562704.slice/session-54.scope,task=stress-ng-vm,pid=29264,uid=0
+[Thu Jul 16 11:08:55 2026] Out of memory: Killed process 29264 (stress-ng-vm) total-vm:8496628kB, anon-rss:5673752kB, file-rss:88kB, shmem-rss:0kB, UID:0 pgtables:11184kB oom_score_adj:0
+[Thu Jul 16 11:09:03 2026] systemd[1]: session-54.scope: A process of this unit has been killed by the OOM killer.
+[Thu Jul 16 11:09:04 2026] systemd[1]: systemd-journald.service: start operation timed out. Terminating.
+[Thu Jul 16 11:09:06 2026] systemd[1]: systemd-journald.service: Failed with result 'timeout'.
+[Thu Jul 16 11:09:07 2026] systemd[1]: Failed to start systemd-journald.service - Journal Service.
+[Thu Jul 16 11:09:09 2026] systemd[1]: systemd-journald.service: Scheduled restart job, restart counter is at 2.
+[Thu Jul 16 11:09:10 2026] systemd[1]: Starting systemd-journald.service - Journal Service...
+[Thu Jul 16 11:09:33 2026] containerd-shim invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=-998
+[Thu Jul 16 11:09:33 2026] CPU: 3 UID: 0 PID: 18401 Comm: containerd-shim Not tainted 6.12.95+deb13-cloud-amd64 #1  Debian 6.12.95-1
+[Thu Jul 16 11:09:33 2026] Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 05/09/2026
+[Thu Jul 16 11:09:33 2026] Call Trace:
+[Thu Jul 16 11:09:33 2026]  <TASK>
+[Thu Jul 16 11:09:33 2026]  dump_stack_lvl+0x5d/0x80
+[Thu Jul 16 11:09:33 2026]  dump_header+0x43/0x1aa
+[Thu Jul 16 11:09:33 2026]  oom_kill_process.cold+0x8/0x8d
+[Thu Jul 16 11:09:33 2026]  out_of_memory+0x219/0x4b0
+[Thu Jul 16 11:09:33 2026]  __alloc_pages_slowpath.constprop.0+0xc27/0xdc0
+[Thu Jul 16 11:09:33 2026]  __alloc_pages_noprof+0x2fb/0x310
+[Thu Jul 16 11:09:33 2026]  alloc_pages_mpol_noprof+0xd7/0x1c0
+[Thu Jul 16 11:09:33 2026]  folio_alloc_noprof+0x5b/0xb0
+[Thu Jul 16 11:09:33 2026]  __filemap_get_folio+0x1aa/0x300
+[Thu Jul 16 11:09:33 2026]  filemap_fault+0x1fb/0xd40
+[Thu Jul 16 11:09:33 2026]  __do_fault+0x33/0x170
+[Thu Jul 16 11:09:33 2026]  do_fault+0x341/0x550
+[Thu Jul 16 11:09:33 2026]  __handle_mm_fault+0x7c2/0xf70
+[Thu Jul 16 11:09:33 2026]  handle_mm_fault+0xe2/0x2c0
+[Thu Jul 16 11:09:33 2026]  do_user_addr_fault+0x217/0x620
+[Thu Jul 16 11:09:33 2026]  exc_page_fault+0x7e/0x180
+[Thu Jul 16 11:09:33 2026]  asm_exc_page_fault+0x26/0x30
+[Thu Jul 16 11:09:33 2026] RIP: 0033:0x7d5222
+[Thu Jul 16 11:09:33 2026] Code: Unable to access opcode bytes at 0x7d51f8.
+[Thu Jul 16 11:09:33 2026] RSP: 002b:00007f24a67fbc38 EFLAGS: 00010293
+[Thu Jul 16 11:09:33 2026] RAX: 0000000000000000 RBX: 0000000000000000 RCX: 0000000000000000
+[Thu Jul 16 11:09:33 2026] RDX: 000000c000054f08 RSI: 0000000001149640 RDI: 0000000000000001
+[Thu Jul 16 11:09:33 2026] RBP: 00007f24a67fbda0 R08: 00000000ffffff01 R09: 000000c000056138
+[Thu Jul 16 11:09:33 2026] R10: 0000000000000000 R11: 00007f24f53b6080 R12: 00007f24a67fbc18
+[Thu Jul 16 11:09:33 2026] R13: 0000000000000001 R14: 000000c0001028c0 R15: 0000000000000003
+[Thu Jul 16 11:09:33 2026]  </TASK>
+[Thu Jul 16 11:09:33 2026] Mem-Info:
+[Thu Jul 16 11:09:34 2026] active_anon:3823927 inactive_anon:174994 isolated_anon:0
+                            active_file:85 inactive_file:1549 isolated_file:0
+                            unevictable:8 dirty:0 writeback:0
+                            slab_reclaimable:9900 slab_unreclaimable:16268
+                            mapped:42514 shmem:42822 pagetables:11150
+                            sec_pagetables:0 bounce:0
+                            kernel_misc_reclaimable:0
+                            free:33380 free_pcp:111 free_cma:0
+[Thu Jul 16 11:09:34 2026] Node 0 active_anon:15295708kB inactive_anon:699976kB active_file:464kB inactive_file:6196kB unevictable:32kB isolated(anon):0kB isolated(file):0kB mapped:170072kB dirty:0kB writeback:0kB shmem:171288kB shmem_thp:0kB shmem_pmdmapped:0kB anon_thp:14323712kB writeback_tmp:0kB kernel_stack:8816kB pagetables:44600kB sec_pagetables:0kB all_unreclaimable? yes
+[Thu Jul 16 11:09:34 2026] Node 0 DMA free:13312kB boost:0kB min:60kB low:72kB high:84kB reserved_highatomic:0KB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15920kB managed:15360kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:09:34 2026] lowmem_reserve[]: 0 2923 15909 15909 15909
+[Thu Jul 16 11:09:34 2026] Node 0 DMA32 free:64964kB boost:0kB min:12568kB low:15708kB high:18848kB reserved_highatomic:0KB active_anon:26060kB inactive_anon:2966124kB active_file:0kB inactive_file:336kB unevictable:0kB writepending:0kB present:3126028kB managed:3060488kB mlocked:0kB bounce:0kB free_pcp:36kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:09:34 2026] lowmem_reserve[]: 0 0 12985 12985 12985
+[Thu Jul 16 11:09:34 2026] Node 0 Normal free:55544kB boost:0kB min:54948kB low:68684kB high:82420kB reserved_highatomic:0KB active_anon:9554036kB inactive_anon:3449464kB active_file:3256kB inactive_file:2720kB unevictable:32kB writepending:0kB present:13631488kB managed:13304856kB mlocked:32kB bounce:0kB free_pcp:808kB local_pcp:0kB free_cma:0kB
+[Thu Jul 16 11:09:34 2026] lowmem_reserve[]: 0 0 0 0 0
+[Thu Jul 16 11:09:34 2026] Node 0 DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 1*1024kB (U) 2*2048kB (UM) 2*4096kB (M) = 13312kB
+[Thu Jul 16 11:09:34 2026] Node 0 DMA32: 15*4kB (ME) 9*8kB (UM) 13*16kB (UM) 33*32kB (UME) 24*64kB (UME) 23*128kB (UME) 21*256kB (UME) 13*512kB (UME) 8*1024kB (UME) 17*2048kB (M) 1*4096kB (M) = 65012kB
+[Thu Jul 16 11:09:34 2026] Node 0 Normal: 1090*4kB (UE) 474*8kB (UME) 344*16kB (UME) 277*32kB (UME) 202*64kB (UME) 55*128kB (UME) 21*256kB (UM) 10*512kB (UM) 2*1024kB (M) 0*2048kB 0*4096kB = 55032kB
+[Thu Jul 16 11:09:34 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+[Thu Jul 16 11:09:34 2026] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+[Thu Jul 16 11:09:34 2026] 44435 total pagecache pages
+[Thu Jul 16 11:09:34 2026] 0 pages in swap cache
+[Thu Jul 16 11:09:34 2026] Free swap  = 0kB
+[Thu Jul 16 11:09:34 2026] Total swap = 0kB
+[Thu Jul 16 11:09:34 2026] 4193359 pages RAM
+[Thu Jul 16 11:09:34 2026] 0 pages HighMem/MovableOnly
+[Thu Jul 16 11:09:34 2026] 98183 pages reserved
+[Thu Jul 16 11:09:34 2026] 0 pages hwpoisoned
+[Thu Jul 16 11:09:34 2026] Tasks state (memory values in pages):
+[Thu Jul 16 11:09:34 2026] [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+[Thu Jul 16 11:09:34 2026] [    342]   989   342     5931      681      672        9         0    94208        0             0 systemd-resolve
+[Thu Jul 16 11:09:34 2026] [    343]   996   343    22953      261      256        5         0    86016        0             0 systemd-timesyn
+[Thu Jul 16 11:09:34 2026] [    352]     0   352     8241      488      448       40         0    77824        0         -1000 systemd-udevd
+[Thu Jul 16 11:09:34 2026] [    378]   998   378     5506      588      429      159         0    86016        0             0 systemd-network
+[Thu Jul 16 11:09:34 2026] [    597]     0   597     2093      862      818       44         0    57344        0             0 haveged
+[Thu Jul 16 11:09:34 2026] [    606]   995   606     7953      645      608       37         0   102400        0          -900 dbus-daemon
+[Thu Jul 16 11:09:34 2026] [    611]     0   611     9641     3521     3511       10         0   114688        0             0 networkd-dispat
+[Thu Jul 16 11:09:34 2026] [    612]     0   612    54921      339      320       19         0    69632        0             0 rsyslogd
+[Thu Jul 16 11:09:34 2026] [    655]     0   655     1292       57       32       25         0    57344        0             0 agetty
+[Thu Jul 16 11:09:34 2026] [    656]     0   656     1303       52       32       20         0    49152        0             0 agetty
+[Thu Jul 16 11:09:34 2026] [    657]     0   657    29506     3389     3379       10         0   135168        0             0 unattended-upgr
+[Thu Jul 16 11:09:34 2026] [    659]     0   659   597524     6214     6210        4         0   376832        0          -999 containerd
+[Thu Jul 16 11:09:34 2026] [    915]     0   915   319616     2803     2802        1         0   147456        0          -999 google_guest_ag
+[Thu Jul 16 11:09:34 2026] [    921]     0   921   335733     2234     2234        0         0   143360        0             0 google_guest_co
+[Thu Jul 16 11:09:34 2026] [    926]     0   926   322199     3882     3882        0         0   237568        0             0 google_osconfig
+[Thu Jul 16 11:09:34 2026] [    942]   100   942    11539     3565     3565        0         0   139264        0             0 exim4
+[Thu Jul 16 11:09:34 2026] [    948]     0   948   945099    47723    47723        0         0  1024000        0          -500 dockerd
+[Thu Jul 16 11:09:34 2026] [    952]   987   952    95109      241      224       17         0   102400        0             0 polkitd
+[Thu Jul 16 11:09:34 2026] [   1142]     0  1142     2943      318      288       30         0    61440        0         -1000 sshd
+[Thu Jul 16 11:09:34 2026] [   1391]     0  1391   436287      621      610       11         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:09:34 2026] [   1410]     0  1410   436287      641      641        0         0   163840        0          -500 docker-proxy
+[Thu Jul 16 11:09:34 2026] [   1428]     0  1428   417854      636      636        0         0   147456        0          -500 docker-proxy
+[Thu Jul 16 11:09:34 2026] [   1434]     0  1434   473153      639      639        0         0   180224        0          -500 docker-proxy
+[Thu Jul 16 11:09:34 2026] [   1452]     0  1452   436287      650      640       10         0   159744        0          -500 docker-proxy
+[Thu Jul 16 11:09:34 2026] [   1458]     0  1458   436287      639      639        0         0   151552        0          -500 docker-proxy
+[Thu Jul 16 11:09:34 2026] [   1476]     0  1476   436287      650      636       14         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:09:34 2026] [   1484]     0  1484   436287      654      637       17         0   155648        0          -500 docker-proxy
+[Thu Jul 16 11:09:34 2026] [   1565]     0  1565   514935     1098     1098        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:09:34 2026] [   1567]     0  1567   533432     1366     1366        0         0   241664        0          -998 containerd-shim
+[Thu Jul 16 11:09:34 2026] [   1568]     0  1568   514935     1027     1027        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:09:34 2026] [   1570]     0  1570   514871     1025     1025        0         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:09:34 2026] [   1576]     0  1576   514871     1380     1380        0         0   233472        0          -998 containerd-shim
+[Thu Jul 16 11:09:34 2026] [   1578]     0  1578   514935     1021     1019        2         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:09:34 2026] [   1579]     0  1579   514935     1048     1038       10         0   229376        0          -998 containerd-shim
+[Thu Jul 16 11:09:34 2026] [   1758]     0  1758   430284    70176    70176        0         0  1134592        0             0 traefik
+[Thu Jul 16 11:09:34 2026] [   1761]   472  1761   436905    22778    22761       17         0   827392        0             0 grafana
+[Thu Jul 16 11:09:34 2026] [   1773] 65534  1773   309607     2319     2298       21         0   163840        0             0 postgres_export
+[Thu Jul 16 11:09:34 2026] [   1780] 65534  1780   310488     2994     2994        0         0   135168        0             0 node_exporter
+[Thu Jul 16 11:09:34 2026] [   1782] 65534  1782   453648    18285    18280        5         0   626688        0             0 prometheus
+[Thu Jul 16 11:09:34 2026] [   1794] 59000  1794   308648     1962     1931       31         0   126976        0             0 redis_exporter
+[Thu Jul 16 11:09:34 2026] [   1801]    70  1801     2826     1154     1135       19         0    65536        0             0 pgbouncer
+[Thu Jul 16 11:09:34 2026] [  18392]     0 18392   514935     1955     1955        0         0   245760        0          -998 containerd-shim
+[Thu Jul 16 11:09:34 2026] [  18416]  1000 18416    10057     4906     4906        0         0   126976        0             0 uvicorn
+[Thu Jul 16 11:09:34 2026] [  18482]  1000 18482     5286     2670     2622       48         0    77824        0             0 python3.12
+[Thu Jul 16 11:09:34 2026] [  18483]  1000 18483   687732    31310    31310        0         0   835584        0             0 python3.12
+[Thu Jul 16 11:09:34 2026] [  18484]  1000 18484   608957    29857    29857        0         0   630784        0             0 python3.12
+[Thu Jul 16 11:09:34 2026] [  18485]  1000 18485   611690    33100    33100        0         0   643072        0             0 python3.12
+[Thu Jul 16 11:09:34 2026] [  18487]  1000 18487   608955    30142    30142        0         0   622592        0             0 python3.12
+[Thu Jul 16 11:09:34 2026] [  18488]  1000 18488   609215    30189    30189        0         0   634880        0             0 python3.12
+[Thu Jul 16 11:09:34 2026] [  18489]  1000 18489   608702    29668    29668        0         0   602112        0             0 python3.12
+[Thu Jul 16 11:09:34 2026] [  18490]  1000 18490   614205    35641    35627       14         0   667648        0             0 python3.12
+[Thu Jul 16 11:09:34 2026] [  25514]     0 25514     8569      561      512       49         0   114688        0             0 systemd-logind
+[Thu Jul 16 11:09:34 2026] [  25527]     0 25527     7092      387      384        3         0    94208        0             0 cron
+[Thu Jul 16 11:09:34 2026] [  28164]     0 28164   496502     1143     1143        0         0   237568        0          -998 containerd-shim
+[Thu Jul 16 11:09:34 2026] [  28187]     0 28187      645        0        0        0         0    45056        0             0 sleep
+[Thu Jul 16 11:09:34 2026] [  28981]     0 28981     8574      704      704        0         0   110592        0             0 sshd-session
+[Thu Jul 16 11:09:34 2026] [  28987] 1674562704 28987     5507      544      544        0         0    86016        0           100 systemd
+[Thu Jul 16 11:09:34 2026] [  28988] 1674562704 28988     9743      750      743        7         0   106496        0           100 (sd-pam)
+[Thu Jul 16 11:09:35 2026] [  29002] 1674562704 29002     8574      782      762       20         0   106496        0             0 sshd-session
+[Thu Jul 16 11:09:35 2026] [  29003] 1674562704 29003     8115      576      544       32         0   110592        0             0 sudo
+[Thu Jul 16 11:09:35 2026] [  29004]     0 29004     1122       96       64       32         0    49152        0             0 bash
+[Thu Jul 16 11:09:35 2026] [  29006]     0 29006      817       69       32       37         0    53248        0             0 dmesg
+[Thu Jul 16 11:09:35 2026] [  29007]     0 29007     1122       77       72        5         0    45056        0             0 bash
+[Thu Jul 16 11:09:35 2026] [  29008]     0 29008     1122       52       40       12         0    45056        0             0 bash
+[Thu Jul 16 11:09:35 2026] [  29010]     0 29010     1122       41       40        1         0    45056        0             0 bash
+[Thu Jul 16 11:09:35 2026] [  29016]     0 29016    27003    14496      352        0     14144   221184        0             0 stress-ng
+[Thu Jul 16 11:09:35 2026] [  29033]     0 29033    27004      434      388       46         0    77824        0             0 stress-ng-vm
+[Thu Jul 16 11:09:35 2026] [  29092]     0 29092    27032    14571      384       43     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:09:35 2026] [  29102]     0 29102    27033      377      377        0         0    94208        0             0 stress-ng-vm
+[Thu Jul 16 11:09:35 2026] [  29103]     0 29103   813466   740732   740732        0         0  6033408        0             0 stress-ng-vm
+[Thu Jul 16 11:09:35 2026] [  29186]     0 29186    27003    14535      384        7     14144   225280        0             0 stress-ng
+[Thu Jul 16 11:09:35 2026] [  29196]     0 29196    27004      401      371       30         0    81920        0             0 stress-ng-vm
+[Thu Jul 16 11:09:35 2026] [  29208]     0 29208   424796     1333     1333        0         0   204800        0             0 docker
+[Thu Jul 16 11:09:35 2026] [  29209]     0 29209   406363     1297     1297        0         0   196608        0             0 docker
+[Thu Jul 16 11:09:35 2026] [  29262]     0 29262  1599869   669012   669007        5         0  5455872        0             0 stress-ng-vm
+[Thu Jul 16 11:09:35 2026] [  29266]     0 29266  2124157  2097510  2097510        0         0 16891904        0             0 stress-ng-vm
+[Thu Jul 16 11:09:35 2026] [  29267]     0 29267      734        1        0        1         0    36864        0             0 16
+[Thu Jul 16 11:09:35 2026] [  29268]     0 29268      753        0        0        0         0    49152        0             0 sleep
+[Thu Jul 16 11:09:35 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=containerd.service,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1674562704.slice/session-54.scope,task=stress-ng-vm,pid=29266,uid=0
+[Thu Jul 16 11:09:35 2026] Out of memory: Killed process 29266 (stress-ng-vm) total-vm:8496628kB, anon-rss:8390040kB, file-rss:0kB, shmem-rss:0kB, UID:0 pgtables:16496kB oom_score_adj:0
+[Thu Jul 16 11:09:41 2026] systemd[1]: session-54.scope: A process of this unit has been killed by the OOM killer.
+[Thu Jul 16 11:09:56 2026] systemd-journald[29267]: Collecting audit messages is disabled.
+[Thu Jul 16 11:09:57 2026] systemd-journald[29267]: File /var/log/journal/a4242c27452147aa9c53961e8d4fe780/system.journal corrupted or uncleanly shut down, renaming and replacing.
+[Thu Jul 16 11:09:59 2026] systemd[1]: Started systemd-journald.service - Journal Service.
+[Thu Jul 16 11:10:12 2026] systemd-ssh-generator[29417]: Failed to query local AF_VSOCK CID: Cannot assign requested address
+[Thu Jul 16 11:10:17 2026] evm: overlay not supported
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 2(veth494a713) entered disabled state
+[Thu Jul 16 11:17:50 2026] veth965043c: renamed from eth0
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 8(vethbbf11b3) entered disabled state
+[Thu Jul 16 11:17:50 2026] vethff82ee9: renamed from eth0
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 7(vethe36d538) entered disabled state
+[Thu Jul 16 11:17:50 2026] veth977468b: renamed from eth0
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 1(veth8cc6aa5) entered disabled state
+[Thu Jul 16 11:17:50 2026] vethf79bc88: renamed from eth0
+[Thu Jul 16 11:17:50 2026] vethe116c4a: renamed from eth0
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 2(veth494a713) entered disabled state
+[Thu Jul 16 11:17:50 2026] veth494a713 (unregistering): left allmulticast mode
+[Thu Jul 16 11:17:50 2026] veth494a713 (unregistering): left promiscuous mode
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 2(veth494a713) entered disabled state
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 5(veth7fabcf5) entered disabled state
+[Thu Jul 16 11:17:50 2026] veth97d758d: renamed from eth0
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 4(veth75a4006) entered disabled state
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 3(vethd234cfa) entered disabled state
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 7(vethe36d538) entered disabled state
+[Thu Jul 16 11:17:50 2026] vethe36d538 (unregistering): left allmulticast mode
+[Thu Jul 16 11:17:50 2026] vethe36d538 (unregistering): left promiscuous mode
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 7(vethe36d538) entered disabled state
+[Thu Jul 16 11:17:50 2026] veth5ba8490: renamed from eth0
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 8(vethbbf11b3) entered disabled state
+[Thu Jul 16 11:17:50 2026] vethbbf11b3 (unregistering): left allmulticast mode
+[Thu Jul 16 11:17:50 2026] vethbbf11b3 (unregistering): left promiscuous mode
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 8(vethbbf11b3) entered disabled state
+[Thu Jul 16 11:17:50 2026] br-d9fa5d5f96fe: port 5(veth7fabcf5) entered disabled state
+[Thu Jul 16 11:17:50 2026] veth7fabcf5 (unregistering): left allmulticast mode
+[Thu Jul 16 11:17:51 2026] veth7fabcf5 (unregistering): left promiscuous mode
+[Thu Jul 16 11:17:51 2026] br-d9fa5d5f96fe: port 5(veth7fabcf5) entered disabled state
+[Thu Jul 16 11:17:51 2026] br-d9fa5d5f96fe: port 1(veth8cc6aa5) entered disabled state
+[Thu Jul 16 11:17:51 2026] veth8cc6aa5 (unregistering): left allmulticast mode
+[Thu Jul 16 11:17:51 2026] veth8cc6aa5 (unregistering): left promiscuous mode
+[Thu Jul 16 11:17:51 2026] br-d9fa5d5f96fe: port 1(veth8cc6aa5) entered disabled state
+[Thu Jul 16 11:17:51 2026] br-d9fa5d5f96fe: port 4(veth75a4006) entered disabled state
+[Thu Jul 16 11:17:51 2026] veth75a4006 (unregistering): left allmulticast mode
+[Thu Jul 16 11:17:51 2026] veth75a4006 (unregistering): left promiscuous mode
+[Thu Jul 16 11:17:51 2026] br-d9fa5d5f96fe: port 4(veth75a4006) entered disabled state
+[Thu Jul 16 11:17:51 2026] br-d9fa5d5f96fe: port 3(vethd234cfa) entered disabled state
+[Thu Jul 16 11:17:51 2026] vethd234cfa (unregistering): left allmulticast mode
+[Thu Jul 16 11:17:51 2026] vethd234cfa (unregistering): left promiscuous mode
+[Thu Jul 16 11:17:51 2026] br-d9fa5d5f96fe: port 3(vethd234cfa) entered disabled state
+[Thu Jul 16 11:17:51 2026] br-d9fa5d5f96fe: port 6(veth7b47e82) entered disabled state
+[Thu Jul 16 11:17:51 2026] vethc70f986: renamed from eth0
+[Thu Jul 16 11:17:51 2026] br-d9fa5d5f96fe: port 6(veth7b47e82) entered disabled state
+[Thu Jul 16 11:17:51 2026] veth7b47e82 (unregistering): left allmulticast mode
+[Thu Jul 16 11:17:51 2026] veth7b47e82 (unregistering): left promiscuous mode
+[Thu Jul 16 11:17:51 2026] br-d9fa5d5f96fe: port 6(veth7b47e82) entered disabled state

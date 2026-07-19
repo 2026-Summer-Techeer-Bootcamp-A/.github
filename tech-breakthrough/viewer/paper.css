@@ -1,0 +1,250 @@
+/* RAG 연구 노트 — 논문 스타일 뷰어 */
+:root {
+  --ink: #1a1c20;
+  --muted: #5b5e66;
+  --faint: #8a8d95;
+  --line: #e4e6ec;
+  --accent: #21447c;       /* 절제된 네이비 */
+  --accent-soft: #eef2f9;
+  --paper: #fdfdfc;
+  --sidebar: #f7f8fa;
+  --serif: 'Noto Serif KR', 'Nanum Myeongjo', Georgia, 'Times New Roman', 'Batang', serif;
+  --sans: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', sans-serif;
+  --mono: 'SF Mono', 'JetBrains Mono', 'D2Coding', ui-monospace, monospace;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { background: var(--paper); color: var(--ink); font-family: var(--serif); -webkit-font-smoothing: antialiased;
+  max-width: 100%; overflow-x: hidden; }
+
+/* 상단 바 */
+.topbar {
+  position: sticky; top: 0; z-index: 20; display: flex; align-items: baseline; gap: 14px;
+  padding: 12px 22px; background: rgba(253,253,252,0.92); backdrop-filter: saturate(180%) blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.topbar__brand { font-family: var(--sans); font-weight: 800; font-size: 14px; letter-spacing: 0.4px; color: var(--accent); }
+.topbar__sub { font-family: var(--sans); font-size: 12.5px; color: var(--muted); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.topbar__menu { display: none; font-size: 18px; background: none; border: none; cursor: pointer; color: var(--ink); }
+
+/* PDF 내보내기 토글 버튼 */
+.topbar__pdf {
+  align-self: center; display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--sans); font-size: 12.5px; font-weight: 600; color: var(--accent);
+  background: none; border: 1px solid var(--line); border-radius: 7px; padding: 5px 11px;
+  cursor: pointer; white-space: nowrap;
+}
+.topbar__pdf:hover { background: var(--accent-soft); border-color: var(--accent); }
+.topbar__pdf.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+.topbar__pdf.active .topbar__pdf-label::after { content: ' 종료'; }
+.topbar__pdf-ic { flex: none; }
+
+/* 읽기 진행 바 — 긴 문서에서 현재 스크롤 위치를 가늠하게 한다 */
+.progress { position: absolute; left: 0; bottom: -1px; height: 2px; width: 0%; background: var(--accent); transition: width 0.1s linear; }
+
+/* 맨 위로 버튼 */
+.top-btn {
+  position: fixed; right: 22px; bottom: 22px; z-index: 25; width: 40px; height: 40px; border-radius: 50%;
+  border: 1px solid var(--line); background: var(--paper); color: var(--accent); font-size: 16px; cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12); opacity: 0; pointer-events: none; transform: translateY(6px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.top-btn.visible { opacity: 1; pointer-events: auto; transform: none; }
+.top-btn:hover { background: var(--accent-soft); }
+
+/* 3열 레이아웃 */
+.layout { display: grid; grid-template-columns: 248px minmax(0, 1fr) 210px; gap: 0; align-items: start; }
+
+/* 좌측 문서 네비 */
+.nav { position: sticky; top: 49px; align-self: start; height: calc(100vh - 49px); overflow-y: auto;
+  background: var(--sidebar); border-right: 1px solid var(--line); padding: 22px 16px 40px; font-family: var(--sans); }
+.nav__track { margin-bottom: 18px; }
+.nav__track-h { font-size: 11px; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; color: var(--faint);
+  margin-bottom: 8px; padding-left: 4px; padding-bottom: 6px; border-bottom: 1px solid var(--line);
+  position: sticky; top: 0; z-index: 1; background: var(--sidebar); }
+
+/* nav__link: 선택모드용 체크박스 / 순번 / 제목 / 날짜 뱃지 4-슬롯 flex 구조 */
+.nav__link { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 6px; row-gap: 3px;
+  width: 100%; text-align: left; border: none; border-left: 2px solid transparent; background: none; cursor: pointer;
+  font-family: var(--sans); font-size: 13px; line-height: 1.45; color: #43454c; padding: 6px 10px; border-radius: 0 7px 7px 0; }
+.nav__link:hover { background: #eef0f4; }
+/* 지금 읽는 문서를 목록에서 바로 알아볼 수 있도록 배경뿐 아니라 좌측 강조선도 준다 */
+.nav__link.active { background: var(--accent-soft); color: var(--accent); font-weight: 700; border-left-color: var(--accent); }
+.nav__link.active .nav__date { background: var(--accent-soft); color: var(--accent); }
+.nav__num { color: var(--faint); font-variant-numeric: tabular-nums; }
+.nav__title { flex: 1 1 auto; min-width: 0; }
+.nav__date { flex-basis: 100%; font-size: 10.5px; font-weight: 600; letter-spacing: 0.3px;
+  font-variant-numeric: tabular-nums; color: var(--faint); background: #f0f2f6; padding: 1px 6px;
+  border-radius: 4px; align-self: flex-start; margin-left: 22px; }
+.nav__empty { font-size: 12px; color: var(--faint); padding: 4px 10px; }
+
+/* PDF 선택모드 체크박스 — 평소엔 자리를 잡아두되 숨겨두고, 선택모드에서만 보인다 */
+.nav__check { display: none; order: -1; }
+body.pdf-select-mode .nav__check {
+  display: block; width: 15px; height: 15px; margin-top: 2px; flex: none;
+  border: 1.5px solid var(--faint); border-radius: 4px; background: var(--paper);
+}
+body.pdf-select-mode .nav__link.selected { background: var(--accent-soft); }
+body.pdf-select-mode .nav__link.selected .nav__check {
+  background-color: var(--accent); border-color: var(--accent);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 13l4 4L19 7' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-size: 12px; background-repeat: no-repeat; background-position: center;
+}
+
+/* 본문 — 논문 컬럼 */
+/* min-width:0이 없으면 grid/flex 아이템은 기본적으로 콘텐츠의 최소 크기(예: 넓은 표) 아래로
+   줄어들지 못해 .table-wrap의 overflow-x:auto가 작동하기 전에 페이지 전체가 가로로 밀린다(C-3). */
+.main { display: flex; justify-content: center; padding: 40px 40px 120px; max-width: 100%; min-width: 0; box-sizing: border-box; }
+/* 한 줄이 너무 길면 다음 줄을 눈이 못 찾으므로 읽기 좋은 측정폭(약 70~80자 상당)으로 제한한다 */
+.paper { width: 100%; max-width: 42rem; min-width: 0; counter-reset: h2 fig; font-size: 16.5px; line-height: 1.9;
+  overflow-wrap: break-word; word-break: break-word; }
+
+.paper h1 { font-family: var(--sans); font-size: 30px; font-weight: 800; line-height: 1.25; letter-spacing: -0.5px;
+  margin: 0 0 6px; padding-bottom: 18px; border-bottom: 2px solid var(--ink); }
+.paper h1 + p, .paper h1 + p + p { color: var(--muted); font-size: 15.5px; }
+
+/* h1/h2/h3 사이 크기·여백 차이를 뚜렷하게 두어 문서 구조가 한눈에 들어오게 한다 */
+.paper h2 { counter-increment: h2; counter-reset: h3; font-family: var(--sans); font-size: 23px; font-weight: 800;
+  letter-spacing: -0.3px; margin: 52px 0 14px; padding-top: 8px; border-top: 1px solid var(--line); }
+.paper h2:first-child { margin-top: 0; border-top: none; padding-top: 0; }
+.paper h2::before { content: counter(h2) ".\00a0\00a0"; color: var(--accent); font-variant-numeric: tabular-nums; }
+.paper h3 { counter-increment: h3; font-family: var(--sans); font-size: 17px; font-weight: 700; margin: 30px 0 9px; }
+.paper h3::before { content: counter(h2) "." counter(h3) "\00a0\00a0"; color: var(--accent); font-variant-numeric: tabular-nums; }
+.paper h4 { font-family: var(--sans); font-size: 14px; font-weight: 700; color: var(--muted); margin: 20px 0 6px; }
+
+.paper p { margin: 0 0 15px; text-align: justify; word-break: keep-all; letter-spacing: 0.1px;
+  overflow-wrap: break-word; }
+.paper strong { font-weight: 700; }
+.paper a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(33,68,124,0.3); }
+.paper a:hover { border-bottom-color: var(--accent); }
+
+.paper ul, .paper ol { margin: 0 0 15px; padding-left: 24px; }
+.paper li { margin-bottom: 6px; overflow-wrap: break-word; }
+.paper li::marker { color: var(--faint); }
+
+.paper blockquote { margin: 0 0 16px; padding: 10px 18px; border-left: 3px solid var(--accent);
+  background: var(--accent-soft); color: #33384a; border-radius: 0 8px 8px 0; }
+.paper blockquote p { margin: 0; }
+
+.paper code { font-family: var(--mono); font-size: 0.86em; background: #f1f3f7; color: #294a86; padding: 1.5px 5px;
+  border-radius: 4px; overflow-wrap: break-word; word-break: break-word; }
+.paper pre { background: #f7f8fa; border: 1px solid var(--line); border-radius: 10px; padding: 15px 18px;
+  overflow-x: auto; margin: 0 0 18px; line-height: 1.6; max-width: 100%; }
+/* 코드 블록 안(pre code)은 줄바꿈 없이 가로 스크롤이 정상이므로 word-break를 걸지 않는다 */
+.paper pre code { background: none; color: #33383f; padding: 0; font-size: 13.5px; overflow-wrap: normal; word-break: normal; }
+
+/* 넓은 표가 페이지를 가로로 밀지 않도록 스크롤 컨테이너 안에서만 넘치게 한다(viewer.js가 표를 이 컨테이너로 감싼다) */
+.table-wrap { overflow-x: auto; margin: 6px 0 22px; position: relative; }
+/* 실제로 스크롤이 필요한 표에만 오른쪽 끝에 은은한 페이드 힌트를 준다(C-4) */
+.table-wrap--scrollable {
+  background: linear-gradient(to left, rgba(0,0,0,0.06), transparent 24px);
+  background-repeat: no-repeat; background-position: right center; background-size: 24px 100%;
+}
+.paper table { border-collapse: collapse; width: 100%; margin: 0; font-family: var(--sans); font-size: 13.5px; line-height: 1.5; }
+.paper caption { caption-side: top; text-align: left; font-family: var(--sans); font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+.paper th, .paper td { border-bottom: 1px solid var(--line); padding: 9px 12px; text-align: left; vertical-align: top; white-space: nowrap; }
+.paper thead th { border-bottom: 2px solid var(--ink); font-weight: 700; color: var(--ink); }
+.paper tbody tr:hover { background: #fafbfc; }
+
+.paper hr { border: none; border-top: 1px solid var(--line); margin: 34px 0; }
+
+/* 그림(figure) — 논문 도식 */
+.paper .fig { counter-increment: fig; margin: 18px 0 24px; }
+.paper .fig svg { width: 100%; height: auto; display: block; }
+.paper figcaption { font-family: var(--sans); font-size: 12px; line-height: 1.5;
+  color: var(--muted); margin-top: 10px; text-align: center; }
+.paper figcaption b { color: var(--accent); font-weight: 700; }
+
+/* 각주 */
+.paper sup.fnref a { font-size: 11px; color: var(--accent); text-decoration: none; font-weight: 600; }
+.paper sup.fnref a:hover { text-decoration: underline; }
+.paper ol.footnotes { font-family: var(--sans); font-size: 12.5px; line-height: 1.6; color: var(--muted); padding-left: 20px;
+  scroll-margin-top: 64px; }
+.paper ol.footnotes li { margin-bottom: 6px; }
+.paper ol.footnotes a.fnback { color: var(--accent); text-decoration: none; margin-left: 4px; }
+.paper ol.footnotes a.fnback:hover { text-decoration: underline; }
+
+/* 우측 이 문서 목차 */
+.toc { position: sticky; top: 49px; align-self: start; height: calc(100vh - 49px); overflow-y: auto;
+  padding: 44px 18px; font-family: var(--sans); }
+.toc__h { font-size: 11px; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; color: var(--faint); margin-bottom: 10px; }
+.toc__link { display: block; font-size: 12px; line-height: 1.5; color: var(--muted); text-decoration: none; padding: 3px 0; border-left: 2px solid transparent; padding-left: 10px; }
+.toc__link:hover { color: var(--accent); }
+.toc__link.l3 { padding-left: 22px; font-size: 11.5px; color: var(--faint); }
+.toc__link.active { color: var(--accent); border-left-color: var(--accent); font-weight: 600; }
+.toc__link--footnotes { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--line); color: var(--faint); }
+
+/* 키보드 포커스 표시(C-6) */
+.cat-tab:focus-visible, .nav__link:focus-visible, .topbar__pdf:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
+
+/* 모바일 내비 드로어 스크림 / 닫기 버튼 — 데스크톱에서는 숨김 */
+.nav-scrim { display: none; }
+.nav__close { display: none; }
+
+/* PDF 내보내기 플로팅 액션 바 */
+.pdf-bar {
+  position: fixed; left: 50%; bottom: 22px; transform: translateX(-50%) translateY(120%); z-index: 30;
+  display: flex; align-items: center; gap: 12px; background: var(--paper); border: 1px solid var(--line);
+  border-radius: 12px; padding: 10px 14px; box-shadow: 0 10px 34px rgba(0,0,0,0.16); font-family: var(--sans);
+  opacity: 0; transition: transform .22s ease, opacity .22s ease;
+}
+.pdf-bar.visible { transform: translateX(-50%) translateY(0); opacity: 1; }
+.pdf-bar[hidden] { display: none; }
+.pdf-bar__count { font-size: 12.5px; font-weight: 600; color: var(--ink); white-space: nowrap; }
+.pdf-bar__sep { width: 1px; align-self: stretch; background: var(--line); }
+.pdf-bar__actions { display: flex; align-items: center; gap: 8px; }
+.pdf-bar__btn { font-family: var(--sans); font-size: 12.5px; font-weight: 600; border-radius: 7px; padding: 6px 12px;
+  cursor: pointer; white-space: nowrap; }
+.pdf-bar__btn--ghost { background: none; border: 1px solid var(--line); color: var(--muted); }
+.pdf-bar__btn--ghost:hover { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+.pdf-bar__btn--primary { background: var(--accent); border: 1px solid var(--accent); color: #fff; }
+.pdf-bar__btn--primary:hover { background: #1a3765; }
+
+/* 인쇄 전용 루트(평소엔 숨김, PDF 내보내기 시에만 JS가 채우고 window.print() 호출) */
+#printRoot { display: none; }
+
+/* 반응형 */
+@media (max-width: 1080px) { .layout { grid-template-columns: 232px minmax(0, 1fr); } .toc { display: none; } }
+@media (max-width: 760px) {
+  .layout { grid-template-columns: 1fr; }
+  .topbar__menu { display: block; }
+  .topbar__pdf-label { display: none; }
+  .nav { position: fixed; top: 49px; left: 0; z-index: 15; width: 260px; transform: translateX(-100%);
+    transition: transform .25s ease; box-shadow: 0 12px 40px rgba(0,0,0,0.18); padding-top: 44px; }
+  .nav.open { transform: none; }
+  .nav-scrim {
+    display: block; position: fixed; inset: 49px 0 0 0; z-index: 14; background: rgba(20,22,26,.44);
+    opacity: 0; pointer-events: none; transition: opacity .25s ease;
+  }
+  .nav-scrim.visible { opacity: 1; pointer-events: auto; }
+  .nav__close {
+    display: inline-flex; align-items: center; justify-content: center; position: absolute; top: 8px; right: 10px;
+    width: 30px; height: 30px; border-radius: 7px; border: 1px solid var(--line); background: var(--paper);
+    color: var(--muted); cursor: pointer;
+  }
+  .main { padding: 28px 22px 90px; max-width: 100%; }
+  .paper { font-size: 16px; }
+}
+
+/* PDF 내보내기 인쇄 스타일 */
+@media print {
+  .topbar, .nav, .toc, .top-btn, .pdf-bar, .progress, .main, .nav__check, .nav__date, .nav-scrim { display: none !important; }
+  #printRoot { display: block !important; }
+  @page { size: A4 portrait; margin: 24mm 22mm; }
+  .print-doc { break-before: page; }
+  .print-doc:first-child { break-before: auto; }
+  .print-doc__head { margin-bottom: 22px; padding-bottom: 12px; border-bottom: 2px solid var(--ink); }
+  .print-doc__meta { font-family: var(--sans); font-size: 10pt; font-weight: 700; letter-spacing: .5px;
+    text-transform: uppercase; color: var(--faint); margin-bottom: 6px; }
+  .print-doc__title { font-family: var(--sans); font-size: 24px; font-weight: 800; line-height: 1.25; margin: 0; }
+  .print-doc .paper { max-width: none; width: 100%; font-size: 12.5pt; line-height: 1.75; counter-reset: h2 fig; }
+  .print-doc .paper h1 { display: none; }
+  .paper h2, .paper h3, .print-doc__head { break-after: avoid; }
+  .paper figure, .paper .fig, .paper table, .paper pre, .paper blockquote { break-inside: avoid; }
+  .paper pre, .paper code, .paper blockquote, .paper thead th {
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+}

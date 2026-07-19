@@ -1,0 +1,132 @@
+=== 11:56:32 ===
+NAMES                     STATUS
+app-app-1                 Up 29 seconds (healthy)
+leaky-batch               Up 39 seconds
+app-grafana-1             Up 18 minutes
+app-pgbouncer-1           Up 18 minutes
+app-node-exporter-1       Up 18 minutes
+app-prometheus-1          Up 18 minutes
+app-traefik-1             Up 18 minutes
+app-postgres-exporter-1   Up 18 minutes
+app-redis-exporter-1      Up 18 minutes
+=== 11:56:42 ===
+NAMES                     STATUS
+app-app-1                 Up 39 seconds (healthy)
+leaky-batch               Up 49 seconds
+app-grafana-1             Up 18 minutes
+app-pgbouncer-1           Up 18 minutes
+app-node-exporter-1       Up 18 minutes
+app-prometheus-1          Up 18 minutes
+app-traefik-1             Up 18 minutes
+app-postgres-exporter-1   Up 18 minutes
+app-redis-exporter-1      Up 18 minutes
+=== 11:56:52 ===
+NAMES                     STATUS
+app-app-1                 Up 49 seconds (healthy)
+leaky-batch               Up 59 seconds
+app-grafana-1             Up 19 minutes
+app-pgbouncer-1           Up 19 minutes
+app-node-exporter-1       Up 19 minutes
+app-prometheus-1          Up 19 minutes
+app-traefik-1             Up 19 minutes
+app-postgres-exporter-1   Up 19 minutes
+app-redis-exporter-1      Up 19 minutes
+=== 11:57:13 ===
+NAMES                     STATUS
+app-app-1                 Up 4 minutes (healthy)
+leaky-batch               Up 4 minutes
+app-grafana-1             Up 22 minutes
+app-pgbouncer-1           Up 22 minutes
+app-node-exporter-1       Up 22 minutes
+app-prometheus-1          Up 22 minutes
+app-traefik-1             Up 22 minutes
+app-postgres-exporter-1   Up 22 minutes
+app-redis-exporter-1      Up 22 minutes
+=== 12:00:18 ===
+NAMES                     STATUS
+app-app-1                 Up 4 minutes (healthy)
+leaky-batch               Up 4 minutes
+app-grafana-1             Up 22 minutes
+app-pgbouncer-1           Up 22 minutes
+app-node-exporter-1       Up 22 minutes
+app-prometheus-1          Up 22 minutes
+app-traefik-1             Up 22 minutes
+app-postgres-exporter-1   Up 22 minutes
+app-redis-exporter-1      Up 22 minutes
+=== 12:00:28 ===
+NAMES                     STATUS
+app-app-1                 Up 4 minutes (healthy)
+leaky-batch               Up 4 minutes
+app-grafana-1             Up 22 minutes
+app-pgbouncer-1           Up 22 minutes
+app-node-exporter-1       Up 22 minutes
+app-prometheus-1          Up 22 minutes
+app-traefik-1             Up 22 minutes
+app-postgres-exporter-1   Up 22 minutes
+app-redis-exporter-1      Up 22 minutes
+=== 12:00:38 ===
+NAMES                     STATUS
+app-app-1                 Up 4 minutes (healthy)
+leaky-batch               Up 4 minutes
+app-grafana-1             Up 22 minutes
+app-pgbouncer-1           Up 22 minutes
+app-node-exporter-1       Up 22 minutes
+app-prometheus-1          Up 22 minutes
+app-traefik-1             Up 22 minutes
+app-postgres-exporter-1   Up 22 minutes
+app-redis-exporter-1      Up 22 minutes
+=== 12:00:48 ===
+NAMES                     STATUS
+app-app-1                 Up 4 minutes (healthy)
+leaky-batch               Up 4 minutes
+app-grafana-1             Up 22 minutes
+app-pgbouncer-1           Up 22 minutes
+app-node-exporter-1       Up 22 minutes
+app-prometheus-1          Up 22 minutes
+app-traefik-1             Up 22 minutes
+app-postgres-exporter-1   Up 22 minutes
+app-redis-exporter-1      Up 22 minutes
+=== 12:00:58 ===
+NAMES                     STATUS
+app-app-1                 Up 4 minutes (healthy)
+leaky-batch               Up 5 minutes
+app-grafana-1             Up 23 minutes
+app-pgbouncer-1           Up 23 minutes
+app-node-exporter-1       Up 23 minutes
+app-prometheus-1          Up 23 minutes
+app-traefik-1             Up 23 minutes
+app-postgres-exporter-1   Up 23 minutes
+app-redis-exporter-1      Up 23 minutes
+=== 12:01:08 ===
+NAMES                     STATUS
+app-app-1                 Up 5 minutes (healthy)
+leaky-batch               Up 5 minutes
+app-grafana-1             Up 23 minutes
+app-pgbouncer-1           Up 23 minutes
+app-node-exporter-1       Up 23 minutes
+app-prometheus-1          Up 23 minutes
+app-traefik-1             Up 23 minutes
+app-postgres-exporter-1   Up 23 minutes
+app-redis-exporter-1      Up 23 minutes
+=== 12:01:19 ===
+NAMES                     STATUS
+app-app-1                 Up 5 minutes (healthy)
+leaky-batch               Up 5 minutes
+app-grafana-1             Up 23 minutes
+app-pgbouncer-1           Up 23 minutes
+app-node-exporter-1       Up 23 minutes
+app-prometheus-1          Up 23 minutes
+app-traefik-1             Up 23 minutes
+app-postgres-exporter-1   Up 23 minutes
+app-redis-exporter-1      Up 23 minutes
+=== 12:01:29 ===
+NAMES                     STATUS
+app-app-1                 Up 5 minutes (healthy)
+leaky-batch               Up 5 minutes
+app-grafana-1             Up 23 minutes
+app-pgbouncer-1           Up 23 minutes
+app-node-exporter-1       Up 23 minutes
+app-prometheus-1          Up 23 minutes
+app-traefik-1             Up 23 minutes
+app-postgres-exporter-1   Up 23 minutes
+app-redis-exporter-1      Up 23 minutes

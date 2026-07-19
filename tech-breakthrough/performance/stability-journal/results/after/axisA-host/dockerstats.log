@@ -1,0 +1,407 @@
+=== 12:41:18 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 717.8MiB / 4GiB       2.43%
+leaky-batch               412KiB / 7.759GiB     0.00%
+app-grafana-1             136.2MiB / 7.759GiB   2.03%
+app-pgbouncer-1           4.789MiB / 7.759GiB   0.02%
+app-node-exporter-1       14.08MiB / 7.759GiB   2.09%
+app-prometheus-1          96.81MiB / 7.759GiB   1.43%
+app-traefik-1             131.3MiB / 7.759GiB   0.29%
+app-postgres-exporter-1   13.22MiB / 7.759GiB   0.00%
+app-redis-exporter-1      18.28MiB / 7.759GiB   0.00%
+=== 12:41:26 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 718.8MiB / 4GiB       3.81%
+leaky-batch               412KiB / 7.759GiB     0.00%
+app-grafana-1             136.3MiB / 7.759GiB   1.36%
+app-pgbouncer-1           4.797MiB / 7.759GiB   0.20%
+app-node-exporter-1       13.52MiB / 7.759GiB   0.02%
+app-prometheus-1          96.82MiB / 7.759GiB   0.20%
+app-traefik-1             131.3MiB / 7.759GiB   1.91%
+app-postgres-exporter-1   12.79MiB / 7.759GiB   0.00%
+app-redis-exporter-1      18.28MiB / 7.759GiB   0.00%
+=== 12:41:33 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 712.3MiB / 4GiB       4.73%
+leaky-batch               886.8MiB / 7.759GiB   97.76%
+app-grafana-1             106.6MiB / 7.759GiB   1.86%
+app-pgbouncer-1           4.797MiB / 7.759GiB   0.06%
+app-node-exporter-1       16.5MiB / 7.759GiB    7.21%
+app-prometheus-1          89.38MiB / 7.759GiB   2.01%
+app-traefik-1             88.15MiB / 7.759GiB   0.31%
+app-postgres-exporter-1   16.5MiB / 7.759GiB    0.00%
+app-redis-exporter-1      12.41MiB / 7.759GiB   0.00%
+=== 12:41:41 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 716.8MiB / 4GiB       11.32%
+leaky-batch               1.068GiB / 7.759GiB   93.02%
+app-grafana-1             106.6MiB / 7.759GiB   1.08%
+app-pgbouncer-1           5.445MiB / 7.759GiB   0.02%
+app-node-exporter-1       16.66MiB / 7.759GiB   0.00%
+app-prometheus-1          89.38MiB / 7.759GiB   0.02%
+app-traefik-1             88.19MiB / 7.759GiB   0.34%
+app-postgres-exporter-1   16.54MiB / 7.759GiB   0.00%
+app-redis-exporter-1      13.7MiB / 7.759GiB    0.00%
+=== 12:41:49 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 328.2MiB / 4GiB       2.60%
+leaky-batch               1.06GiB / 7.759GiB    98.92%
+app-grafana-1             102.1MiB / 7.759GiB   1.21%
+app-pgbouncer-1           6.012MiB / 7.759GiB   0.03%
+app-node-exporter-1       16.51MiB / 7.759GiB   0.00%
+app-prometheus-1          86.93MiB / 7.759GiB   0.28%
+app-traefik-1             74.23MiB / 7.759GiB   0.55%
+app-postgres-exporter-1   13.48MiB / 7.759GiB   0.00%
+app-redis-exporter-1      13.78MiB / 7.759GiB   0.00%
+=== 12:41:57 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 338.9MiB / 4GiB       3.04%
+leaky-batch               1.06GiB / 7.759GiB    94.98%
+app-grafana-1             102.4MiB / 7.759GiB   0.98%
+app-pgbouncer-1           6.012MiB / 7.759GiB   0.03%
+app-node-exporter-1       16.7MiB / 7.759GiB    0.00%
+app-prometheus-1          86.93MiB / 7.759GiB   0.66%
+app-traefik-1             74.26MiB / 7.759GiB   0.40%
+app-postgres-exporter-1   13.68MiB / 7.759GiB   3.87%
+app-redis-exporter-1      13.3MiB / 7.759GiB    0.00%
+=== 12:42:04 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 85.27MiB / 4GiB       1.87%
+leaky-batch               1.06GiB / 7.759GiB    95.24%
+app-grafana-1             92.25MiB / 7.759GiB   0.97%
+app-pgbouncer-1           6.055MiB / 7.759GiB   0.02%
+app-node-exporter-1       15.16MiB / 7.759GiB   0.00%
+app-prometheus-1          86.93MiB / 7.759GiB   0.23%
+app-traefik-1             71.25MiB / 7.759GiB   0.13%
+app-postgres-exporter-1   11.49MiB / 7.759GiB   0.00%
+app-redis-exporter-1      13.45MiB / 7.759GiB   0.00%
+=== 12:42:12 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 102.9MiB / 4GiB       8.39%
+leaky-batch               1.06GiB / 7.759GiB    95.55%
+app-grafana-1             118.9MiB / 7.759GiB   1.03%
+app-pgbouncer-1           6.047MiB / 7.759GiB   0.02%
+app-node-exporter-1       15.16MiB / 7.759GiB   0.00%
+app-prometheus-1          87MiB / 7.759GiB      0.59%
+app-traefik-1             71.73MiB / 7.759GiB   0.56%
+app-postgres-exporter-1   11.25MiB / 7.759GiB   3.78%
+app-redis-exporter-1      14.31MiB / 7.759GiB   0.00%
+=== 12:42:20 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 149.4MiB / 4GiB       3.64%
+leaky-batch               1.06GiB / 7.759GiB    93.63%
+app-grafana-1             120.1MiB / 7.759GiB   1.30%
+app-pgbouncer-1           6.055MiB / 7.759GiB   0.04%
+app-node-exporter-1       15.15MiB / 7.759GiB   0.00%
+app-prometheus-1          87.06MiB / 7.759GiB   0.10%
+app-traefik-1             72.29MiB / 7.759GiB   0.28%
+app-postgres-exporter-1   11.27MiB / 7.759GiB   0.00%
+app-redis-exporter-1      13.26MiB / 7.759GiB   0.00%
+=== 12:42:28 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 150.4MiB / 4GiB       5.01%
+leaky-batch               1.06GiB / 7.759GiB    94.45%
+app-grafana-1             120.1MiB / 7.759GiB   1.95%
+app-pgbouncer-1           6.059MiB / 7.759GiB   0.20%
+app-node-exporter-1       15.41MiB / 7.759GiB   3.00%
+app-prometheus-1          87.06MiB / 7.759GiB   0.96%
+app-traefik-1             74.53MiB / 7.759GiB   0.67%
+app-postgres-exporter-1   12.25MiB / 7.759GiB   3.50%
+app-redis-exporter-1      13.34MiB / 7.759GiB   0.00%
+=== 12:42:35 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 150.6MiB / 4GiB       63.77%
+leaky-batch               1.027GiB / 7.759GiB   96.98%
+app-grafana-1             120.1MiB / 7.759GiB   1.18%
+app-pgbouncer-1           6.055MiB / 7.759GiB   0.06%
+app-node-exporter-1       15.64MiB / 7.759GiB   0.00%
+app-prometheus-1          87.13MiB / 7.759GiB   0.33%
+app-traefik-1             74.91MiB / 7.759GiB   0.56%
+app-postgres-exporter-1   12.18MiB / 7.759GiB   0.00%
+app-redis-exporter-1      13.43MiB / 7.759GiB   1.57%
+=== 12:42:43 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 289.7MiB / 4GiB       20.43%
+leaky-batch               1.036GiB / 7.759GiB   93.57%
+app-grafana-1             120.2MiB / 7.759GiB   1.02%
+app-pgbouncer-1           3.91MiB / 7.759GiB    0.18%
+app-node-exporter-1       15.25MiB / 7.759GiB   2.89%
+app-prometheus-1          82.82MiB / 7.759GiB   0.36%
+app-traefik-1             68.9MiB / 7.759GiB    0.52%
+app-postgres-exporter-1   13.42MiB / 7.759GiB   0.00%
+app-redis-exporter-1      13.96MiB / 7.759GiB   0.00%
+=== 12:42:50 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 317.3MiB / 4GiB       47.64%
+leaky-batch               1.003GiB / 7.759GiB   96.89%
+app-grafana-1             92.89MiB / 7.759GiB   1.24%
+app-pgbouncer-1           2.816MiB / 7.759GiB   0.54%
+app-node-exporter-1       13.71MiB / 7.759GiB   0.00%
+app-prometheus-1          76.45MiB / 7.759GiB   0.03%
+app-traefik-1             66.88MiB / 7.759GiB   0.53%
+app-postgres-exporter-1   7.891MiB / 7.759GiB   0.00%
+app-redis-exporter-1      8.539MiB / 7.759GiB   0.00%
+=== 12:42:59 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 393.8MiB / 4GiB       48.80%
+leaky-batch               55MiB / 7.759GiB      77.83%
+app-grafana-1             83.83MiB / 7.759GiB   1.13%
+app-pgbouncer-1           1.859MiB / 7.759GiB   0.22%
+app-node-exporter-1       13.63MiB / 7.759GiB   0.00%
+app-prometheus-1          78.62MiB / 7.759GiB   1.07%
+app-traefik-1             67.98MiB / 7.759GiB   0.42%
+app-postgres-exporter-1   8.137MiB / 7.759GiB   0.00%
+app-redis-exporter-1      8.805MiB / 7.759GiB   2.42%
+=== 12:43:07 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 500MiB / 4GiB         33.48%
+leaky-batch               1.004GiB / 7.759GiB   97.62%
+app-grafana-1             98.14MiB / 7.759GiB   4.10%
+app-pgbouncer-1           1.008MiB / 7.759GiB   0.23%
+app-node-exporter-1       9.387MiB / 7.759GiB   0.13%
+app-prometheus-1          73.02MiB / 7.759GiB   0.94%
+app-traefik-1             73.2MiB / 7.759GiB    0.54%
+app-postgres-exporter-1   11.77MiB / 7.759GiB   0.00%
+app-redis-exporter-1      7.75MiB / 7.759GiB    0.00%
+=== 12:43:15 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 428.6MiB / 4GiB       87.72%
+leaky-batch               1.129GiB / 7.759GiB   95.72%
+app-grafana-1             102.3MiB / 7.759GiB   1.88%
+app-pgbouncer-1           788KiB / 7.759GiB     0.23%
+app-node-exporter-1       14.35MiB / 7.759GiB   0.00%
+app-prometheus-1          79.52MiB / 7.759GiB   0.68%
+app-traefik-1             70.88MiB / 7.759GiB   0.45%
+app-postgres-exporter-1   9.887MiB / 7.759GiB   2.98%
+app-redis-exporter-1      9.805MiB / 7.759GiB   0.00%
+=== 12:43:26 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 281.8MiB / 4GiB       11.44%
+leaky-batch               1.129GiB / 7.759GiB   94.63%
+app-grafana-1             103.6MiB / 7.759GiB   1.20%
+app-pgbouncer-1           972KiB / 7.759GiB     0.02%
+app-node-exporter-1       14.09MiB / 7.759GiB   0.00%
+app-prometheus-1          77.38MiB / 7.759GiB   0.04%
+app-traefik-1             71.15MiB / 7.759GiB   0.41%
+app-postgres-exporter-1   8.668MiB / 7.759GiB   0.00%
+app-redis-exporter-1      10.74MiB / 7.759GiB   0.00%
+=== 12:43:34 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 586.2MiB / 4GiB       18.26%
+leaky-batch               664.7MiB / 7.759GiB   92.75%
+app-grafana-1             88.39MiB / 7.759GiB   1.17%
+app-pgbouncer-1           1.203MiB / 7.759GiB   0.02%
+app-node-exporter-1       14.93MiB / 7.759GiB   0.00%
+app-prometheus-1          70.51MiB / 7.759GiB   1.41%
+app-traefik-1             72.39MiB / 7.759GiB   0.93%
+app-postgres-exporter-1   11.48MiB / 7.759GiB   0.00%
+app-redis-exporter-1      11.16MiB / 7.759GiB   1.75%
+=== 12:43:41 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 791.2MiB / 4GiB       34.92%
+leaky-batch               10.33MiB / 7.759GiB   95.48%
+app-grafana-1             94.7MiB / 7.759GiB    1.18%
+app-pgbouncer-1           1.797MiB / 7.759GiB   0.37%
+app-node-exporter-1       19.31MiB / 7.759GiB   0.00%
+app-prometheus-1          83.24MiB / 7.759GiB   0.10%
+app-traefik-1             74.22MiB / 7.759GiB   0.98%
+app-postgres-exporter-1   12.68MiB / 7.759GiB   0.00%
+app-redis-exporter-1      12.85MiB / 7.759GiB   2.53%
+=== 12:44:08 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 1.277GiB / 4GiB       23.60%
+leaky-batch               15.63MiB / 7.759GiB   97.12%
+app-grafana-1             104.9MiB / 7.759GiB   3.91%
+app-pgbouncer-1           1.801MiB / 7.759GiB   0.48%
+app-node-exporter-1       19.66MiB / 7.759GiB   3.26%
+app-prometheus-1          84.63MiB / 7.759GiB   1.37%
+app-traefik-1             74.84MiB / 7.759GiB   0.59%
+app-postgres-exporter-1   12.3MiB / 7.759GiB    1.94%
+app-redis-exporter-1      12.93MiB / 7.759GiB   0.00%
+=== 12:44:15 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 283.5MiB / 4GiB       10.11%
+leaky-batch               19.47MiB / 7.759GiB   96.53%
+app-grafana-1             85.23MiB / 7.759GiB   1.66%
+app-pgbouncer-1           980KiB / 7.759GiB     0.23%
+app-node-exporter-1       9.969MiB / 7.759GiB   0.00%
+app-prometheus-1          71.94MiB / 7.759GiB   0.25%
+app-traefik-1             65.45MiB / 7.759GiB   1.08%
+app-postgres-exporter-1   8.586MiB / 7.759GiB   0.00%
+app-redis-exporter-1      4.18MiB / 7.759GiB    0.00%
+=== 12:44:23 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 289.1MiB / 4GiB       7.85%
+leaky-batch               23.17MiB / 7.759GiB   96.48%
+app-grafana-1             85.34MiB / 7.759GiB   2.34%
+app-pgbouncer-1           980KiB / 7.759GiB     0.36%
+app-node-exporter-1       9.762MiB / 7.759GiB   4.52%
+app-prometheus-1          72.92MiB / 7.759GiB   2.29%
+app-traefik-1             66.33MiB / 7.759GiB   0.74%
+app-postgres-exporter-1   7.77MiB / 7.759GiB    0.00%
+app-redis-exporter-1      6.23MiB / 7.759GiB    0.00%
+=== 12:44:31 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 639.4MiB / 4GiB       4.13%
+leaky-batch               29.2MiB / 7.759GiB    97.72%
+app-grafana-1             85.38MiB / 7.759GiB   0.97%
+app-pgbouncer-1           988KiB / 7.759GiB     0.17%
+app-node-exporter-1       9.746MiB / 7.759GiB   0.00%
+app-prometheus-1          73.57MiB / 7.759GiB   0.02%
+app-traefik-1             74.17MiB / 7.759GiB   0.61%
+app-postgres-exporter-1   7.766MiB / 7.759GiB   0.00%
+app-redis-exporter-1      9.738MiB / 7.759GiB   0.00%
+=== 12:44:39 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 647.3MiB / 4GiB       4.72%
+leaky-batch               34.52MiB / 7.759GiB   96.59%
+app-grafana-1             85.67MiB / 7.759GiB   1.22%
+app-pgbouncer-1           988KiB / 7.759GiB     0.29%
+app-node-exporter-1       9.434MiB / 7.759GiB   0.00%
+app-prometheus-1          73.57MiB / 7.759GiB   1.32%
+app-traefik-1             74.91MiB / 7.759GiB   0.94%
+app-postgres-exporter-1   7.898MiB / 7.759GiB   0.00%
+app-redis-exporter-1      10.55MiB / 7.759GiB   0.00%
+=== 12:44:46 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 647.4MiB / 4GiB       4.73%
+leaky-batch               39.12MiB / 7.759GiB   97.85%
+app-grafana-1             85.74MiB / 7.759GiB   1.14%
+app-pgbouncer-1           988KiB / 7.759GiB     0.21%
+app-node-exporter-1       9.434MiB / 7.759GiB   0.00%
+app-prometheus-1          73.75MiB / 7.759GiB   0.05%
+app-traefik-1             75.3MiB / 7.759GiB    0.49%
+app-postgres-exporter-1   7.973MiB / 7.759GiB   0.00%
+app-redis-exporter-1      11.03MiB / 7.759GiB   0.00%
+=== 12:44:54 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 818.5MiB / 4GiB       4.22%
+leaky-batch               44.11MiB / 7.759GiB   93.55%
+app-grafana-1             100.8MiB / 7.759GiB   1.01%
+app-pgbouncer-1           1.434MiB / 7.759GiB   0.36%
+app-node-exporter-1       10.33MiB / 7.759GiB   0.00%
+app-prometheus-1          79.25MiB / 7.759GiB   0.23%
+app-traefik-1             79.28MiB / 7.759GiB   0.82%
+app-postgres-exporter-1   11.04MiB / 7.759GiB   0.00%
+app-redis-exporter-1      10.97MiB / 7.759GiB   1.73%
+=== 12:45:02 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 818.5MiB / 4GiB       3.46%
+leaky-batch               49.36MiB / 7.759GiB   94.84%
+app-grafana-1             100.8MiB / 7.759GiB   1.00%
+app-pgbouncer-1           1.441MiB / 7.759GiB   0.16%
+app-node-exporter-1       10.35MiB / 7.759GiB   0.00%
+app-prometheus-1          84.61MiB / 7.759GiB   0.52%
+app-traefik-1             79.58MiB / 7.759GiB   0.37%
+app-postgres-exporter-1   11.98MiB / 7.759GiB   5.02%
+app-redis-exporter-1      10.36MiB / 7.759GiB   0.00%
+=== 12:45:09 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 1.077GiB / 4GiB       3.26%
+leaky-batch               5.383MiB / 7.759GiB   0.00%
+app-grafana-1             106.5MiB / 7.759GiB   1.74%
+app-pgbouncer-1           1.449MiB / 7.759GiB   0.02%
+app-node-exporter-1       10.78MiB / 7.759GiB   0.00%
+app-prometheus-1          85.6MiB / 7.759GiB    0.35%
+app-traefik-1             92.46MiB / 7.759GiB   0.71%
+app-postgres-exporter-1   12.77MiB / 7.759GiB   0.00%
+app-redis-exporter-1      10.48MiB / 7.759GiB   2.05%
+=== 12:45:17 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 1.077GiB / 4GiB       6.00%
+leaky-batch               5.383MiB / 7.759GiB   0.00%
+app-grafana-1             109.3MiB / 7.759GiB   2.02%
+app-pgbouncer-1           1.453MiB / 7.759GiB   0.23%
+app-node-exporter-1       10.94MiB / 7.759GiB   0.00%
+app-prometheus-1          86.97MiB / 7.759GiB   0.57%
+app-traefik-1             92.53MiB / 7.759GiB   0.71%
+app-postgres-exporter-1   12.82MiB / 7.759GiB   4.09%
+app-redis-exporter-1      10.67MiB / 7.759GiB   0.00%
+=== 12:45:25 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 1.137GiB / 4GiB       4.07%
+leaky-batch               5.41MiB / 7.759GiB    0.00%
+app-grafana-1             109.3MiB / 7.759GiB   1.45%
+app-pgbouncer-1           1.449MiB / 7.759GiB   0.19%
+app-node-exporter-1       11.45MiB / 7.759GiB   0.00%
+app-prometheus-1          86.97MiB / 7.759GiB   0.93%
+app-traefik-1             92.73MiB / 7.759GiB   0.67%
+app-postgres-exporter-1   13.04MiB / 7.759GiB   0.00%
+app-redis-exporter-1      10.86MiB / 7.759GiB   1.71%
+=== 12:45:32 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 1.137GiB / 4GiB       4.68%
+leaky-batch               5.41MiB / 7.759GiB    0.00%
+app-grafana-1             109.3MiB / 7.759GiB   1.41%
+app-pgbouncer-1           1.453MiB / 7.759GiB   0.40%
+app-node-exporter-1       11.59MiB / 7.759GiB   0.00%
+app-prometheus-1          87.02MiB / 7.759GiB   0.42%
+app-traefik-1             92.8MiB / 7.759GiB    0.60%
+app-postgres-exporter-1   13.27MiB / 7.759GiB   3.85%
+app-redis-exporter-1      11.64MiB / 7.759GiB   0.00%
+=== 12:45:40 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 1.137GiB / 4GiB       46.33%
+leaky-batch               5.41MiB / 7.759GiB    0.00%
+app-grafana-1             109.3MiB / 7.759GiB   1.34%
+app-pgbouncer-1           1.453MiB / 7.759GiB   0.21%
+app-node-exporter-1       11.02MiB / 7.759GiB   0.00%
+app-prometheus-1          87.38MiB / 7.759GiB   0.19%
+app-traefik-1             92.84MiB / 7.759GiB   0.60%
+app-postgres-exporter-1   12.43MiB / 7.759GiB   0.00%
+app-redis-exporter-1      11.72MiB / 7.759GiB   0.00%
+=== 12:45:47 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 1.137GiB / 4GiB       4.78%
+leaky-batch               5.41MiB / 7.759GiB    0.00%
+app-grafana-1             109.4MiB / 7.759GiB   1.92%
+app-pgbouncer-1           1.453MiB / 7.759GiB   0.46%
+app-node-exporter-1       11.02MiB / 7.759GiB   0.00%
+app-prometheus-1          87.38MiB / 7.759GiB   0.60%
+app-traefik-1             92.84MiB / 7.759GiB   0.82%
+app-postgres-exporter-1   12.79MiB / 7.759GiB   3.76%
+app-redis-exporter-1      11.47MiB / 7.759GiB   0.00%
+=== 12:45:55 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 1.137GiB / 4GiB       5.38%
+leaky-batch               5.41MiB / 7.759GiB    0.00%
+app-grafana-1             109.6MiB / 7.759GiB   1.25%
+app-pgbouncer-1           1.453MiB / 7.759GiB   0.38%
+app-node-exporter-1       11.16MiB / 7.759GiB   0.00%
+app-prometheus-1          87.5MiB / 7.759GiB    0.17%
+app-traefik-1             93MiB / 7.759GiB      0.56%
+app-postgres-exporter-1   13.77MiB / 7.759GiB   0.00%
+app-redis-exporter-1      11MiB / 7.759GiB      1.44%
+=== 12:46:03 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 1.137GiB / 4GiB       3.83%
+leaky-batch               5.41MiB / 7.759GiB    0.00%
+app-grafana-1             109.6MiB / 7.759GiB   1.22%
+app-pgbouncer-1           1.523MiB / 7.759GiB   0.02%
+app-node-exporter-1       10.61MiB / 7.759GiB   2.22%
+app-prometheus-1          87.52MiB / 7.759GiB   0.79%
+app-traefik-1             93.1MiB / 7.759GiB    0.71%
+app-postgres-exporter-1   12.53MiB / 7.759GiB   0.00%
+app-redis-exporter-1      11.29MiB / 7.759GiB   0.00%
+=== 12:46:10 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 1.142GiB / 4GiB       7.17%
+leaky-batch               5.41MiB / 7.759GiB    0.00%
+app-grafana-1             110.2MiB / 7.759GiB   1.75%
+app-pgbouncer-1           1.527MiB / 7.759GiB   0.45%
+app-node-exporter-1       10.79MiB / 7.759GiB   0.00%
+app-prometheus-1          87.51MiB / 7.759GiB   0.16%
+app-traefik-1             93.21MiB / 7.759GiB   1.22%
+app-postgres-exporter-1   12.96MiB / 7.759GiB   0.00%
+app-redis-exporter-1      11.34MiB / 7.759GiB   1.28%
+=== 12:46:18 ===
+NAME                      MEM USAGE / LIMIT     CPU %
+app-app-1                 1.143GiB / 4GiB       4.67%
+leaky-batch               5.41MiB / 7.759GiB    0.00%
+app-grafana-1             110.6MiB / 7.759GiB   2.06%
+app-pgbouncer-1           1.523MiB / 7.759GiB   0.21%
+app-node-exporter-1       10.79MiB / 7.759GiB   2.21%
+app-prometheus-1          88.09MiB / 7.759GiB   0.37%
+app-traefik-1             93.34MiB / 7.759GiB   0.89%
+app-postgres-exporter-1   13.43MiB / 7.759GiB   0.00%
+app-redis-exporter-1      11.29MiB / 7.759GiB   0.00%

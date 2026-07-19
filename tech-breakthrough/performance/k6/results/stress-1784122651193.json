@@ -1,0 +1,246 @@
+{
+  "testType": "stress",
+  "generatedAt": "2026-07-15T13:37:31.193Z",
+  "rows": [
+    {
+      "name": "healthz",
+      "tier": "infra",
+      "count": 846,
+      "avgMs": 364.2953951962169,
+      "p95Ms": 6.38838975,
+      "errorRatePct": 99.29078014184397
+    },
+    {
+      "name": "postings_list",
+      "tier": "core",
+      "count": 6388,
+      "avgMs": 618.1396696156844,
+      "p95Ms": 6.161093049999999,
+      "errorRatePct": 99.6399499060739
+    },
+    {
+      "name": "postings_search",
+      "tier": "heavy",
+      "count": 5145,
+      "avgMs": 442.0251253158385,
+      "p95Ms": 5.7544066,
+      "errorRatePct": 99.92225461613216
+    },
+    {
+      "name": "postings_detail",
+      "tier": "core",
+      "count": 4293,
+      "avgMs": 447.40397145702275,
+      "p95Ms": 6.145972999999998,
+      "errorRatePct": 99.65059399021663
+    },
+    {
+      "name": "postings_nearby",
+      "tier": "core",
+      "count": 2164,
+      "avgMs": 479.1147571178369,
+      "p95Ms": 6.119761099999999,
+      "errorRatePct": 99.81515711645102
+    },
+    {
+      "name": "postings_similar",
+      "tier": "core",
+      "count": 2166,
+      "avgMs": 437.73006306232645,
+      "p95Ms": 5.99294775,
+      "errorRatePct": 99.58448753462605
+    },
+    {
+      "name": "postings_map",
+      "tier": "heavy",
+      "count": 7707,
+      "avgMs": 513.3298683858849,
+      "p95Ms": 6.057061699999999,
+      "errorRatePct": 99.85727260931621
+    },
+    {
+      "name": "feed_postings",
+      "tier": "core",
+      "count": 4347,
+      "avgMs": 550.7592487039325,
+      "p95Ms": 5.7198725999999995,
+      "errorRatePct": 99.72394755003451
+    },
+    {
+      "name": "search",
+      "tier": "core",
+      "count": 3388,
+      "avgMs": 369.5733038373664,
+      "p95Ms": 6.060713099999998,
+      "errorRatePct": 99.3801652892562
+    },
+    {
+      "name": "skills",
+      "tier": "taxonomy",
+      "count": 2589,
+      "avgMs": 368.20130320278196,
+      "p95Ms": 6.1529054,
+      "errorRatePct": 99.30475086906141
+    },
+    {
+      "name": "job_categories",
+      "tier": "taxonomy",
+      "count": 1663,
+      "avgMs": 250.5492599729402,
+      "p95Ms": 6.328346199999997,
+      "errorRatePct": 99.03788334335538
+    },
+    {
+      "name": "certs",
+      "tier": "taxonomy",
+      "count": 1334,
+      "avgMs": 341.26665844003014,
+      "p95Ms": 6.1376047499999995,
+      "errorRatePct": 99.40029985007496
+    },
+    {
+      "name": "company_by_skill",
+      "tier": "taxonomy",
+      "count": 1667,
+      "avgMs": 391.4018735542885,
+      "p95Ms": 5.981061699999997,
+      "errorRatePct": 99.28014397120576
+    },
+    {
+      "name": "trend_hype_vs_hire",
+      "tier": "stats",
+      "count": 825,
+      "avgMs": 730.0242530606056,
+      "p95Ms": 6.488984999999999,
+      "errorRatePct": 98.9090909090909
+    },
+    {
+      "name": "stats_newcomer_gate",
+      "tier": "stats",
+      "count": 836,
+      "avgMs": 425.12393034449735,
+      "p95Ms": 5.96899425,
+      "errorRatePct": 99.52153110047847
+    },
+    {
+      "name": "stats_global_domestic_gap",
+      "tier": "stats_heavy",
+      "count": 859,
+      "avgMs": 353.758916590221,
+      "p95Ms": 5.8933737999999956,
+      "errorRatePct": 99.76717112922002
+    },
+    {
+      "name": "stats_hiring_season",
+      "tier": "stats_heavy",
+      "count": 862,
+      "avgMs": 536.8817403248261,
+      "p95Ms": 6.207865699999997,
+      "errorRatePct": 99.4199535962877
+    },
+    {
+      "name": "stats_industry_fingerprint",
+      "tier": "stats_heavy",
+      "count": 841,
+      "avgMs": 217.57667817717012,
+      "p95Ms": 6.181186,
+      "errorRatePct": 99.76218787158146
+    },
+    {
+      "name": "stats_role_stack_fit",
+      "tier": "stats_heavy",
+      "count": 865,
+      "avgMs": 512.3860013052015,
+      "p95Ms": 6.259117,
+      "errorRatePct": 99.76878612716763
+    },
+    {
+      "name": "stats_skill_share",
+      "tier": "stats",
+      "count": 919,
+      "avgMs": 335.7568750609357,
+      "p95Ms": 5.913599599999994,
+      "errorRatePct": 99.8911860718172
+    },
+    {
+      "name": "stats_cooccurrence",
+      "tier": "stats",
+      "count": 858,
+      "avgMs": 424.45704783100217,
+      "p95Ms": 5.741385949999998,
+      "errorRatePct": 99.88344988344988
+    },
+    {
+      "name": "stats_posting_timeline",
+      "tier": "stats",
+      "count": 850,
+      "avgMs": 720.7840023141174,
+      "p95Ms": 6.627540899999997,
+      "errorRatePct": 99.52941176470588
+    },
+    {
+      "name": "stats_response_rate",
+      "tier": "stats",
+      "count": 882,
+      "avgMs": 612.4623758764178,
+      "p95Ms": 6.256105499999999,
+      "errorRatePct": 99.77324263038548
+    },
+    {
+      "name": "stats_skill_trend_yearly",
+      "tier": "stats_heavy",
+      "count": 831,
+      "avgMs": 770.6019155800234,
+      "p95Ms": 6.5220825,
+      "errorRatePct": 99.51865222623346
+    },
+    {
+      "name": "stats_hot_companies",
+      "tier": "stats",
+      "count": 893,
+      "avgMs": 359.4853754412092,
+      "p95Ms": 6.3128132,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_region_density",
+      "tier": "stats",
+      "count": 862,
+      "avgMs": 613.4196459547564,
+      "p95Ms": 6.2485437999999975,
+      "errorRatePct": 99.76798143851508
+    },
+    {
+      "name": "trend_github_vitality",
+      "tier": "stats",
+      "count": 907,
+      "avgMs": 268.832735466373,
+      "p95Ms": 6.016875199999997,
+      "errorRatePct": 99.66923925027564
+    },
+    {
+      "name": "trend_github_topics",
+      "tier": "stats",
+      "count": 884,
+      "avgMs": 437.73706727036176,
+      "p95Ms": 5.7426118,
+      "errorRatePct": 99.77375565610859
+    },
+    {
+      "name": "trend_github_chronicle",
+      "tier": "stats",
+      "count": 883,
+      "avgMs": 398.79744616761036,
+      "p95Ms": 6.272723099999999,
+      "errorRatePct": 99.77349943374858
+    }
+  ],
+  "overall": {
+    "totalRequests": 57554,
+    "httpReqFailedRate": 0.9964208770588644,
+    "httpReqDurationP95": 6.0737785,
+    "vusMax": 400,
+    "testRunDurationMs": 200816.267651,
+    "phases": []
+  }
+}

@@ -1,0 +1,230 @@
+=== 10:41:15 ===
+NAMES                     STATUS
+app-app-1                 Up 31 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:41:25 ===
+NAMES                     STATUS
+app-app-1                 Up 31 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:41:35 ===
+NAMES                     STATUS
+app-app-1                 Up 32 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:41:45 ===
+NAMES                     STATUS
+app-app-1                 Up 32 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:41:55 ===
+NAMES                     STATUS
+app-app-1                 Up 32 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:42:21 ===
+NAMES                     STATUS
+app-app-1                 Up 34 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:44:24 ===
+NAMES                     STATUS
+app-app-1                 Up 34 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:44:34 ===
+NAMES                     STATUS
+app-app-1                 Up 35 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:44:44 ===
+NAMES                     STATUS
+app-app-1                 Up 35 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:44:54 ===
+NAMES                     STATUS
+app-app-1                 Up 35 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:45:04 ===
+NAMES                     STATUS
+app-app-1                 Up 35 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:45:14 ===
+NAMES                     STATUS
+app-app-1                 Up 35 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:45:24 ===
+NAMES                     STATUS
+app-app-1                 Up 35 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:45:34 ===
+NAMES                     STATUS
+app-app-1                 Up 36 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:45:44 ===
+NAMES                     STATUS
+app-app-1                 Up 36 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:45:54 ===
+NAMES                     STATUS
+app-app-1                 Up 36 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:46:05 ===
+NAMES                     STATUS
+app-app-1                 Up 36 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:46:15 ===
+NAMES                     STATUS
+app-app-1                 Up 36 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:46:25 ===
+NAMES                     STATUS
+app-app-1                 Up 36 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:46:35 ===
+NAMES                     STATUS
+app-app-1                 Up 37 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:46:45 ===
+NAMES                     STATUS
+app-app-1                 Up 37 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:46:55 ===
+NAMES                     STATUS
+app-app-1                 Up 37 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours
+=== 10:47:05 ===
+NAMES                     STATUS
+app-app-1                 Up 37 minutes (healthy)
+app-grafana-1             Up 2 hours
+app-pgbouncer-1           Up 2 hours
+app-node-exporter-1       Up 2 hours
+app-prometheus-1          Up 2 hours
+app-traefik-1             Up 2 hours
+app-postgres-exporter-1   Up 2 hours
+app-redis-exporter-1      Up 2 hours

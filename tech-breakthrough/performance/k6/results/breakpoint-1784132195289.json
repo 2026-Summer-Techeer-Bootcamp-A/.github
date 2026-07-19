@@ -1,0 +1,13 @@
+{
+  "testType": "breakpoint",
+  "generatedAt": "2026-07-15T16:16:35.289Z",
+  "rows": [],
+  "overall": {
+      "totalRequests": 0,
+      "httpReqFailedRate": 0,
+      "httpReqDurationP95": 0,
+      "vusMax": 500,
+      "testRunDurationMs": 1124.535606,
+      "phases": []
+    }
+}

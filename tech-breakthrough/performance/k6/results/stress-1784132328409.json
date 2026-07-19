@@ -1,0 +1,246 @@
+{
+  "testType": "stress",
+  "generatedAt": "2026-07-15T16:18:48.408Z",
+  "rows": [
+    {
+      "name": "healthz",
+      "tier": "infra",
+      "count": 20,
+      "avgMs": 5586.5816506500005,
+      "p95Ms": 22974.8244919,
+      "errorRatePct": 40
+    },
+    {
+      "name": "postings_list",
+      "tier": "core",
+      "count": 127,
+      "avgMs": 26534.860505023622,
+      "p95Ms": 60000.7055984,
+      "errorRatePct": 99.21259842519686
+    },
+    {
+      "name": "postings_search",
+      "tier": "heavy",
+      "count": 152,
+      "avgMs": 6817.947218124999,
+      "p95Ms": 34814.05642084994,
+      "errorRatePct": 50
+    },
+    {
+      "name": "postings_detail",
+      "tier": "core",
+      "count": 108,
+      "avgMs": 5619.05636423148,
+      "p95Ms": 35063.21742274996,
+      "errorRatePct": 50.92592592592593
+    },
+    {
+      "name": "postings_nearby",
+      "tier": "core",
+      "count": 45,
+      "avgMs": 24239.61271671111,
+      "p95Ms": 59975.9538722,
+      "errorRatePct": 60
+    },
+    {
+      "name": "postings_similar",
+      "tier": "core",
+      "count": 57,
+      "avgMs": 8324.968963192985,
+      "p95Ms": 28160.036545199975,
+      "errorRatePct": 47.368421052631575
+    },
+    {
+      "name": "postings_map",
+      "tier": "heavy",
+      "count": 167,
+      "avgMs": 24090.20313944312,
+      "p95Ms": 60000.8640121,
+      "errorRatePct": 97.0059880239521
+    },
+    {
+      "name": "feed_postings",
+      "tier": "core",
+      "count": 78,
+      "avgMs": 24981.443729653845,
+      "p95Ms": 60000.4829043,
+      "errorRatePct": 100
+    },
+    {
+      "name": "search",
+      "tier": "core",
+      "count": 85,
+      "avgMs": 2661.6562359411764,
+      "p95Ms": 12553.319759999998,
+      "errorRatePct": 43.529411764705884
+    },
+    {
+      "name": "skills",
+      "tier": "taxonomy",
+      "count": 71,
+      "avgMs": 949.7952478732388,
+      "p95Ms": 5406.362723000001,
+      "errorRatePct": 38.028169014084504
+    },
+    {
+      "name": "job_categories",
+      "tier": "taxonomy",
+      "count": 63,
+      "avgMs": 678.2820027619048,
+      "p95Ms": 5029.966396999996,
+      "errorRatePct": 41.269841269841265
+    },
+    {
+      "name": "certs",
+      "tier": "taxonomy",
+      "count": 32,
+      "avgMs": 3025.6233123125007,
+      "p95Ms": 20165.592250699992,
+      "errorRatePct": 43.75
+    },
+    {
+      "name": "company_by_skill",
+      "tier": "taxonomy",
+      "count": 55,
+      "avgMs": 2333.349861036364,
+      "p95Ms": 10434.421158699994,
+      "errorRatePct": 41.81818181818181
+    },
+    {
+      "name": "trend_hype_vs_hire",
+      "tier": "stats",
+      "count": 21,
+      "avgMs": 4914.010637571429,
+      "p95Ms": 13489.495507,
+      "errorRatePct": 42.857142857142854
+    },
+    {
+      "name": "stats_newcomer_gate",
+      "tier": "stats",
+      "count": 27,
+      "avgMs": 22652.54943688889,
+      "p95Ms": 60000.705781900004,
+      "errorRatePct": 96.29629629629629
+    },
+    {
+      "name": "stats_global_domestic_gap",
+      "tier": "stats_heavy",
+      "count": 24,
+      "avgMs": 8813.567514208333,
+      "p95Ms": 30368.41779245,
+      "errorRatePct": 33.33333333333333
+    },
+    {
+      "name": "stats_hiring_season",
+      "tier": "stats_heavy",
+      "count": 26,
+      "avgMs": 2894.114695423077,
+      "p95Ms": 23415.623687749998,
+      "errorRatePct": 34.61538461538461
+    },
+    {
+      "name": "stats_industry_fingerprint",
+      "tier": "stats_heavy",
+      "count": 31,
+      "avgMs": 3313.3263155161294,
+      "p95Ms": 14925.152575,
+      "errorRatePct": 58.06451612903226
+    },
+    {
+      "name": "stats_role_stack_fit",
+      "tier": "stats_heavy",
+      "count": 20,
+      "avgMs": 5807.5103792,
+      "p95Ms": 17797.211495000014,
+      "errorRatePct": 35
+    },
+    {
+      "name": "stats_skill_share",
+      "tier": "stats",
+      "count": 23,
+      "avgMs": 24907.63663456522,
+      "p95Ms": 60000.7516627,
+      "errorRatePct": 100
+    },
+    {
+      "name": "stats_cooccurrence",
+      "tier": "stats",
+      "count": 20,
+      "avgMs": 12537.005631349997,
+      "p95Ms": 41442.154788850006,
+      "errorRatePct": 55.00000000000001
+    },
+    {
+      "name": "stats_posting_timeline",
+      "tier": "stats",
+      "count": 20,
+      "avgMs": 10156.23292115,
+      "p95Ms": 32291.98193675002,
+      "errorRatePct": 50
+    },
+    {
+      "name": "stats_response_rate",
+      "tier": "stats",
+      "count": 22,
+      "avgMs": 12334.980559954547,
+      "p95Ms": 47364.39153755,
+      "errorRatePct": 68.18181818181817
+    },
+    {
+      "name": "stats_skill_trend_yearly",
+      "tier": "stats_heavy",
+      "count": 20,
+      "avgMs": 3765.862199050001,
+      "p95Ms": 15722.215584050002,
+      "errorRatePct": 45
+    },
+    {
+      "name": "stats_hot_companies",
+      "tier": "stats",
+      "count": 11,
+      "avgMs": 15573.23477290909,
+      "p95Ms": 42513.928282,
+      "errorRatePct": 45.45454545454545
+    },
+    {
+      "name": "stats_region_density",
+      "tier": "stats",
+      "count": 16,
+      "avgMs": 22763.342285749997,
+      "p95Ms": 52372.97366925,
+      "errorRatePct": 62.5
+    },
+    {
+      "name": "trend_github_vitality",
+      "tier": "stats",
+      "count": 24,
+      "avgMs": 3898.1536075416666,
+      "p95Ms": 12109.2815589,
+      "errorRatePct": 29.166666666666668
+    },
+    {
+      "name": "trend_github_topics",
+      "tier": "stats",
+      "count": 30,
+      "avgMs": 5662.528949766667,
+      "p95Ms": 23246.284179249997,
+      "errorRatePct": 43.333333333333336
+    },
+    {
+      "name": "trend_github_chronicle",
+      "tier": "stats",
+      "count": 27,
+      "avgMs": 5460.76257785185,
+      "p95Ms": 17050.614210199998,
+      "errorRatePct": 33.33333333333333
+    }
+  ],
+  "overall": {
+    "totalRequests": 1422,
+    "httpReqFailedRate": 0.6144662921348315,
+    "httpReqDurationP95": 59978.17388535,
+    "vusMax": 500,
+    "testRunDurationMs": 78758.169276,
+    "phases": []
+  }
+}

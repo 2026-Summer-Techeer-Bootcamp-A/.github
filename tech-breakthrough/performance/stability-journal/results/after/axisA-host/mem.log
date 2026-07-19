@@ -1,0 +1,244 @@
+=== 12:41:18 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        1974        4868           1        1507        5970
+Swap:           6143           0        6143
+=== 12:41:23 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        3864        2969          56        1571        4080
+Swap:           6143           0        6143
+=== 12:41:28 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        3948        2885          56        1571        3995
+Swap:           6143           0        6143
+=== 12:41:33 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6484        1150         111         826        1460
+Swap:           6143           0        6143
+=== 12:41:38 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5011        2864         111         585        2933
+Swap:           6143           0        6143
+=== 12:41:43 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4321        3543         167         651        3623
+Swap:           6143           0        6143
+=== 12:41:48 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6707        1277         166         529        1237
+Swap:           6143          42        6101
+=== 12:41:53 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6908        1106         166         479        1036
+Swap:           6143        1305        4838
+=== 12:41:58 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6903        1107         166         486        1041
+Swap:           6143         432        5711
+=== 12:42:03 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        7029         980         166         486         915
+Swap:           6143         643        5500
+=== 12:42:08 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        7076         957         111         385         868
+Swap:           6143         707        5436
+=== 12:42:13 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        7743         277         111         411         201
+Swap:           6143         705        5438
+=== 12:42:18 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5492        2522         111         422        2451
+Swap:           6143         644        5499
+=== 12:42:23 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        7316         698         111         422         628
+Swap:           6143         644        5499
+=== 12:42:28 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5258        2752         111         429        2685
+Swap:           6143         642        5501
+=== 12:42:33 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6308        1702         111         430        1635
+Swap:           6143         642        5501
+=== 12:42:38 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        7796         222         110         412         147
+Swap:           6143         659        5484
+=== 12:42:43 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        7778         237          88         396         166
+Swap:           6143         673        5470
+=== 12:42:48 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5466        2521          55         414        2478
+Swap:           6143         675        5468
+=== 12:42:53 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        7771         252           0         293         173
+Swap:           6143         696        5447
+=== 12:42:58 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4360        3640           0         340        3584
+Swap:           6143         714        5429
+=== 12:43:03 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6176        1790           0         380        1768
+Swap:           6143         712        5431
+=== 12:43:08 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        7363         617           0         367         581
+Swap:           6143         765        5378
+=== 12:43:13 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6631        1361           0         355        1313
+Swap:           6143         756        5387
+=== 12:43:18 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6984        1039           0         293         960
+Swap:           6143         800        5343
+=== 12:43:23 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        7826         199           0         291         118
+Swap:           6143         923        5220
+=== 12:43:28 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        7059         961           0         300         885
+Swap:           6143         969        5174
+=== 12:43:33 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        7280         738           0         303         664
+Swap:           6143        1045        5098
+=== 12:43:39 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        7818         157           0         370         126
+Swap:           6143        1227        4916
+=== 12:43:44 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        7037         883           0         426         907
+Swap:           6143        1316        4827
+=== 12:43:50 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6255        1572           0         518        1689
+Swap:           6143        1286        4857
+=== 12:43:55 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6892         831           0         621        1051
+Swap:           6143        1270        4873
+=== 12:44:00 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4886        2660           0         800        3058
+Swap:           6143        1250        4893
+=== 12:44:05 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5471        1791           0        1084        2473
+Swap:           6143        1239        4904
+=== 12:44:10 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        3473        3401           0        1472        4471
+Swap:           6143        1235        4908
+=== 12:44:15 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6376         451           0        1519        1568
+Swap:           6143        1148        4995
+=== 12:44:21 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6789         204           0        1353        1155
+Swap:           6143        1355        4788
+=== 12:44:26 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6789         225           0        1331        1154
+Swap:           6143        1348        4795
+=== 12:44:31 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6806         199           0        1342        1138
+Swap:           6143        1319        4824
+=== 12:44:36 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2608        4415           0        1323        5336
+Swap:           6143        1320        4823
+=== 12:44:41 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4619        2390           0        1337        3325
+Swap:           6143        1315        4828
+=== 12:44:46 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5492        1517           0        1337        2452
+Swap:           6143        1314        4829
+=== 12:44:51 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4455        2548           0        1343        3488
+Swap:           6143        1311        4832
+=== 12:44:56 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5439        1631           0        1276        2505
+Swap:           6143        1311        4832
+=== 12:45:01 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6861         200           0        1285        1083
+Swap:           6143        1309        4834
+=== 12:45:06 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6866         192           0        1288        1078
+Swap:           6143        1300        4843
+=== 12:45:11 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4845        2221           0        1280        3099
+Swap:           6143        1283        4860
+=== 12:45:16 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        3824        3239           0        1283        4120
+Swap:           6143        1282        4861
+=== 12:45:21 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4835        2227           0        1284        3109
+Swap:           6143        1276        4867
+=== 12:45:26 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        1829        5221           0        1297        6115
+Swap:           6143        1215        4928
+=== 12:45:31 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        1808        5241           0        1297        6135
+Swap:           6143        1215        4928
+=== 12:45:36 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        1758        5291           0        1297        6186
+Swap:           6143        1215        4928
+=== 12:45:41 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        1761        5288           0        1298        6183
+Swap:           6143        1215        4928
+=== 12:45:46 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        1758        5290           0        1298        6186
+Swap:           6143        1214        4929
+=== 12:45:51 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        1760        5288           0        1298        6184
+Swap:           6143        1214        4929
+=== 12:45:56 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        1761        5286           0        1299        6182
+Swap:           6143        1214        4929
+=== 12:46:01 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        1762        5285           0        1299        6182
+Swap:           6143        1212        4931
+=== 12:46:06 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        1752        5294           0        1300        6192
+Swap:           6143        1212        4931
+=== 12:46:11 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        1753        5292           0        1300        6191
+Swap:           6143        1206        4937
+=== 12:46:16 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        1757        5285           0        1304        6187
+Swap:           6143        1202        4941
+=== 12:46:21 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        1777        5265           0        1304        6167
+Swap:           6143        1202        4941

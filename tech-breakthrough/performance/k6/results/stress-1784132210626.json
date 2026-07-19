@@ -1,0 +1,13 @@
+{
+  "testType": "stress",
+  "generatedAt": "2026-07-15T16:16:50.626Z",
+  "rows": [],
+  "overall": {
+      "totalRequests": 0,
+      "httpReqFailedRate": 1,
+      "httpReqDurationP95": 0,
+      "vusMax": 500,
+      "testRunDurationMs": 11162.534628,
+      "phases": []
+    }
+}

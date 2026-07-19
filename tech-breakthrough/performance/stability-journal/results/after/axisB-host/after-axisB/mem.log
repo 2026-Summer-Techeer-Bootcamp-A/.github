@@ -1,0 +1,660 @@
+=== 12:52:21 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944         912        5980           0        1453        7031
+Swap:           6143          93        6050
+      1478136 K swap cache
+      6291452 K total swap
+        95368 K used swap
+      6196084 K free swap
+       531334 pages swapped in
+      1276551 pages swapped out
+=== 12:52:26 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6398         489          55        1513        1546
+Swap:           6143          93        6050
+      1539808 K swap cache
+      6291452 K total swap
+        95368 K used swap
+      6196084 K free swap
+       531344 pages swapped in
+      1276551 pages swapped out
+=== 12:52:31 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4211        2676          55        1513        3733
+Swap:           6143          93        6050
+      1539812 K swap cache
+      6291452 K total swap
+        95368 K used swap
+      6196084 K free swap
+       531344 pages swapped in
+      1276551 pages swapped out
+=== 12:52:36 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6377         510          55        1513        1567
+Swap:           6143          93        6050
+      1539804 K swap cache
+      6291452 K total swap
+        95368 K used swap
+      6196084 K free swap
+       531344 pages swapped in
+      1276551 pages swapped out
+=== 12:52:41 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6377         510          55        1513        1567
+Swap:           6143          93        6050
+      1539804 K swap cache
+      6291452 K total swap
+        95368 K used swap
+      6196084 K free swap
+       531344 pages swapped in
+      1276551 pages swapped out
+=== 12:52:46 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4507        2380          55        1513        3436
+Swap:           6143          93        6050
+      1539804 K swap cache
+      6291452 K total swap
+        95344 K used swap
+      6196108 K free swap
+       531347 pages swapped in
+      1276551 pages swapped out
+=== 12:52:52 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4200        2687          55        1513        3744
+Swap:           6143          93        6050
+      1539800 K swap cache
+      6291452 K total swap
+        95344 K used swap
+      6196108 K free swap
+       531347 pages swapped in
+      1276551 pages swapped out
+=== 12:52:57 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        3416        3472          55        1513        4528
+Swap:           6143          93        6050
+      1539832 K swap cache
+      6291452 K total swap
+        95508 K used swap
+      6195944 K free swap
+       531347 pages swapped in
+      1494670 pages swapped out
+=== 12:53:02 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2603        4283          55        1516        5340
+Swap:           6143        1203        4940
+      1542312 K swap cache
+      6291452 K total swap
+      1233684 K used swap
+      5057768 K free swap
+       531348 pages swapped in
+      1779214 pages swapped out
+=== 12:53:07 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5110        1777          55        1514        2833
+Swap:           6143         399        5744
+      1540616 K swap cache
+      6291452 K total swap
+       411320 K used swap
+      5880132 K free swap
+       531350 pages swapped in
+      1918371 pages swapped out
+=== 12:53:12 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4954        1933          55        1513        2989
+Swap:           6143          93        6050
+      1539880 K swap cache
+      6291452 K total swap
+        95324 K used swap
+      6196128 K free swap
+       531350 pages swapped in
+      2183996 pages swapped out
+=== 12:53:17 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6126         761          55        1513        1818
+Swap:           6143          93        6050
+      1539868 K swap cache
+      6291452 K total swap
+        95324 K used swap
+      6196128 K free swap
+       531351 pages swapped in
+      2183996 pages swapped out
+=== 12:53:22 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4779        2109          55        1513        3165
+Swap:           6143          93        6050
+      1539884 K swap cache
+      6291452 K total swap
+        95232 K used swap
+      6196220 K free swap
+       531351 pages swapped in
+      2183996 pages swapped out
+=== 12:53:27 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5272        1615          55        1513        2672
+Swap:           6143          93        6050
+      1539884 K swap cache
+      6291452 K total swap
+        95232 K used swap
+      6196220 K free swap
+       531356 pages swapped in
+      2183996 pages swapped out
+=== 12:53:32 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6369         518          55        1513        1575
+Swap:           6143          93        6050
+      1539884 K swap cache
+      6291452 K total swap
+        95232 K used swap
+      6196220 K free swap
+       531356 pages swapped in
+      2183996 pages swapped out
+=== 12:53:37 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6369         518          55        1513        1575
+Swap:           6143          93        6050
+      1539884 K swap cache
+      6291452 K total swap
+        95232 K used swap
+      6196220 K free swap
+       531356 pages swapped in
+      2183996 pages swapped out
+=== 12:53:42 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6369         518          55        1513        1575
+Swap:           6143          93        6050
+      1539884 K swap cache
+      6291452 K total swap
+        95232 K used swap
+      6196220 K free swap
+       531356 pages swapped in
+      2183996 pages swapped out
+=== 12:53:47 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6369         518          55        1513        1575
+Swap:           6143          93        6050
+      1539884 K swap cache
+      6291452 K total swap
+        95232 K used swap
+      6196220 K free swap
+       531356 pages swapped in
+      2183996 pages swapped out
+=== 12:53:52 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6091         796          55        1513        1852
+Swap:           6143          93        6050
+      1539884 K swap cache
+      6291452 K total swap
+        95232 K used swap
+      6196220 K free swap
+       531356 pages swapped in
+      2183996 pages swapped out
+=== 12:53:57 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6369         518          55        1513        1575
+Swap:           6143          93        6050
+      1539884 K swap cache
+      6291452 K total swap
+        95232 K used swap
+      6196220 K free swap
+       531357 pages swapped in
+      2183996 pages swapped out
+=== 12:54:02 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4327        2560          55        1513        3617
+Swap:           6143          93        6050
+      1539884 K swap cache
+      6291452 K total swap
+        95232 K used swap
+      6196220 K free swap
+       531369 pages swapped in
+      2183996 pages swapped out
+=== 12:54:07 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4478        2409          55        1513        3466
+Swap:           6143          93        6050
+      1539888 K swap cache
+      6291452 K total swap
+        95232 K used swap
+      6196220 K free swap
+       531371 pages swapped in
+      2183996 pages swapped out
+=== 12:54:12 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4219        2668          55        1513        3724
+Swap:           6143          93        6050
+      1539888 K swap cache
+      6291452 K total swap
+        95232 K used swap
+      6196220 K free swap
+       531371 pages swapped in
+      2183996 pages swapped out
+=== 12:54:17 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5431        1456          55        1513        2513
+Swap:           6143          93        6050
+      1539888 K swap cache
+      6291452 K total swap
+        95232 K used swap
+      6196220 K free swap
+       531374 pages swapped in
+      2183996 pages swapped out
+=== 12:54:22 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5958         929          55        1513        1986
+Swap:           6143          92        6051
+      1539888 K swap cache
+      6291452 K total swap
+        95196 K used swap
+      6196256 K free swap
+       531375 pages swapped in
+      2183996 pages swapped out
+=== 12:54:27 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5091        1796          55        1514        2853
+Swap:           6143          92        6051
+      1540016 K swap cache
+      6291452 K total swap
+        95196 K used swap
+      6196256 K free swap
+       531378 pages swapped in
+      2183996 pages swapped out
+=== 12:54:32 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4788        2099          55        1514        3156
+Swap:           6143          92        6051
+      1540016 K swap cache
+      6291452 K total swap
+        95196 K used swap
+      6196256 K free swap
+       531378 pages swapped in
+      2183996 pages swapped out
+=== 12:54:37 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4454        2433          55        1514        3490
+Swap:           6143          92        6051
+      1540016 K swap cache
+      6291452 K total swap
+        95196 K used swap
+      6196256 K free swap
+       531380 pages swapped in
+      2183996 pages swapped out
+=== 12:54:42 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5648        1239          55        1514        2295
+Swap:           6143          92        6051
+      1540016 K swap cache
+      6291452 K total swap
+        95196 K used swap
+      6196256 K free swap
+       531380 pages swapped in
+      2183996 pages swapped out
+=== 12:54:47 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5412        1476          55        1514        2532
+Swap:           6143          92        6051
+      1540016 K swap cache
+      6291452 K total swap
+        95196 K used swap
+      6196256 K free swap
+       531380 pages swapped in
+      2183996 pages swapped out
+=== 12:54:52 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        3322        3565          55        1514        4621
+Swap:           6143          92        6051
+      1540016 K swap cache
+      6291452 K total swap
+        95196 K used swap
+      6196256 K free swap
+       531380 pages swapped in
+      2183996 pages swapped out
+=== 12:54:57 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4612        2274          55        1516        3332
+Swap:           6143        1249        4894
+      1542672 K swap cache
+      6291452 K total swap
+      1281244 K used swap
+      5010208 K free swap
+       531380 pages swapped in
+      2480505 pages swapped out
+=== 12:55:02 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        3651        3236          55        1514        4293
+Swap:           6143          93        6050
+      1540196 K swap cache
+      6291452 K total swap
+        95524 K used swap
+      6195928 K free swap
+       531380 pages swapped in
+      2873322 pages swapped out
+=== 12:55:07 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5826        1061          55        1514        2118
+Swap:           6143          93        6050
+      1540200 K swap cache
+      6291452 K total swap
+        95524 K used swap
+      6195928 K free swap
+       531380 pages swapped in
+      2873322 pages swapped out
+=== 12:55:12 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5588        1299          55        1514        2356
+Swap:           6143          93        6050
+      1540200 K swap cache
+      6291452 K total swap
+        95524 K used swap
+      6195928 K free swap
+       531380 pages swapped in
+      2873322 pages swapped out
+=== 12:55:17 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6445         802          55        1154        1499
+Swap:           6143          93        6050
+      1173436 K swap cache
+      6291452 K total swap
+        95524 K used swap
+      6195928 K free swap
+       531381 pages swapped in
+      2873331 pages swapped out
+=== 12:55:22 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6324         923          55        1154        1620
+Swap:           6143          93        6050
+      1173580 K swap cache
+      6291452 K total swap
+        95524 K used swap
+      6195928 K free swap
+       531382 pages swapped in
+      2873331 pages swapped out
+=== 12:55:27 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        6092        1154          55        1154        1852
+Swap:           6143          93        6050
+      1173708 K swap cache
+      6291452 K total swap
+        95464 K used swap
+      6195988 K free swap
+       531390 pages swapped in
+      2873331 pages swapped out
+=== 12:55:32 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        5831        1416          55        1154        2113
+Swap:           6143          93        6050
+      1173708 K swap cache
+      6291452 K total swap
+        95464 K used swap
+      6195988 K free swap
+       531390 pages swapped in
+      2873331 pages swapped out
+=== 12:55:37 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4214        3032          55        1156        3730
+Swap:           6143         822        5321
+      1175372 K swap cache
+      6291452 K total swap
+       844008 K used swap
+      5447444 K free swap
+       531390 pages swapped in
+      3039478 pages swapped out
+=== 12:55:42 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4071        3176          55        1154        3873
+Swap:           6143          93        6050
+      1173676 K swap cache
+      6291452 K total swap
+        95372 K used swap
+      6196080 K free swap
+       531390 pages swapped in
+      3197021 pages swapped out
+=== 12:55:47 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        3494        3753          55        1154        4450
+Swap:           6143          93        6050
+      1173676 K swap cache
+      6291452 K total swap
+        95372 K used swap
+      6196080 K free swap
+       531393 pages swapped in
+      3197021 pages swapped out
+=== 12:55:53 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        4505        2742          55        1154        3439
+Swap:           6143         204        5939
+      1173856 K swap cache
+      6291452 K total swap
+       212364 K used swap
+      6079088 K free swap
+       531393 pages swapped in
+      3226252 pages swapped out
+=== 12:55:58 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2140        5107          55        1154        5804
+Swap:           6143          93        6050
+      1173712 K swap cache
+      6291452 K total swap
+        95536 K used swap
+      6195916 K free swap
+       531394 pages swapped in
+      3541684 pages swapped out
+=== 12:56:03 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        3571        3676          55        1154        4373
+Swap:           6143          93        6050
+      1173692 K swap cache
+      6291452 K total swap
+        95536 K used swap
+      6195916 K free swap
+       531396 pages swapped in
+      3541684 pages swapped out
+=== 12:56:08 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2502        4744          55        1154        5441
+Swap:           6143          93        6050
+      1173696 K swap cache
+      6291452 K total swap
+        95536 K used swap
+      6195916 K free swap
+       531397 pages swapped in
+      3541684 pages swapped out
+=== 12:56:13 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2442        4804          55        1154        5502
+Swap:           6143          93        6050
+      1173696 K swap cache
+      6291452 K total swap
+        95536 K used swap
+      6195916 K free swap
+       531397 pages swapped in
+      3541684 pages swapped out
+=== 12:56:18 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2409        4838          55        1154        5535
+Swap:           6143          93        6050
+      1173696 K swap cache
+      6291452 K total swap
+        95536 K used swap
+      6195916 K free swap
+       531397 pages swapped in
+      3541684 pages swapped out
+=== 12:56:23 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2399        4848          55        1154        5545
+Swap:           6143          93        6050
+      1173696 K swap cache
+      6291452 K total swap
+        95536 K used swap
+      6195916 K free swap
+       531397 pages swapped in
+      3541684 pages swapped out
+=== 12:56:28 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2391        4856          55        1154        5553
+Swap:           6143          93        6050
+      1173720 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531399 pages swapped in
+      3541684 pages swapped out
+=== 12:56:33 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2392        4854          55        1154        5551
+Swap:           6143          93        6050
+      1173720 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531399 pages swapped in
+      3541684 pages swapped out
+=== 12:56:38 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2396        4850          55        1154        5547
+Swap:           6143          93        6050
+      1173720 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531399 pages swapped in
+      3541684 pages swapped out
+=== 12:56:43 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2400        4846          55        1154        5544
+Swap:           6143          93        6050
+      1173720 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531399 pages swapped in
+      3541684 pages swapped out
+=== 12:56:48 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2407        4839          55        1154        5536
+Swap:           6143          93        6050
+      1173724 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531400 pages swapped in
+      3541684 pages swapped out
+=== 12:56:53 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2415        4832          55        1154        5529
+Swap:           6143          93        6050
+      1173724 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531400 pages swapped in
+      3541684 pages swapped out
+=== 12:56:58 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2423        4823          55        1154        5520
+Swap:           6143          93        6050
+      1173724 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531400 pages swapped in
+      3541684 pages swapped out
+=== 12:57:03 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2434        4812          55        1154        5510
+Swap:           6143          93        6050
+      1173724 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531400 pages swapped in
+      3541684 pages swapped out
+=== 12:57:08 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2442        4805          55        1154        5502
+Swap:           6143          93        6050
+      1173732 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531400 pages swapped in
+      3541684 pages swapped out
+=== 12:57:13 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2453        4794          55        1154        5491
+Swap:           6143          93        6050
+      1173732 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531400 pages swapped in
+      3541684 pages swapped out
+=== 12:57:18 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944        2465        4782          55        1154        5479
+Swap:           6143          93        6050
+      1173724 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531400 pages swapped in
+      3541684 pages swapped out
+=== 12:57:23 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944         957        6290           0        1099        6987
+Swap:           6143          93        6050
+      1117104 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531407 pages swapped in
+      3541684 pages swapped out
+=== 12:57:28 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944         956        6290           0        1099        6988
+Swap:           6143          93        6050
+      1117096 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531408 pages swapped in
+      3541684 pages swapped out
+=== 12:57:33 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944         955        6291           0        1099        6988
+Swap:           6143          93        6050
+      1117096 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531408 pages swapped in
+      3541684 pages swapped out
+=== 12:57:38 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944         955        6291           0        1099        6989
+Swap:           6143          93        6050
+      1117100 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531410 pages swapped in
+      3541684 pages swapped out
+=== 12:57:43 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944         956        6291           0        1099        6988
+Swap:           6143          93        6050
+      1117100 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531410 pages swapped in
+      3541684 pages swapped out
+=== 12:57:48 ===
+               total        used        free      shared  buff/cache   available
+Mem:            7944         956        6291           0        1099        6988
+Swap:           6143          93        6050
+      1117100 K swap cache
+      6291452 K total swap
+        95484 K used swap
+      6195968 K free swap
+       531412 pages swapped in
+      3541684 pages swapped out

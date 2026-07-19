@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>연구 노트 뷰어</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="paper.css" />
+  <style>
+    .topbar__tabs { display: flex; gap: 8px; margin-left: 20px; margin-right: 20px; align-self: center; }
+    .cat-tab {
+      font-family: var(--sans); font-size: 13px; font-weight: 600;
+      background: none; border: none; padding: 6px 12px; cursor: pointer;
+      color: var(--muted); border-radius: 6px; transition: all 0.2s;
+    }
+    .cat-tab:hover { background: var(--accent-soft); color: var(--accent); }
+    .cat-tab.active { background: var(--accent); color: white; }
+    @media (max-width: 760px) {
+      .topbar { flex-wrap: wrap; gap: 10px; }
+      .topbar__tabs {
+        order: 3; width: 100%; margin-left: -22px; margin-right: -22px; padding-left: 22px; padding-right: 22px;
+        flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x proximity; scrollbar-width: none;
+      }
+      .topbar__tabs::-webkit-scrollbar { display: none; }
+      .cat-tab { flex: 0 0 auto; white-space: nowrap; scroll-snap-align: start; }
+      .topbar__sub { order: 4; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__brand">연구 노트 뷰어</div>
+    <div id="catTabs" class="topbar__tabs"><span class="cat-tab-placeholder">로딩 중...</span></div>
+    <div class="topbar__sub" id="topbarDoc"></div>
+    <button class="topbar__pdf" id="pdfToggle" aria-pressed="false">
+      <svg class="topbar__pdf-ic" width="13" height="13" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v10m0 0l-4-4m4 4l4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="topbar__pdf-label">PDF로 내보내기</span>
+    </button>
+    <button class="topbar__menu" id="menuBtn" aria-label="목차 열기">☰</button>
+    <div class="progress" id="progress" aria-hidden="true"></div>
+  </header>
+
+  <div class="layout">
+    <aside class="nav" id="nav" aria-label="문서 목록">
+      <button class="nav__close" id="navClose" aria-label="목록 닫기">
+        <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="nav__list" id="navList"></div>
+    </aside>
+
+    <main class="main">
+      <article class="paper" id="paper"></article>
+    </main>
+
+    <aside class="toc" id="toc" aria-label="이 문서 목차"></aside>
+  </div>
+
+  <button class="top-btn" id="topBtn" aria-label="맨 위로">↑</button>
+
+  <div class="nav-scrim" id="navScrim" hidden></div>
+
+  <div class="pdf-bar" id="pdfBar" hidden>
+    <span class="pdf-bar__count" id="pdfCount">1개 선택됨</span>
+    <div class="pdf-bar__sep" aria-hidden="true"></div>
+    <div class="pdf-bar__actions">
+      <button class="pdf-bar__btn pdf-bar__btn--ghost" data-act="all">전체 선택</button>
+      <button class="pdf-bar__btn pdf-bar__btn--ghost" data-act="clear">선택 해제</button>
+      <button class="pdf-bar__btn pdf-bar__btn--ghost" data-act="cancel">취소</button>
+      <button class="pdf-bar__btn pdf-bar__btn--primary" data-act="export">내보내기</button>
+    </div>
+  </div>
+
+  <script src="marked.min.js"></script>
+  <script src="docs.js"></script>
+  <script src="viewer.js"></script>
+</body>
+</html>
