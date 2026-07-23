@@ -20,15 +20,34 @@
 # Introduction
 ### URL
 <blockquote>
-Frontend: https://frontend-tan-chi-25.vercel.app<br>
-Backend: https://2026-techeer-a.duckdns.org
+Frontend: https://frontend-tan-chi-25.vercel.app
 </blockquote>
 
+> TODO: 배포 URL은 아직 도메인/브랜딩이 확정되지 않아 현재 값(Vercel 프리뷰 도메인) 그대로 적었어요. 정식 도메인이 생기면 교체해주세요.
 <br>
 
 # Demo
-> TODO: 로컬 프론트엔드(5173)를 띄운 뒤 주요 화면을 캡처해서 채워주세요.
-<br>
+
+### 홈 화면
+<img src="./service-screenshots/home.png" width="850" alt="홈 화면" />
+<br><br>
+
+### 대시보드
+<img src="./service-screenshots/dashboard.png" width="850" alt="대시보드" />
+<br><br>
+
+### 커리어 로드맵
+<img src="./service-screenshots/roadmap.png" width="850" alt="커리어 로드맵" />
+<br><br>
+
+### 채용 시장
+<img src="./service-screenshots/hiring_market.png" width="850" alt="채용 시장" />
+<br><br>
+
+### AI 어시스턴트
+<img src="./service-screenshots/assistant.png" width="850" alt="AI 어시스턴트" />
+<br><br>
+
 
 # 🔌 API
 FastAPI 자동 생성 문서(`/docs`, Swagger UI) 기준, 테스트/디버그 전용 엔드포인트(`/test-ui`, `/easy-dash`, `/db-viewer`, `/api/db/tables*`)를 제외한 전체 엔드포인트예요.
@@ -207,21 +226,25 @@ git clone https://github.com/2026-Summer-Techeer-Bootcamp-A/frontend.git
 ```
 #### 2. ENV Setting
 - `backend/.env` (`.env.example` 참고)
-```
+```bash
+# Local dev convenience
+COMPOSE_FILE=docker-compose.yml:docker-compose.dev.yml
+
 # App
 APP_IMAGE=career-backend:local
 APP_PORT=8000
 LOG_LEVEL=info
-DOMAIN_NAME=2026-techeer-a.duckdns.org
-ACME_EMAIL=
+DOMAIN_NAME=your-domain.com
+ACME_EMAIL=your-email@example.com
 
 # CORS
-CORS_ORIGINS=["http://localhost:3000","https://frontend-tan-chi-25.vercel.app"]
+CORS_ORIGINS=["http://localhost:3000","https://your-frontend-domain.com"]
 
 # Database
+POSTGRES_HOST=db
 POSTGRES_DB=appdb_load
 POSTGRES_USER=appuser
-POSTGRES_PASSWORD=
+POSTGRES_PASSWORD=change-me
 POSTGRES_PORT=5432
 DATABASE_URL=postgresql+psycopg://appuser:change-me@db:5432/appdb_load
 
@@ -229,12 +252,16 @@ DATABASE_URL=postgresql+psycopg://appuser:change-me@db:5432/appdb_load
 REDIS_PORT=6379
 REDIS_URL=redis://redis:6379/0
 
+# Observability exporters
+POSTGRES_EXPORTER_DSN=postgresql://appuser:change-me@db:5432/appdb_load?sslmode=disable
+REDIS_EXPORTER_ADDR=redis://redis:6379
+
 # Observability
-GF_SECURITY_ADMIN_PASSWORD=
+GF_SECURITY_ADMIN_PASSWORD=change-me
 
 # 외부 API
-GEMINI_API_KEY=
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_API_KEY=your-gemini-api-key
+GEMINI_MODEL=gemini-3.5-flash-lite
 ```
 #### 3. Run Docker (Backend + DB + Redis + Monitoring)
 ```bash
