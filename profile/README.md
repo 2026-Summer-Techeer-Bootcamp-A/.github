@@ -1,8 +1,8 @@
 <!-- TODO: 프로젝트명 확정되면 제목/뱃지/설명 교체 -->
-<h1 align="center">💼 TODO: 프로젝트명</h1>
+<h1 align="center">Sherpa</h1>
 
 <p align="center">
-  TODO: 한 줄 소개를 여기에 적어주세요.
+  채용 공고 및 트렌드 데이터를 활용한 이력서 인사이트 서비스
 </p>
 
 # Table of Contents
@@ -24,7 +24,6 @@ Frontend: https://frontend-tan-chi-25.vercel.app<br>
 Backend: https://2026-techeer-a.duckdns.org
 </blockquote>
 
-> TODO: 배포 URL은 아직 도메인/브랜딩이 확정되지 않아 현재 값(Vercel 프리뷰 도메인 · DuckDNS 도메인) 그대로 적었어요. 정식 도메인이 생기면 교체해주세요.
 <br>
 
 # Demo
