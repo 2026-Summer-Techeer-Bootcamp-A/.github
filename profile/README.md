@@ -23,7 +23,6 @@
 Frontend: https://frontend-tan-chi-25.vercel.app
 </blockquote>
 
-> TODO: 배포 URL은 아직 도메인/브랜딩이 확정되지 않아 현재 값(Vercel 프리뷰 도메인) 그대로 적었어요. 정식 도메인이 생기면 교체해주세요.
 <br>
 
 # Demo
